@@ -17,6 +17,7 @@ html {
 /*huanli*/
 .test {
     padding:inherit;
+    height:auto;
 }
 /*jingfan*/
 h1,
