@@ -126,6 +126,9 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+.bg {
+    opacity: 0.35;
+}
 .intro {
   display: table;
   width: 100%;
@@ -133,7 +136,8 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/backgrond2.png) no-repeat bottom center scroll;
+  filter:alpha(opacity=50);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -326,12 +330,15 @@ body {
 }
 .hero_show_left {
     max-width: 300px;
+    max-height: 372px;
     float: left;
 }
 .hero_show_right {
-    max-width: 150px;
-    margin: 75px 80px;
-    margin-bottom: 120px;
+    max-width: 300px;
+    max-height: 372px;
+/*    max-width: 150px;*/
+/*    margin: 75px 80px;*/
+/*    margin-bottom: 120px;*/
     float: right;
 }
 div.hero_left_package img {
@@ -340,12 +347,37 @@ div.hero_left_package img {
 div.hero_right_package img {
     width: 80%;
 }
+.hero_left_package {
+    padding-top: 0px;
+}
+.hero_right_package {
+    margin-top: 0px;
+}
+@media (max-width: 700px) {
+    .hero_left_package {
+        padding-top: 110px;
+    }
+    .hero_right_package {
+        padding-top: 110px;
+    }
+}
+@media (min-width: 700px) {
+    .hero_left_package {
+        padding-top: 110px;
+    }
+    .hero_right_package {
+        padding-top: 110px;
+    }
+    .hr_head {
+        width: 20px;
+    }
+}
 @media (min-width: 992px) {
     .foo {
         height: 80px;
     }
     .hero-detail {
-        margin-top: 90px;
+        margin-top: 20px;
     }
     div.hero_left_package img {
         width: 90%;
@@ -353,20 +385,37 @@ div.hero_right_package img {
     div.hero_right_package img {
         width: 90%;
     }
+    .hero_left_package {
+        padding-top: 50px;
+    }
+    .hero_right_package {
+        padding-top: 50px;
+    }
 }
+
 div.compare_group img:hover {
-    width: 100%;
-    border: aqua;
+    width: 90%;
+    filter: grayscale(0);
+}
+.hero_left p {
+    font-size: 20px;
 }
 
-.hero_left_package {
-    margin-top: 40px;
+.hero_right p {
+    font-size: 20px;
 }
 
-.hero_right_package {
-    padding-top: 0px;
+.hr_head {
+    width: 90%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
 }
-
 
 /*jingfan*/
 
