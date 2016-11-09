@@ -117,3 +117,80 @@ function chooseHeroRight(thisHero) {
         .select(".hero_name")
         .text(img_name_show);
 }
+/*$(".pick_hero_icon").tooltip({ content: '<img src="img/hero_gif/abaddon.gif" />' }); */
+/*$(function(){
+    var offsetX=20-$(".pick_group").offset().left;
+    var offsetY=20-$(".pick_group").offset().top;
+    var size=1.2*$('.pick_hero_icon').width();
+    $(".pick_hero_icon").mouseover(function(event) {
+        var $target=$(event.target);
+        if($target.is('img')) {
+            var file_path = $target.attr("src").split("/");
+            var file_name = file_path[file_path.length - 1].split(".")[0];
+            var gif_path = "img/hero_gif/" + file_name + ".gif";
+            $("<img id='tip' src='"+gif_path+"'>").css({
+                "top":event.pageX,
+                "left":event.pageY,
+            }).appendTo(".pick_hero_icon");
+        }
+    }).mouseout(function() {
+        $("#tip").remove();
+    }).mousemove(function(event) {
+        $("#tip").css(
+            {
+                "left":5,
+                "top":5
+            });
+    });
+})*/
+
+
+// starting the script on page load
+$(document).ready(function(){
+		
+    xOffset = 10;
+    yOffset = 10;
+    
+	$(".pick_hero_icon").hover(function(e){
+        var windowWidth = $(window).width();
+        if (windowWidth >= 900) {
+            var $target=$(e.target);
+            var file_path = $target.attr("src").split("/");
+            var file_name = file_path[file_path.length - 1].split(".")[0];
+            var gif_path = "img/hero_gif/" + file_name + ".gif";
+		    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='130px'/>" + "</p>");								 
+            var xPos = e.pageX;
+            if (xPos + yOffset + $(".img_preview").width() >= windowWidth) {
+                $("#preview")
+			     .css("top",(e.pageY - xOffset) + "px")
+			     .css("left",(e.pageX - yOffset - $(".img_preview").width()) + "px")
+			     .fadeIn("fast");
+            } else {
+                $("#preview")
+			     .css("top",(e.pageY - xOffset) + "px")
+			     .css("left",(e.pageX + yOffset) + "px")
+			     .fadeIn("fast");
+            }
+        }
+    },
+	function(){	
+		$("#preview").remove();
+    });	
+	$(".pick_hero_icon").mousemove(function(e){
+        var windowWidth = $(window).width();
+        if (windowWidth >= 900) {
+            var xPos = e.pageX;
+            if (xPos + yOffset + $(".img_preview").width() >= windowWidth) {
+                $("#preview")
+			     .css("top",(e.pageY - xOffset) + "px")
+			     .css("left",(e.pageX - yOffset - $(".img_preview").width()) + "px")
+			     .fadeIn("fast");
+            } else {
+                $("#preview")
+			     .css("top",(e.pageY - xOffset) + "px")
+			     .css("left",(e.pageX + yOffset) + "px")
+			     .fadeIn("fast");
+            }
+        }
+	});
+});

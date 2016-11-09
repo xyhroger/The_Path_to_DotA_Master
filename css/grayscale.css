@@ -322,9 +322,6 @@ body {
 .foo {
     height: 70px;
 }
-.compare_group {
-    border-color: red;
-}
 .hero-detail {
     margin-top: 20px;
 }
@@ -420,7 +417,48 @@ div.compare_group img:hover {
 /*jingfan*/
 
 /*hongcao*/
+.foo2 {
+    height: 40px;
+}
+.pick_hero_icon {
+    width: 15.6%;
+}
 
+@media (max-width: 992px) {
+    .pick_hero_icon {
+        width: 15.2%;
+    }
+}
+@media (max-width: 768px) {
+    .pick_hero_icon {
+        width: 15.0%;
+    }
+    .col-sm-4 {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+@media (max-width: 568px) {
+    .pick_hero_icon {
+        width: 15.0%;
+    }
+    .col-xs-12 {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 20px;
+    }
+    .title-text {
+        font-size: 16px;
+    }
+}
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
 /*yuehua*/
 
 /*xueyang*/
