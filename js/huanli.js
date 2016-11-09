@@ -1,6 +1,7 @@
 function chooseHeroLeft(thisHero) {
     var img_path = thisHero.src.split("/");
     var img_name = img_path[img_path.length - 1].split(".")[0];
+    if (img_name != "empty") {
     var gif_path = "img/hero_compare_gif/" + img_name + ".gif";
     var id = thisHero.id;
     $('#' + id).css("-webkit-filter", "grayscale(0%)")
@@ -57,11 +58,13 @@ function chooseHeroLeft(thisHero) {
     d3.select(".hero_left")
         .select(".hero_name")
         .text(img_name_show);
+    }
 }
 
 function chooseHeroRight(thisHero) {
     var img_path = thisHero.src.split("/");
     var img_name = img_path[img_path.length - 1].split(".")[0];
+    if (img_name != "empty") {
     var gif_path = "img/hero_compare_gif/" + img_name + ".gif";
     var id = thisHero.id;
     $('#' + id).css("-webkit-filter", "grayscale(0%)")
@@ -116,6 +119,7 @@ function chooseHeroRight(thisHero) {
     d3.select(".hero_right")
         .select(".hero_name")
         .text(img_name_show);
+    }
 }
 
 $(document).ready(function(){
@@ -184,6 +188,29 @@ $(document).ready(function(){
 });
 
 function chooseThisHero(thisHero) {
+    var gif_path = thisHero.src.split("/");
+    var gif_name = gif_path[gif_path.length - 1].split(".")[0];
+    var img_path = "img/hero_pic/" + gif_name + ".png";
+    var selected = false;
+    var empty_id = -1;
+    for (var i = 1; i <= 10; i++) {
+        //alert($("#selected_hero_1").attr('src'));
+        if ($("#selected_hero_" + i).attr('src') == img_path) {
+            selected = true;
+        }
+        if ($("#selected_hero_" + i).attr('src') == "img/hero_pic/empty.png" && empty_id == -1) {
+            empty_id = i;
+        }
+    }
+    if (selected == false && empty_id != -1) {
+        d3.select("#selected_hero_" + empty_id)
+        .attr("src", img_path);
+        d3.select("#hr_cmp_" + empty_id)
+        .attr("src", "img/hero_img/" + gif_name + ".jpg");
+    }
+}
+
+function chooseThisHeroMin(thisHero) {
     var gif_path = thisHero.src.split("/");
     var gif_name = gif_path[gif_path.length - 1].split(".")[0];
     var img_path = "img/hero_pic/" + gif_name + ".png";
