@@ -117,35 +117,7 @@ function chooseHeroRight(thisHero) {
         .select(".hero_name")
         .text(img_name_show);
 }
-/*$(".pick_hero_icon").tooltip({ content: '<img src="img/hero_gif/abaddon.gif" />' }); */
-/*$(function(){
-    var offsetX=20-$(".pick_group").offset().left;
-    var offsetY=20-$(".pick_group").offset().top;
-    var size=1.2*$('.pick_hero_icon').width();
-    $(".pick_hero_icon").mouseover(function(event) {
-        var $target=$(event.target);
-        if($target.is('img')) {
-            var file_path = $target.attr("src").split("/");
-            var file_name = file_path[file_path.length - 1].split(".")[0];
-            var gif_path = "img/hero_gif/" + file_name + ".gif";
-            $("<img id='tip' src='"+gif_path+"'>").css({
-                "top":event.pageX,
-                "left":event.pageY,
-            }).appendTo(".pick_hero_icon");
-        }
-    }).mouseout(function() {
-        $("#tip").remove();
-    }).mousemove(function(event) {
-        $("#tip").css(
-            {
-                "left":5,
-                "top":5
-            });
-    });
-})*/
 
-
-// starting the script on page load
 $(document).ready(function(){
 		
     xOffset = 10;
@@ -174,12 +146,14 @@ $(document).ready(function(){
             pHeight = $target.height();
             x = pLeft + pWidth / 2;
             y = pTop + pHeight / 2;
-		    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150'/>" + "</p>");
+		    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
             var gifWidth = $(".img_preview").width();
             var gifHeight = $(".img_preview").height();
             
-            if (x + gifWidth / 2 >= windowWidth - 10) {
-                gifLeft = windowWidth - gifWidth - 10;
+            if (x + gifWidth / 2 >= windowWidth - 20) {
+                gifLeft = windowWidth - gifWidth - 20;
+            } else if (x - gifWidth / 2 < 0) {
+                gifLeft = 0;
             } else {
                 gifLeft = x - gifWidth / 2;
             }
@@ -206,10 +180,44 @@ $(document).ready(function(){
             .css("top",gifTop + "px")
             .css("left",gifLeft + "px")
 			 .fadeIn("fast");
-        $("#preview").focus(hovered);
 	});
 });
 
-function hovered() {
-  console.log("Child element hovered!");
+function chooseThisHero(thisHero) {
+    var gif_path = thisHero.src.split("/");
+    var gif_name = gif_path[gif_path.length - 1].split(".")[0];
+    var img_path = "img/hero_pic/" + gif_name + ".png";
+    var selected = false;
+    var empty_id = -1;
+    for (var i = 1; i <= 10; i++) {
+        //alert($("#selected_hero_1").attr('src'));
+        if ($("#selected_hero_" + i).attr('src') == img_path) {
+            selected = true;
+        }
+        if ($("#selected_hero_" + i).attr('src') == "img/hero_pic/empty.png" && empty_id == -1) {
+            empty_id = i;
+        }
+    }
+    if (selected == false && empty_id != -1) {
+        d3.select("#selected_hero_" + empty_id)
+        .attr("src", img_path);
+        d3.select("#hr_cmp_" + empty_id)
+        .attr("src", "img/hero_img/" + gif_name + ".jpg");
+    }
 }
+
+function removeThisHero(thisHero) {
+    var img_path = thisHero.src.split("/");
+    var img_name = img_path[img_path.length - 1].split(".")[0];
+    var cmp_img_path = "img/hero_img/" + img_name + ".jpg";
+    for (var i = 1; i <= 10; i++) {
+        //alert($("#selected_hero_1").attr('src'));
+        if ($("#hr_cmp_" + i).attr('src') == cmp_img_path) {
+            $("#hr_cmp_" + i).attr('src', "img/hero_img/empty.jpg");
+            break;
+        }
+    }
+    thisHero.src = "img/hero_pic/empty.png";
+}
+
+
