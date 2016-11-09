@@ -368,6 +368,9 @@ div.hero_right_package img {
     .hr_head {
         width: 20px;
     }
+    .hr_head_2 {
+        width: 20px;
+    }
 }
 @media (min-width: 992px) {
     .foo {
@@ -412,6 +415,9 @@ div.compare_group img:hover {
     filter: grayscale(100%);
 	
     filter: gray;
+}
+.hr_head_2 {
+    width: 90%;
 }
 
 /*jingfan*/
