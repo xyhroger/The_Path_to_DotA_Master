@@ -142,30 +142,33 @@ $(document).ready(function(){
             var $target=$(e.target);
             var file_path = $target.attr("src").split("/");
             var file_name = file_path[file_path.length - 1].split(".")[0];
-            var gif_path = "img/hero_gif/" + file_name + ".gif";
-            pos = $target.offset();
-            pTop = pos.top;
-            pLeft = pos.left;
-            pWidth = $target.width();
-            pHeight = $target.height();
-            x = pLeft + pWidth / 2;
-            y = pTop + pHeight / 2;
-		    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
-            var gifWidth = $(".img_preview").width();
-            var gifHeight = $(".img_preview").height();
+            var selected = $("#" + file_name).attr("select");
+            if (selected == "false") {
+                var gif_path = "img/hero_gif/" + file_name + ".gif";
+                pos = $target.offset();
+                pTop = pos.top;
+                pLeft = pos.left;
+                pWidth = $target.width();
+                pHeight = $target.height();
+                x = pLeft + pWidth / 2;
+                y = pTop + pHeight / 2;
+		        $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+                var gifWidth = $(".img_preview").width();
+                var gifHeight = $(".img_preview").height();
             
-            if (x + gifWidth / 2 >= windowWidth - 20) {
-                gifLeft = windowWidth - gifWidth - 20;
-            } else if (x - gifWidth / 2 < 0) {
-                gifLeft = 0;
-            } else {
-                gifLeft = x - gifWidth / 2;
+                if (x + gifWidth / 2 >= windowWidth - 20) {
+                    gifLeft = windowWidth - gifWidth - 20;
+                } else if (x - gifWidth / 2 < 0) {
+                    gifLeft = 0;
+                } else {
+                    gifLeft = x - gifWidth / 2;
+                }
+                gifTop = y - gifHeight / 2;
+                $("#preview")
+			     .css("top",gifTop + "px")
+			     .css("left",gifLeft + "px")
+			     .fadeIn("fast");
             }
-            gifTop = y - gifHeight / 2;
-            $("#preview")
-			 .css("top",gifTop + "px")
-			 .css("left",gifLeft + "px")
-			 .fadeIn("fast");
         }
     },
     function(){	
@@ -207,6 +210,12 @@ function chooseThisHero(thisHero) {
         .attr("src", img_path);
         d3.select("#hr_cmp_" + empty_id)
         .attr("src", "img/hero_img/" + gif_name + ".jpg");
+        $('#' + gif_name).css("-webkit-filter", "grayscale(100%)")
+            .css("-moz-filter", "grayscale(100%)")
+            .css("-ms-filter", "grayscale(100%)")
+            .css("-o-filter", "grayscale(100%)")
+            .css("filter", "grayscale(100%)");
+        d3.select("#" + gif_name).attr("select", "true");
     }
 }
 
@@ -230,6 +239,12 @@ function chooseThisHeroMin(thisHero) {
         .attr("src", img_path);
         d3.select("#hr_cmp_" + empty_id)
         .attr("src", "img/hero_img/" + gif_name + ".jpg");
+        $('#' + gif_name).css("-webkit-filter", "grayscale(100%)")
+            .css("-moz-filter", "grayscale(100%)")
+            .css("-ms-filter", "grayscale(100%)")
+            .css("-o-filter", "grayscale(100%)")
+            .css("filter", "grayscale(100%)");
+        d3.select("#" + gif_name).attr("select", "true");
     }
 }
 
@@ -237,6 +252,12 @@ function removeThisHero(thisHero) {
     var img_path = thisHero.src.split("/");
     var img_name = img_path[img_path.length - 1].split(".")[0];
     var cmp_img_path = "img/hero_img/" + img_name + ".jpg";
+    $('#' + img_name).css("-webkit-filter", "grayscale(0%)")
+            .css("-moz-filter", "grayscale(0%)")
+            .css("-ms-filter", "grayscale(0%)")
+            .css("-o-filter", "grayscale(0%)")
+            .css("filter", "grayscale(0%)");
+    d3.select("#" + img_name).attr("select", "false");
     for (var i = 1; i <= 10; i++) {
         //alert($("#selected_hero_1").attr('src'));
         if ($("#hr_cmp_" + i).attr('src') == cmp_img_path) {
