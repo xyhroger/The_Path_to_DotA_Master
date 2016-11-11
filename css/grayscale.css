@@ -459,11 +459,14 @@ div.compare_group img:hover {
 }
 #preview{
 	position:absolute;
-	border:1px solid #ccc;
-	background:#333;
+	background:black;
 	padding:5px;
 	display:none;
 	color:#fff;
+}
+#preview>#hero_name {
+    text-transform: capitalize;
+    font-size:13px;
 }
 /*yuehua*/
 
