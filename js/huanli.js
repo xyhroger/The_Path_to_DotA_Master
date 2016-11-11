@@ -152,10 +152,11 @@ $(document).ready(function(){
                 pHeight = $target.height();
                 x = pLeft + pWidth / 2;
                 y = pTop + pHeight / 2;
+                var hero_name = file_name.split("-").join(" ");
                 if (file_name == "underlord") {
-                    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+                    $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
                 } else {
-		            $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+		            $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" +"<div id='hero_name'>" + hero_name + "</div>" + "</div>");
                 }
                 var gifWidth = $(".img_preview").width();
                 var gifHeight = $(".img_preview").height();
