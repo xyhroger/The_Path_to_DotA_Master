@@ -152,7 +152,11 @@ $(document).ready(function(){
                 pHeight = $target.height();
                 x = pLeft + pWidth / 2;
                 y = pTop + pHeight / 2;
-		        $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+                if (file_name == "underlord") {
+                    $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+                } else {
+		            $(".pick_group").append("<p id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "</p>");
+                }
                 var gifWidth = $(".img_preview").width();
                 var gifHeight = $(".img_preview").height();
             
