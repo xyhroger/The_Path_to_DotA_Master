@@ -468,6 +468,10 @@ div.compare_group img:hover {
     text-transform: capitalize;
     font-size: 13px;
 }
+#preview>#hero_name {
+    text-transform: capitalize;
+    font-size:13px;
+}
 /*yuehua*/
 
 /*xueyang*/

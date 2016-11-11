@@ -54,7 +54,7 @@ function chooseHeroLeft(thisHero) {
     }
     d3.select(".hero_show_left")
         .attr("src", gif_path);
-    var img_name_show = img_name.replace("-", " ").toUpperCase();
+    var img_name_show = img_name.split('-').join(' ').toUpperCase();
     d3.select(".hero_left")
         .select(".hero_name")
         .text(img_name_show);
@@ -115,7 +115,7 @@ function chooseHeroRight(thisHero) {
     }
     d3.select(".hero_show_right")
         .attr("src", gif_path);
-    var img_name_show = img_name.replace("-", " ").toUpperCase();
+    var img_name_show = img_name.split('-').join(' ').toUpperCase();
     d3.select(".hero_right")
         .select(".hero_name")
         .text(img_name_show);
@@ -152,11 +152,19 @@ $(document).ready(function(){
                 pHeight = $target.height();
                 x = pLeft + pWidth / 2;
                 y = pTop + pHeight / 2;
+<<<<<<< HEAD
                 var hero_name = file_name.split("-").join(" ");
                 if (file_name == "underlord") {
                     $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
                 } else {
 		            $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" +"<div id='hero_name'>" + hero_name + "</div>" + "</div>");
+=======
+                var hero_name = file_name.split('-').join(' ');
+                if (file_name == "underlord") {
+                    $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
+                } else {
+		            $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
+>>>>>>> origin/master
                 }
                 var gifWidth = $(".img_preview").width();
                 var gifHeight = $(".img_preview").height();
