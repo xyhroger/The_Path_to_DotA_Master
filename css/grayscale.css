@@ -136,7 +136,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/backgrond2.png) no-repeat bottom center scroll;
+  background: url(../img/backgrond.png) no-repeat bottom center scroll;
   filter:alpha(opacity=50);
   background-color: black;
   -webkit-background-size: cover;
@@ -469,12 +469,10 @@ div.compare_group img:hover {
     font-size: 13px;
 }
 .hr_head_2 {
-    border-collapse: collapse;
     border-width:0px;
     border-style: solid;
+    box-shadow:0px 0px 10px 2px black; 
 }
-
-
 
 /*yuehua*/
 

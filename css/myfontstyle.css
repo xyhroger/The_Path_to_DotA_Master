@@ -86,6 +86,13 @@
   color:#ffffff;  
 }
 
+.hero_name_small {
+  color:#ffffff; 
+  font-family:Audiowide;
+  -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+  animation: neon6 1.5s ease-in-out infinite alternate; 
+}
 /*
 .special_txt:nth-child(5) a{
   color:#FF9900;
