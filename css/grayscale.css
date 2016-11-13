@@ -429,10 +429,17 @@ div.compare_group img:hover {
 .pick_hero_icon {
     width: 15.6%;
 }
+#win_rate {
+    margin-top: 40px;
+    font-size:40px;
+}
 
 @media (max-width: 992px) {
     .pick_hero_icon {
         width: 15.2%;
+    }
+    #win_rate {
+       visibility: hidden;
     }
 }
 @media (max-width: 768px) {
@@ -442,6 +449,9 @@ div.compare_group img:hover {
     .col-sm-4 {
         padding-left: 2px;
         padding-right: 2px;
+    }
+    #win_rate {
+        visibility: hidden;
     }
 }
 @media (max-width: 568px) {
@@ -455,6 +465,9 @@ div.compare_group img:hover {
     }
     .title-text {
         font-size: 16px;
+    }
+    #win_rate {
+        visibility: hidden;
     }
 }
 #preview{
@@ -473,6 +486,27 @@ div.compare_group img:hover {
     border-style: solid;
     box-shadow:0px 0px 10px 2px black; 
 }
+#win {
+    margin: 10px 0px;
+    text-align: center;
+	font-family: "League-Gothic", Courier;
+	font-size: 130px;
+    font-weight: 800;
+    text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 20px #fefcc9, 5px -10px 30px #feec85, -10px -20px 40px #ffae34, 10px -40px 50px #ec760c, -10px -60px 60px #cd4606, 0 -80px 70px #973716, 50px -50px 30px #451b0e;
+}
+#lose {
+    margin: 10px 0px;
+    text-align: center;
+	font-family: "League-Gothic", Courier;
+	font-size: 130px;
+    font-weight: 800;
+    text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 20px #66FFCC, 5px -10px 30px #60DFD2, -10px -20px 40px #59BFD9, 10px -40px 50px #539FDF, -10px -60px 60px #4D80E6, 0 -80px 70px #4660EC, 30px -40px 30px #4040F2;
+}
+
 
 /*yuehua*/
 
