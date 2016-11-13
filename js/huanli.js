@@ -57,6 +57,7 @@ function chooseHeroLeft(thisHero) {
     var img_name_show = img_name.split('-').join(' ').toUpperCase();
     d3.select(".hero_left")
         .select(".hero_name")
+        .select("a")
         .text(img_name_show);
     }
 }
@@ -118,12 +119,13 @@ function chooseHeroRight(thisHero) {
     var img_name_show = img_name.split('-').join(' ').toUpperCase();
     d3.select(".hero_right")
         .select(".hero_name")
+        .select("a")
         .text(img_name_show);
     }
 }
 
 $(document).ready(function(){
-		
+    	
     xOffset = 10;
     yOffset = 10;
     pTop = 0;
@@ -134,6 +136,7 @@ $(document).ready(function(){
     y = 0;
     gifTop = 0;
     gifLeft = 0;
+    
     
 	$(".pick_hero_icon").hover(function(e){
         $("#preview").remove();
@@ -152,19 +155,11 @@ $(document).ready(function(){
                 pHeight = $target.height();
                 x = pLeft + pWidth / 2;
                 y = pTop + pHeight / 2;
-<<<<<<< HEAD
-                var hero_name = file_name.split("-").join(" ");
-                if (file_name == "underlord") {
-                    $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
-                } else {
-		            $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" +"<div id='hero_name'>" + hero_name + "</div>" + "</div>");
-=======
                 var hero_name = file_name.split('-').join(' ');
                 if (file_name == "underlord") {
                     $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ $target.attr("src") +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
                 } else {
 		            $(".pick_group").append("<div id='preview'><img class='img_preview' src='"+ gif_path +"' alt='Image preview' width='120px' height='150' onclick='chooseThisHero(this)'/>" + "<div id='hero_name'>" + hero_name + "</div>" + "</div>");
->>>>>>> origin/master
                 }
                 var gifWidth = $(".img_preview").width();
                 var gifHeight = $(".img_preview").height();
@@ -230,6 +225,7 @@ function chooseThisHero(thisHero) {
             .css("filter", "grayscale(100%)");
         d3.select("#" + gif_name).attr("select", "true");
     }
+    check_if_can_compare()
 }
 
 function chooseThisHeroMin(thisHero) {
@@ -259,6 +255,7 @@ function chooseThisHeroMin(thisHero) {
             .css("filter", "grayscale(100%)");
         d3.select("#" + gif_name).attr("select", "true");
     }
+    check_if_can_compare()
 }
 
 function removeThisHero(thisHero) {
@@ -279,6 +276,27 @@ function removeThisHero(thisHero) {
         }
     }
     thisHero.src = "img/hero_pic/empty.png";
+    check_if_can_compare()
+}
+
+function compare(thisBtn) {
+    $("#preview").remove();
+}
+
+function check_if_can_compare() {
+    var emptyNum = 0;
+    for (var i = 1; i <= 10; i++) {
+        if ($("#selected_hero_" + i).attr('src') == "img/hero_pic/empty.png") {
+            emptyNum++;
+        }
+    }
+    if (emptyNum != 0) {
+        d3.select(".compare_button")
+            .attr("disabled", "disabled");
+    } else {
+        d3.select(".compare_button")
+            .attr("disabled", null);
+    }
 }
 
 
