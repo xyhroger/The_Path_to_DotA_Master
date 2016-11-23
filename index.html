@@ -37,6 +37,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -91,7 +92,7 @@
         </div>
     </header>
 
-    <!-- About Section -->
+    <!-- Pick Section -->
     <section id="pick" class="text-center">
         <div class="foo"></div>
         <div class="container-fluid compare_group">
@@ -119,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-2">
-                    <button type="button" class="btn btn-default compare_button btn" onclick="compare(this)" href="#profile" data-toggle="tab" disabled="disabled">Compare</a>
+                    <button type="button" class="btn btn-default compare_button" onclick="compare(this)" href="#profile" data-toggle="tab" disabled="disabled">Compare</a>
                 </div>
                 <div id="pick-group2" class="col-md-5 col-sm-5 col-xs-5 col-xs-push-1 col-sm-push-1 col-md-push-0">
                     <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
@@ -147,7 +148,7 @@
         </div>
         <div class="foo2"></div>
         <div class="container-fluid pick_group tab-content">
-            <div class="row tab-pane  active in" id="hero_pick_icon">
+            <div class="row tab-pane " id="hero_pick_icon">
                 <div id="strength" class="col-md-4 col-sm-4 col-xs-12">
                     <div class="special_txt strength_title"><a>STRENGTH</a></div>
                     <a class="preview"><img src="img/hero_img/abaddon.jpg" class="pick_hero_icon" id="abaddon" select="false" onclick="chooseThisHeroMin(this)">
@@ -378,19 +379,33 @@
                     </img></a>
                 </div>
             </div>
-            <div class="tab-pane fade" id="profile">
+            <div class="tab-pane fade active in" id="profile">
                 <div class="row">
-                    <div class="col-md-3 col-xs-3">
-                        <div id="win" class="left-rate">12%</div>
+                    <div class="col-md-5 col-xs-5" id="left-team">
+                        <div class="col-md-3 col-xs-3">
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-xs-2">
-                        <div id="win_rate">Radiant</div>
-                    </div>
-                    <div class="col-md-2 col-xs-2 col-xs-push-1">
-                        <div id="win_rate">Dire</div>
-                    </div>
-                    <div class="col-md-3 col-xs-3 col-xs-push-1">
-                        <div id="lose">34%</div>
+                    <div class="col-md-5 col-xs-5 col-xs-push-1">
+                        <div class="col-md-3 col-xs-3">
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
+                        <div class="col-md-3 col-xs-3" id="win-rate">
+                            <svg id="win-rate-left"></svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -403,7 +418,7 @@
             <div class="container-fluid compare_group">
                 <div class="row">
                     <div id="group1" class="col-md-5 col-sm-6 col-xs-6" margin-left="10px">
-                        <div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-1" style="padding:0">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-2" style="padding:0">
                             <img src="img/hero_img/empty.jpg" id="hr_cmp_1" class="img-rounded hr_head" onclick="chooseHeroLeft(this)" type="button">
                             </img>
                         </div>
@@ -525,7 +540,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
-        <div class="row">
+        <div class="pie_pic">
             
         </div>
     </section>

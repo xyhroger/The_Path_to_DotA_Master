@@ -96,13 +96,8 @@
 
 #win_rate {
   color:#BA01FF;
-  font-family:Vampiro One;
+  font-family:Audiowide;
   text-transform: uppercase;
-}
-#win_rate {
-  -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon6 1.5s ease-in-out infinite alternate;
-  animation: neon6 1.5s ease-in-out infinite alternate;
 }
 /*
 .special_txt:nth-child(5) a{

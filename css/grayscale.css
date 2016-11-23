@@ -350,6 +350,9 @@ div.hero_right_package img {
 .hero_right_package {
     margin-top: 0px;
 }
+.compare_button {
+    font-size: 120%;
+}
 @media (max-width: 700px) {
     .hero_left_package {
         padding-top: 110px;
@@ -453,6 +456,9 @@ div.compare_group img:hover {
     #win_rate {
         visibility: hidden;
     }
+    .compare_button {
+        font-size: 100%;
+    }
 }
 @media (max-width: 568px) {
     .pick_hero_icon {
@@ -468,6 +474,9 @@ div.compare_group img:hover {
     }
     #win_rate {
         visibility: hidden;
+    }
+    .compare_button {
+        font-size: 50%;
     }
 }
 #preview{
@@ -505,6 +514,12 @@ div.compare_group img:hover {
     text-transform: uppercase;
 	color: #fff;
 	text-shadow: 0 0 20px #66FFCC, 5px -10px 30px #60DFD2, -10px -20px 40px #59BFD9, 10px -40px 50px #539FDF, -10px -60px 60px #4D80E6, 0 -80px 70px #4660EC, 30px -40px 30px #4040F2;
+}
+
+#win-rate {
+    fill:#ffffff;
+    text-shadow: 0 0 10px #fff,
+               0 0 40px  #FF1177;
 }
 
 

@@ -291,6 +291,10 @@ function removeThisHero(thisHero) {
 
 function compare(thisBtn) {
     $("#preview").remove();
+    
+    
+    
+    
 }
 
 function check_if_can_compare() {
@@ -308,5 +312,107 @@ function check_if_can_compare() {
             .attr("disabled", null);
     }
 }
+
+$(document).ready(function() {
+        var width = document.getElementById('left-team').offsetWidth / 8;
+        //alert(width);
+		var height = width;
+		var dataset = [36 , 64];
+		
+		var svg = d3.selectAll("#win-rate-left")
+                    //.append("svg")
+					.attr("width", width)
+					.attr("height", width);
+		
+		var pie = d3.layout.pie();
+
+		var piedata = pie(dataset);
+		
+		var outerRadius = width / 2;	//外半径
+		var innerRadius = width / 2 - (width < 30 ? 2 : 3);	//内半径，为0则中间没有空白
+
+		var arc = d3.svg.arc()	//弧生成器
+					.innerRadius(innerRadius)	//设置内半径
+					.outerRadius(outerRadius);	//设置外半径
+		
+		var color = d3.scale.category10();
+		
+		var arcs = svg.selectAll("g")
+					  .data(piedata)
+					  .enter()
+					  .append("g")
+					  .attr("transform","translate("+ (width/2) +","+ (width/2) +")");
+					  
+		arcs.append("path")
+			.attr("fill",function(d,i){
+				if (i < 1) {
+                    return "dimgray";
+                } else {
+                    return "green";
+                }
+			})
+			.attr("d",function(d){
+				return arc(d);
+			});
+		
+		arcs.append("text")
+            .attr("text-anchor","middle")
+            .attr("transform","translate("+ 0 +","+ (width/9) +")")
+            .attr("font-size", width / 4)
+			.text(function() {
+                return dataset[1] + "%";
+            });
+    window.onresize = function() {
+        d3.selectAll("#win-rate-left").remove();
+        var width = document.getElementById('left-team').offsetWidth / 8;
+		var height = width;
+		var dataset = [36 , 64];
+		
+		var svg = d3.selectAll("#win-rate")
+                    .append("svg")
+                    .attr("id", "win-rate-left")
+					.attr("width", width)
+					.attr("height", width);
+		
+		var pie = d3.layout.pie();
+
+		var piedata = pie(dataset);
+		
+		var outerRadius = width / 2;  //外半径
+		var innerRadius = width / 2 - (width < 30 ? 2 : 3);	//内半径，为0则中间没有空白
+
+		var arc = d3.svg.arc()	//弧生成器
+					.innerRadius(innerRadius)	//设置内半径
+					.outerRadius(outerRadius);	//设置外半径
+		
+		var color = d3.scale.category10();
+		
+		var arcs = svg.selectAll("g")
+					  .data(piedata)
+					  .enter()
+					  .append("g")
+					  .attr("transform","translate("+ (width/2) +","+ (width/2) +")");
+					  
+		arcs.append("path")
+			.attr("fill",function(d,i){
+				if (i < 1) {
+                    return "dimgray";
+                } else {
+                    return "green";
+                }
+			})
+			.attr("d",function(d){
+				return arc(d);
+			});
+		
+		arcs.append("text")
+            .attr("text-anchor","middle")
+            .attr("transform","translate("+ 0 +","+ (width/9) +")")
+            .attr("font-size", width / 4)
+			.text(function() {
+                return dataset[1] + "%";
+            });
+        }
+})
 
 
