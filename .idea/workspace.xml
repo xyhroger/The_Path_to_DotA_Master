@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02ea1fa-cba2-4e47-9ac8-695b35e2256d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/huanli.js" afterPath="$PROJECT_DIR$/js/huanli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/result-calculate.js" afterPath="$PROJECT_DIR$/js/result-calculate.js" />
     </list>
     <ignored path="ThePathToDotAMaster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,36 +30,56 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="356.79166">
-              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+            <state vertical-scroll-proportion="135.0">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="huanli.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="huanli.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/huanli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="377" column="0" selection-start-line="377" selection-start-column="2" selection-end-line="381" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.21966527">
+              <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
               <folding>
-                <marker date="1480544830000" expanded="true" signature="10512:10526" placeholder="..." />
-                <marker date="1480544830000" expanded="true" signature="10841:10855" placeholder="..." />
+                <marker date="1480556403000" expanded="true" signature="11312:11326" placeholder="..." />
+                <marker date="1480556403000" expanded="true" signature="11641:11655" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result-calculate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="winRate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/winRate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heroHeroWinRate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/heroHeroWinRate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result-calculate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/result-calculate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40376568">
-              <caret line="323" column="22" selection-start-line="323" selection-start-column="22" selection-end-line="323" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="186" column="41" selection-start-line="182" selection-start-column="12" selection-end-line="186" selection-end-column="41" />
               <folding>
-                <marker date="1480547539000" expanded="true" signature="10308:10317" placeholder="..." />
-                <marker date="1480547539000" expanded="true" signature="10407:10416" placeholder="..." />
-                <marker date="1480547539000" expanded="true" signature="13118:13127" placeholder="..." />
-                <marker date="1480547539000" expanded="true" signature="13217:13226" placeholder="..." />
+                <marker date="1480552769000" expanded="true" signature="10300:10309" placeholder="..." />
+                <marker date="1480552769000" expanded="true" signature="10399:10408" placeholder="..." />
+                <marker date="1480552769000" expanded="true" signature="13110:13119" placeholder="..." />
+                <marker date="1480552769000" expanded="true" signature="13209:13218" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,15 +87,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/huanli.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/result-calculate.js" />
+        <option value="$PROJECT_DIR$/js/heroHeroWinRate.js" />
+        <option value="$PROJECT_DIR$/js/winRate.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/huanli.js" />
       </list>
     </option>
   </component>
@@ -278,10 +308,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
           <folding>
-            <marker date="1480547539000" expanded="true" signature="10308:10317" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="10407:10416" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="13118:13127" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="13217:13226" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="10300:10309" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="10399:10408" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="13110:13119" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="13209:13218" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -291,8 +321,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1480544830000" expanded="true" signature="10512:10526" placeholder="..." />
-            <marker date="1480544830000" expanded="true" signature="10841:10855" placeholder="..." />
+            <marker date="1480556403000" expanded="true" signature="11312:11326" placeholder="..." />
+            <marker date="1480556403000" expanded="true" signature="11641:11655" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -312,34 +342,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/huanli.js">
+    <entry file="file://$PROJECT_DIR$/js/result-calculate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="377" column="0" selection-start-line="377" selection-start-column="2" selection-end-line="381" selection-end-column="3" />
+          <caret line="186" column="41" selection-start-line="182" selection-start-column="12" selection-end-line="186" selection-end-column="41" />
           <folding>
-            <marker date="1480544830000" expanded="true" signature="10512:10526" placeholder="..." />
-            <marker date="1480544830000" expanded="true" signature="10841:10855" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="10300:10309" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="10399:10408" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="13110:13119" placeholder="..." />
+            <marker date="1480552769000" expanded="true" signature="13209:13218" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/heroHeroWinRate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/winRate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="356.79166">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        <state vertical-scroll-proportion="135.0">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/result-calculate.js">
+    <entry file="file://$PROJECT_DIR$/js/huanli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40376568">
-          <caret line="323" column="22" selection-start-line="323" selection-start-column="22" selection-end-line="323" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.21966527">
+          <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
           <folding>
-            <marker date="1480547539000" expanded="true" signature="10308:10317" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="10407:10416" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="13118:13127" placeholder="..." />
-            <marker date="1480547539000" expanded="true" signature="13217:13226" placeholder="..." />
+            <marker date="1480556403000" expanded="true" signature="11312:11326" placeholder="..." />
+            <marker date="1480556403000" expanded="true" signature="11641:11655" placeholder="..." />
           </folding>
         </state>
       </provider>

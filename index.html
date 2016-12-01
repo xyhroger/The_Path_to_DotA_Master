@@ -39,6 +39,8 @@
     <script src="js/math.min.js"></script>
     <script src="js/result-calculate.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="js/heroHeroWinRate.js"></script>
+    <script src="js/winRate.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -94,8 +96,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">DOTA MASTER</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
+                        <p class="intro-text"></p>
                         <a href="#pick" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -161,7 +162,7 @@
         </div>
         <div class="foo2"></div>
         <div class="container-fluid pick_group tab-content">
-            <div class="row tab-pane " id="hero_pick_icon">
+            <div class="row tab-pane active in" id="hero_pick_icon">
                 <div id="strength" class="col-md-4 col-sm-4 col-xs-12">
                     <div class="special_txt strength_title"><a>STRENGTH</a></div>
                     <a class="preview"><img src="img/hero_img/abaddon.jpg" class="pick_hero_icon" id="abaddon" select="false" onclick="chooseThisHeroMin(this)">
@@ -392,7 +393,7 @@
                     </img></a>
                 </div>
             </div>
-            <div class="tab-pane fade active in" id="profile">
+            <div class="tab-pane fade" id="profile">
                 <div class="row">
                     <div class="col-md-5 col-xs-5" id="left-team">
                         <div class="col-xs-4">

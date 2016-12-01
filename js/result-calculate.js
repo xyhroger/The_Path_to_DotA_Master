@@ -151,9 +151,9 @@ function calculateIndex(leftHero, rightHero) {
             }
             srAlly.push(math.mean(ally)/math.std(ally));
             srEnemy.push(math.mean(enemy)/math.std(enemy));
-            sr.push(srAlly);
-            sr.push(srEnemy);
         }
+        sr.push(srAlly);
+        sr.push(srEnemy);
         var std = math.std(team);
         team.push(math.mean(srAlly)/math.std(srAlly)+math.mean(srEnemy)/math.std(srEnemy));
         team.push(std);
