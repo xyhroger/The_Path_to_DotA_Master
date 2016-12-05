@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+/*  color: white;*/
   background-color: black;
 }
 html {
@@ -136,7 +136,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/backgrond2.png) no-repeat bottom center scroll;
+  background: url(../img/backgrond.png) no-repeat bottom center scroll;
   filter:alpha(opacity=50);
   background-color: black;
   -webkit-background-size: cover;
@@ -326,17 +326,18 @@ body {
     margin-top: 20px;
 }
 .hero_show_left {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 372px;
-    float: left;
+    z-index:-1;
+/*    float: left;*/
 }
 .hero_show_right {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 372px;
 /*    max-width: 150px;*/
 /*    margin: 75px 80px;*/
 /*    margin-bottom: 120px;*/
-    float: right;
+/*    float: right;*/
 }
 div.hero_left_package img {
     width: 80%;
@@ -349,6 +350,9 @@ div.hero_right_package img {
 }
 .hero_right_package {
     margin-top: 0px;
+}
+.compare_button {
+    font-size: 120%;
 }
 @media (max-width: 700px) {
     .hero_left_package {
@@ -429,10 +433,24 @@ div.compare_group img:hover {
 .pick_hero_icon {
     width: 15.6%;
 }
+#win_rate {
+    margin-top: 40px;
+    font-size:40px;
+}
+
+.attribute-bar {
+    display: block;
+}
+.attribute-chart {
+    margin-top: 0px;
+}
 
 @media (max-width: 992px) {
     .pick_hero_icon {
         width: 15.2%;
+    }
+    #win_rate {
+       visibility: hidden;
     }
 }
 @media (max-width: 768px) {
@@ -442,6 +460,19 @@ div.compare_group img:hover {
     .col-sm-4 {
         padding-left: 2px;
         padding-right: 2px;
+    }
+    #win_rate {
+        visibility: hidden;
+    }
+    .compare_button {
+        font-size: 100%;
+    }
+    .circle-chart {
+        width: 50px;
+        height: 50px;
+    }
+    .hero-detail .hero_name {
+        font-size: 22px;
     }
 }
 @media (max-width: 568px) {
@@ -456,15 +487,177 @@ div.compare_group img:hover {
     .title-text {
         font-size: 16px;
     }
+    #win_rate {
+        visibility: hidden;
+    }
+    .compare_button {
+        font-size: 50%;
+    }
+    .circle-chart {
+        width: 20px;
+        height: 20px;
+    }
+    .attribute-bar {
+        display: none;
+    }
+    .attribute-chart {
+        margin-top: 100px;
+    }
 }
 #preview{
 	position:absolute;
-	border:1px solid #ccc;
-	background:#333;
+	background:black;
 	padding:5px;
+    padding-bottom: 0px;
 	display:none;
-	color:#fff;
 }
+#preview>#hero_name {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.hr_head_2 {
+    border-width:0px;
+    border-style: solid;
+    box-shadow:0px 0px 10px 2px black; 
+}
+#win {
+    margin: 10px 0px;
+    text-align: center;
+	font-family: "League-Gothic", Courier;
+	font-size: 130px;
+    font-weight: 800;
+    text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 20px #fefcc9, 5px -10px 30px #feec85, -10px -20px 40px #ffae34, 10px -40px 50px #ec760c, -10px -60px 60px #cd4606, 0 -80px 70px #973716, 50px -50px 30px #451b0e;
+}
+#lose {
+    margin: 10px 0px;
+    text-align: center;
+	font-family: "League-Gothic", Courier;
+	font-size: 130px;
+    font-weight: 800;
+    text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 20px #66FFCC, 5px -10px 30px #60DFD2, -10px -20px 40px #59BFD9, 10px -40px 50px #539FDF, -10px -60px 60px #4D80E6, 0 -80px 70px #4660EC, 30px -40px 30px #4040F2;
+}
+
+#win-rate {
+    fill:#ffffff;
+    text-shadow: 0 0 10px #fff,
+               0 0 40px  #FF1177;
+}
+
+.axis path,
+.axis line{
+    fill: none;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+rect {
+    fill: darkgray;
+    stroke: none;
+}
+
+rect:hover {
+    fill: deepskyblue;
+}
+
+.MyText {
+    fill: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table {
+    font-size: 20px;
+    padding: 0px;
+}
+
+table td {
+    padding: 10px;
+    align-content: center;
+}
+text {
+    fill: white;
+}
+
+svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bar.right {
+    fill: steelblue;
+}
+
+.bar.left {
+    fill: brown;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+.barfiller {
+  width: 100%;
+  height: 4px;
+  background: gray;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  display:inline-block;
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #333;
+  z-index: 1;
+}
+
+.barfiller .tipWrap { display: none; }
+
+.barfiller .tip {
+  display: block;
+  margin-top: -20px;
+  padding: 2px 4px;
+  font-size: 11px;
+  color: #fff;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+.barfiller .tip:after {
+  border-color: rgba(0,0,0,.8) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 100%;
+  z-index: 9
+}
+.attribute-name {
+  display: block;
+  margin-top: -9px;
+  padding: 2px 4px;
+  font-size: 11px;
+  color: #fff;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+
 /*yuehua*/
 
 /*xueyang*/

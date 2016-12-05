@@ -1,0 +1,14 @@
+x = -200:0.001:200;
+y1 = normpdf(x, 7.34, 47.74);
+y2 = normpdf(x, -4.42, 42.58);
+y3 = normpdf(x, 11.74, 64.49);
+subplot(1,2,1);
+grid on;
+hold on;
+plot(x, y1);
+plot(x, y2);
+plot(x, y3);
+subplot(1,2,2);
+plot(x, y3cdf);
+grid on;
+hold on;

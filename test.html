@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<body>
+<script type="text/javascript" src="js/d3.v3.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>  
+<script>
+text ="xx";
+
+$.ajax({
+type: "POST",
+url: "~/reverse_pca.py",
+data: { param: text}
+}).done(function(o) {
+    console.log(data);
+    console.log(text);
+});
