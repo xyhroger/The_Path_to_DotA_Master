@@ -26,7 +26,6 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/myfontstyle.css" rel="stylesheet">
     <link href="css/piechart.css" rel="stylesheet">
-    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
     
     
     <script src="vendor/jquery/jquery.js"></script>
@@ -38,7 +37,6 @@
     <script src="js/combo.js"></script>
     <script src="js/math.min.js"></script>
     <script src="js/result-calculate.js"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script src="js/heroHeroWinRate.js"></script>
     <script src="js/winRate.js"></script>
 
@@ -393,39 +391,181 @@
                     </img></a>
                 </div>
             </div>
-            <div class="tab-pane fade" id="profile">
-                <div class="row">
+            <div class="tab-pane fade row" id="profile">
+                <div class="row col-xs-12">
                     <div class="col-md-5 col-xs-5" id="left-team">
                         <div class="col-xs-4">
-                            <div class="circle-chart win-rate-left" data-percent="60"> </div>
-                            <div class="describe">Win Rate</div>
+                            <div class="circle-chart normal-left" data-percent="60"></div>
                         </div>
                         <div class="col-xs-4">
                             <!--<div class="circle-chart green" data-percent="73"> </div>-->
                             <!--<div class="describe">Win Rate</div>-->
+                            <div class="circle-chart high-left green" data-percent="60"></div>
                         </div>
                         <div class="col-xs-4">
                             <!--<div class="circle-chart blue" data-percent="90"></div>-->
                             <!--<div class="describe">Win Rate</div>-->
+                            <div class="circle-chart veryHigh-left blue" data-percent="60"></div>
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            Normal-Level Win-Rate
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            High-Level Win-Rate
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            Very High-Level Win-Rate
                         </div>
                     </div>
                     <div class="col-md-5 col-xs-5 col-xs-push-2">
                         <div class="col-xs-4">
-                            <div class="circle-chart win-rate-right" data-percent="60"> </div>
-                            <div class="describe">Win Rate</div>
+                            <div class="circle-chart normal-right" data-percent="60"> </div>
                         </div>
                         <div class="col-xs-4">
-                            <!--<div class="circle-chart green" data-percent="73"> </div>-->
-                            <!--<div class="describe">Win Rate</div>-->
+                            <div class="circle-chart high-right green" data-percent="60"> </div>
                         </div>
                         <div class="col-xs-4">
-                            <!--<div class="circle-chart blue" data-percent="90"></div>-->
-                            <!--<div class="describe">Win Rate</div>-->
+                            <div class="circle-chart blue veryHigh-right" data-percent="60"> </div>
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            Normal-Level Win-Rate
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            High-Level Win-Rate
+                        </div>
+                        <div class="col-xs-4" style="color:gray;font-size:10px">
+                            Very High-Level Win-Rate
                         </div>
                     </div>
                 </div>
-                <div id="attribute-compare-chart">
-                    
+                <div class="row col-xs-12" id="attribute-compare-chart" style="margin-top:100px;margin-left:10px;margin-right:10px">
+                    <div class="row">
+                        <div class="col-xs-1" id="push-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="push-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="push" style="text-align: center">PUSH</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="push-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="push-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="dps-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="dps-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" style="text-align: center">DPS</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="dps-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="dps-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="nuke-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="nuke-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="nuke" style="text-align: center">NUKE</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="nuke-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="nuke-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="durable-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="durable-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="durable" style="text-align: center">DURABLE</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="durable-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="durable-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="disable-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="disable-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="disable" style="text-align: center">DISABLE</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="disable-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="disable-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="initial-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="initial-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="initial" style="text-align: center">INITIAL</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="initial-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="initial-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="healing-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="healing-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="healing" style="text-align: center">HEALING</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="healing-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="healing-right-val"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1" id="ac-left-val"></div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="ac-left-bar" style="background: black">
+                                <span class="fill" data-percentage="56" style="float:right"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-2" id="ac" style="text-align: center">ADVANCED INDEX</div>
+                        <div class="col-xs-4">
+                            <div class="barfiller" id="ac-right-bar" style="background: black">
+                                <span class="fill" data-percentage="56"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-1" id="ac-right-val"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -490,7 +630,7 @@
                     <p id="hero_name_left" class="hero_name special-txt"><a>Hero's Name</a></p>
                     <div class="col-xs-6">
                         <div class="hero_left">
-                            <img src="img/hero_compare_gif/keeper-of-the-light.gif" class="hero_show_left" style="z-index:-1"></img>
+                            <img src="img/hero_compare_gif/empty.jpg" class="hero_show_left" style="z-index:-1"></img>
                         </div>
                     </div>
                     <div class="col-xs-6 hero-attribute-left">
@@ -742,25 +882,23 @@
                     </div>
                     <div class="col-xs-6" style="padding-right:0">
                         <div class="row hero_right">
-                            <img src="img/hero_compare_gif/gyrocopter.gif" class="hero_show_right">
+                            <img src="img/hero_compare_gif/empty.jpg" class="hero_show_right">
                         </div>
                     </div>  
                 </div>
             </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="pie_pic">
-            
-        </div>
-    </section>
+    <!--&lt;!&ndash; Contact Section &ndash;&gt;-->
+    <!--<section id="contact" class="container content-section text-center">-->
+
+    <!--</section>-->
 
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; Big News 2016</p>
         </div>
     </footer>
 
@@ -775,6 +913,7 @@
     <script src="js/grayscale.min.js"></script>
 
     <script src="js/huanli.js"></script>
+
 
 </body>
 
