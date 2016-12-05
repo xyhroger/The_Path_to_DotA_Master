@@ -656,6 +656,9 @@ svg {
   position: absolute;
   z-index: 2;
 }
+#attribute-compare-chart {
+    color:white;
+}
 
 
 /*yuehua*/

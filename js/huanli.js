@@ -385,29 +385,8 @@ function check_if_can_compare() {
     }
 }
 
-//function drawCircleChart(id){
-//    alert($(id).data('percent'));
-//    $(id).empty().append("<p class='percent-text'>" + $(id).data('percent') + "%</p>");
-//    addOneBar(id);
-//}
-  
-//function addOneBar(id){
-//    var percent = $(id).data('percent');
-//    var noOfBars = .36*percent;
-//    if( $(id).children().length-1 < noOfBars ){
-//      $(id).append('<div class="bar"></div>');
-//        setTimeout(function() { addOneBar(id); },0);
-//    }
-//}
 
 $(document).ready(function() {
-    window.onresize = function() {
-        drawCompareChart(indexResult);
-    }
-})
-
-$(document).ready(function() {
-    drawCompareChart(indexResult);
     
     chart1 = c3.generate({
         bindto: '#chart1',
@@ -417,13 +396,16 @@ $(document).ready(function() {
             ],
             type: 'gauge',
         },
-        gauge: {},
+        gauge: {
+            min: 0,
+            max: 100,
+        },
         color: {
-            pattern: ['#FF0000', '#F97600', '#F6C600', '#60B044'], // the three color levels for the percentage values.
+            pattern: ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00'], // the three color levels for the percentage values.
             threshold: {
 //            unit: 'value', // percentage is default
 //            max: 200, // 100 is default
-                values: [30, 60, 90, 100]
+                values: [40, 48, 52, 55, 60]
             }
         },
         size: {
@@ -439,13 +421,15 @@ $(document).ready(function() {
             ],
             type: 'gauge',
         },
-        gauge: {},
+        gauge: {
+
+        },
         color: {
-            pattern: ['#FF0000', '#F97600', '#F6C600', '#60B044'], // the three     color levels for the percentage values.
+            pattern: ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00'], // the three     color levels for the percentage values.
             threshold: {
 //            unit: 'value', // percentage is default
 //            max: 200, // 100 is default
-                values: [30, 60, 90, 100]
+                values: [40, 48, 52, 55, 60]
             }
         },
         size: {
@@ -510,11 +494,15 @@ $(document).ready(function() {
             ],
             type: 'gauge',
         },
-        gauge: {},
+        gauge: {
+
+        },
         color: {
-            pattern: ['#FF0000', '#F97600', '#F6C600', '#60B044'], // the three color levels for the percentage values.
+            pattern: ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00'], // the three     color levels for the percentage values.
             threshold: {
-                values: [30, 60, 90, 100]
+//            unit: 'value', // percentage is default
+//            max: 200, // 100 is default
+                values: [40, 48, 52, 55, 60]
             }
         },
         size: {
@@ -529,11 +517,15 @@ $(document).ready(function() {
             ],
             type: 'gauge',
         },
-        gauge: {},
+        gauge: {
+
+        },
         color: {
-            pattern: ['#FF0000', '#F97600', '#F6C600', '#60B044'], // the three color levels for the percentage values.
+            pattern: ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00'], // the three     color levels for the percentage values.
             threshold: {
-                values: [30, 60, 90, 100]
+//            unit: 'value', // percentage is default
+//            max: 200, // 100 is default
+                values: [40, 48, 52, 55, 60]
             }
         },
         size: {
