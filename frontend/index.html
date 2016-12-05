@@ -1,0 +1,781 @@
+
+<!DOCTYPE html> 
+
+<html lang="en">
+<!--huanli-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Path to DotA Master</title>
+    <link rel="SHORTCUT ICON" href="img/logo2.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="js/c3-0.4.11/c3.css" rel="stylesheet" type="text/css">
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/myfontstyle.css" rel="stylesheet">
+    <link href="css/piechart.css" rel="stylesheet">
+    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+    
+    
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/c3-0.4.11/c3.min.js"></script>
+    <script src="js/jquery.barfiller.js" type="text/javascript"></script>
+    <script src="js/hero_attributes.js"></script>
+    <script src="js/anti.js"></script>
+    <script src="js/combo.js"></script>
+    <script src="js/math.min.js"></script>
+    <script src="js/result-calculate.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="js/heroHeroWinRate.js"></script>
+    <script src="js/winRate.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll title-text" href="#page-top">
+                    <span><img src="img/logo2.png" width="30"></img></span> <span class="light">The Path</span> to DotA Master
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pick">Pick</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#compare">Compare</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">DOTA MASTER</h1>
+                        <p class="intro-text"></p>
+                        <a href="#pick" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pick Section -->
+    <section id="pick" class="text-center">
+        <div class="foo"></div>
+        <div class="container-fluid compare_group">
+            <div class="row">
+                <div id="pick-group1" class="col-md-5 col-sm-5 col-xs-5" margin-left="0px">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-2" style="padding:0px">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_1" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_2" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_3" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_4" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_5" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <button type="button" class="btn btn-default compare_button" onclick="compare()" href="#profile" data-toggle="tab" disabled="disabled">Compare</button>
+                </div>
+                <div id="pick-group2" class="col-md-5 col-sm-5 col-xs-5 col-xs-push-1 col-sm-push-1 col-md-push-0">
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_6" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_7" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_8" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_9" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                        <img src="img/hero_pic/empty.png" class="img-rounded hr_head_2" id="selected_hero_10" onclick="removeThisHero(this)" href="#hero_pick_icon" data-toggle="tab">
+                        </img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foo2"></div>
+        <div class="container-fluid pick_group tab-content">
+            <div class="row tab-pane active in" id="hero_pick_icon">
+                <div id="strength" class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="special_txt strength_title"><a>STRENGTH</a></div>
+                    <a class="preview"><img src="img/hero_img/abaddon.jpg" class="pick_hero_icon" id="abaddon" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/alchemist.jpg" class="pick_hero_icon" id="alchemist" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/axe.jpg" class="pick_hero_icon" id="axe" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/beastmaster.jpg" class="pick_hero_icon" id="beastmaster" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/bristleback.jpg" class="pick_hero_icon" id="bristleback" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/centaur-warrunner.jpg" class="pick_hero_icon" id="centaur-warrunner" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/chaos-knight.jpg" class="pick_hero_icon" id="chaos-knight" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/clockwerk.jpg" class="pick_hero_icon" id="clockwerk" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/doom.jpg" class="pick_hero_icon" id="doom" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/dragon-knight.jpg" class="pick_hero_icon" id="dragon-knight" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/bounty-hunter.jpg" class="pick_hero_icon" id="hero" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/earth-spirit.jpg" class="pick_hero_icon" id="earth-spirit" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/earthshaker.jpg" class="pick_hero_icon" id="earthshaker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/elder-titan.jpg" class="pick_hero_icon" id="elder-titan" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/huskar.jpg" class="pick_hero_icon" id="huskar" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/io.jpg" class="pick_hero_icon" id="io" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/kunkka.jpg" class="pick_hero_icon" id="kunkka" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/legion-commander.jpg" class="pick_hero_icon" id="legion-commander" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lifestealer.jpg" class="pick_hero_icon" id="lifestealer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lycan.jpg" class="pick_hero_icon" id="lycan" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/magnus.jpg" class="pick_hero_icon" id="magnus" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/night-stalker.jpg" class="pick_hero_icon" id="night-stalker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/omniknight.jpg" class="pick_hero_icon" id="omniknight" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/phoenix.jpg" class="pick_hero_icon" id="phoenix" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/sand-king.jpg" class="pick_hero_icon" id="sand-king" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/slardar.jpg" class="pick_hero_icon" id="slardar" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/spirit-breaker.jpg" class="pick_hero_icon" id="spirit-breaker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/sven.jpg" class="pick_hero_icon" id="sven" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/tidehunter.jpg" class="pick_hero_icon" id="tidehunter" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/timbersaw.jpg" class="pick_hero_icon" id="timbersaw" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/tiny.jpg" class="pick_hero_icon" id="tiny" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/treant-protector.jpg" class="pick_hero_icon" id="treant-protector" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/tusk.jpg" class="pick_hero_icon" id="tusk" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/underlord.jpg" class="pick_hero_icon" id="underlord" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/undying.jpg" class="pick_hero_icon" id="undying" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/wraith-king.jpg" class="pick_hero_icon" id="wraith-king" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                </div>
+                <div id="agility" class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="special_txt aigility_title"><a>AGILITY</a></div>
+                    <a class="preview"><img src="img/hero_img/anti-mage.jpg" class="pick_hero_icon" id="anti-mage" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/arc-warden.jpg" class="pick_hero_icon" id="arc-warden" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/bloodseeker.jpg" class="pick_hero_icon" id="bloodseeker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/bounty-hunter.jpg" class="pick_hero_icon" id="bounty-hunter" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/clinkz.jpg" class="pick_hero_icon" id="clinkz" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/drow-ranger.jpg" class="pick_hero_icon" id="drow-ranger" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/ember-spirit.jpg" class="pick_hero_icon" id="ember-spirit" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/faceless-void.jpg" class="pick_hero_icon" id="faceless-void" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/gyrocopter.jpg" class="pick_hero_icon" id="gyrocopter" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/juggernaut.jpg" class="pick_hero_icon" id="juggernaut" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lone-druid.jpg" class="pick_hero_icon" id="lone-druid" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/luna.jpg" class="pick_hero_icon" id="luna" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/medusa.jpg" class="pick_hero_icon" id="medusa" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/meepo.jpg" class="pick_hero_icon" id="meepo" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/mirana.jpg" class="pick_hero_icon" id="mirana" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/morphling.jpg" class="pick_hero_icon" id="morphling" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/naga-siren.jpg" class="pick_hero_icon" id="naga-siren" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/nyx-assassin.jpg" class="pick_hero_icon" id="nyx-assassin" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/phantom-assassin.jpg" class="pick_hero_icon" id="phantom-assassin" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/phantom-lancer.jpg" class="pick_hero_icon" id="phantom-lancer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/razor.jpg" class="pick_hero_icon" id="razor" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/riki.jpg" class="pick_hero_icon" id="riki" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/shadow-fiend.jpg" class="pick_hero_icon" id="shadow-fiend" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/slark.jpg" class="pick_hero_icon" id="slark" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/sniper.jpg" class="pick_hero_icon" id="sniper" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/spectre.jpg" class="pick_hero_icon" id="spectre" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/templar-assassin.jpg" class="pick_hero_icon" id="templar-assassin" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/terrorblade.jpg" class="pick_hero_icon" id="terrorblade" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/troll-warlord.jpg" class="pick_hero_icon" id="troll-warlord" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/ursa.jpg" class="pick_hero_icon" id="ursa" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/vengeful-spirit.jpg" class="pick_hero_icon" id="vengeful-spirit" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/venomancer.jpg" class="pick_hero_icon" id="venomancer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/viper.jpg" class="pick_hero_icon" id="viper" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/weaver.jpg" class="pick_hero_icon" id="weaver" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                </div>
+                <div id="intelligence" class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="special_txt intelligence_title"><a>INTELLIGENCE</a></div>
+                    <a class="preview"><img src="img/hero_img/ancient-apparition.jpg" class="pick_hero_icon" id="ancient-apparition" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/bane.jpg" class="pick_hero_icon" id="bane" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/batrider.jpg" class="pick_hero_icon" id="batrider" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/chen.jpg" class="pick_hero_icon" id="chen" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/crystal-maiden.jpg" class="pick_hero_icon" id="crystal-maiden" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/dark-seer.jpg" class="pick_hero_icon" id="dark-seer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/dazzle.jpg" class="pick_hero_icon" id="dazzle" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/death-prophet.jpg" class="pick_hero_icon" id="death-prophet" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/disruptor.jpg" class="pick_hero_icon" id="disruptor" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/enchantress.jpg" class="pick_hero_icon" id="enchantress" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/enigma.jpg" class="pick_hero_icon" id="enigma" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/invoker.jpg" class="pick_hero_icon" id="invoker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/jakiro.jpg" class="pick_hero_icon" id="jakiro" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/keeper-of-the-light.jpg" class="pick_hero_icon" id="keeper-of-the-light" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/leshrac.jpg" class="pick_hero_icon" id="leshrac" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lich.jpg" class="pick_hero_icon" id="lich" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lina.jpg" class="pick_hero_icon" id="lina" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/lion.jpg" class="pick_hero_icon" id="lion" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/natures-prophet.jpg" class="pick_hero_icon" id="natures-prophet" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/necrophos.jpg" class="pick_hero_icon" id="necrophos" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/ogre-magi.jpg" class="pick_hero_icon" id="ogre-magi" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/oracle.jpg" class="pick_hero_icon" id="oracle" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/outworld-devourer.jpg" class="pick_hero_icon" id="outworld-devourer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/puck.jpg" class="pick_hero_icon" id="puck" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/pugna.jpg" class="pick_hero_icon" id="pugna" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/queen-of-pain.jpg" class="pick_hero_icon" id="queen-of-pain" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/rubick.jpg" class="pick_hero_icon" id="rubick" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/shadow-demon.jpg" class="pick_hero_icon" id="shadow-demon" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/shadow-shaman.jpg" class="pick_hero_icon" id="shadow-shaman" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/silencer.jpg" class="pick_hero_icon" id="silencer" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/skywrath-mage.jpg" class="pick_hero_icon" id="skywrath-mage" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/storm-spirit.jpg" class="pick_hero_icon" id="storm-spirit" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/techies.jpg" class="pick_hero_icon" id="techies" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/tinker.jpg" class="pick_hero_icon" id="tinker" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/visage.jpg" class="pick_hero_icon" id="visage" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/warlock.jpg" class="pick_hero_icon" id="warlock" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/wind-ranger.jpg" class="pick_hero_icon" id="wind-ranger" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/winter-wyvern.jpg" class="pick_hero_icon" id="winter-wyvern" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/witch-doctor.jpg" class="pick_hero_icon" id="witch-doctor" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                    <a class="preview"><img src="img/hero_img/zeus.jpg" class="pick_hero_icon" id="zeus" select="false" onclick="chooseThisHeroMin(this)">
+                    </img></a>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile">
+                <div class="row">
+                    <div class="col-md-5 col-xs-5" id="left-team">
+                        <div class="col-xs-4">
+                            <div class="circle-chart win-rate-left" data-percent="60"> </div>
+                            <div class="describe">Win Rate</div>
+                        </div>
+                        <div class="col-xs-4">
+                            <!--<div class="circle-chart green" data-percent="73"> </div>-->
+                            <!--<div class="describe">Win Rate</div>-->
+                        </div>
+                        <div class="col-xs-4">
+                            <!--<div class="circle-chart blue" data-percent="90"></div>-->
+                            <!--<div class="describe">Win Rate</div>-->
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-5 col-xs-push-2">
+                        <div class="col-xs-4">
+                            <div class="circle-chart win-rate-right" data-percent="60"> </div>
+                            <div class="describe">Win Rate</div>
+                        </div>
+                        <div class="col-xs-4">
+                            <!--<div class="circle-chart green" data-percent="73"> </div>-->
+                            <!--<div class="describe">Win Rate</div>-->
+                        </div>
+                        <div class="col-xs-4">
+                            <!--<div class="circle-chart blue" data-percent="90"></div>-->
+                            <!--<div class="describe">Win Rate</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="attribute-compare-chart">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compare Section -->
+    <section id="compare" class="text-center">
+            <div class="foo"></div>
+            <div class="container-fluid compare_group">
+                <div class="row">
+                    <div id="group1" class="col-md-5 col-sm-6 col-xs-6" margin-left="10px">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_1" class="img-rounded hr_head" onclick="chooseHeroLeft(this)" type="button">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_2" class="img-rounded hr_head" onclick="chooseHeroLeft(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_3" class="img-rounded hr_head" onclick="chooseHeroLeft(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_4" class="img-rounded hr_head" onclick="chooseHeroLeft(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_5" class="img-rounded hr_head" onclick="chooseHeroLeft(this)">
+                            </img>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2 col-md-push-0 col-xs-push-10" style="padding-left:0">
+                        <!--<button type="button" class="btn btn-default compare_button btn-lg">Compare</button>-->
+                    </div>
+                    <div id="group2" class="col-md-5 col-sm-6 col-xs-6 col-xs-push-1 col-sm-push-1 col-md-push-0">
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_6" class="img-rounded hr_head" onclick="chooseHeroRight(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_7" class="img-rounded hr_head" onclick="chooseHeroRight(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_8" class="img-rounded hr_head" onclick="chooseHeroRight(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_9" class="img-rounded hr_head" onclick="chooseHeroRight(this)">
+                            </img>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2" style="padding:0">
+                            <img src="img/hero_img/empty.jpg" id="hr_cmp_10" class="img-rounded hr_head" onclick="chooseHeroRight(this)">
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-detail row">
+                <div class="left col-md-6 col-xs-12">
+                    <p id="hero_name_left" class="hero_name special-txt"><a>Hero's Name</a></p>
+                    <div class="col-xs-6">
+                        <div class="hero_left">
+                            <img src="img/hero_compare_gif/keeper-of-the-light.gif" class="hero_show_left" style="z-index:-1"></img>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 hero-attribute-left">
+                        <div class="attribute-chart">
+                            <div class="col-xs-6">
+                                <div id="chart1"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart2"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart3"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart4"></div>
+                            </div>
+                        </div>
+                        <div class="attribute-bar">
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:30px">
+                            <div class="col-xs-2 attribute-name">
+                                Lane
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1" style="padding-bottom">
+                                <div id="line-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="45"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                DPS
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="dps-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="95"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Push
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="push-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="40"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Nuke
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="nuke-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="78"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Durable
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="durable-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="56"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Initial
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="initial-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="56"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Disable
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="disable-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="56"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Healing
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="healing-left" class="barfiller">
+                                    <div class="tipWrap">
+		                              <span class="tip"></span>
+	                               </div>
+                                    <span class="fill" data-percentage="56"></span>
+	                           </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-md-6 col-xs-12">
+                    <p id="hero_name_right" class="hero_name special-txt"><a>Hero's Name</a></p>
+                    <div class="col-xs-6 hero-attribute-left">
+                        <div class="attribute-chart">
+                            <div class="col-xs-6">
+                                <div id="chart5"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart6"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart7"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="chart8"></div>
+                            </div>
+                        </div>
+                        <div class="attribute-bar">
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:30px">
+                            <div class="col-xs-2 attribute-name">
+                                Lane
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="line-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="45"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                DPS
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="dps-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="95"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Push
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="push-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="40"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Nuke
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="nuke-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="78"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Durable
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="durable-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="56"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Initial
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="initial-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="56"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Disable
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="disable-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="56"></span>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="chart-horiz col-xs-12 row" style="margin-top:-5px">
+                            <div class="col-xs-2 attribute-name">
+                                Healing
+                            </div>
+                            <div class="col-xs-12 col-xs-offset-1">
+                                <div id="healing-right" class="barfiller">
+                                    <div class="tipWrap">
+                                      <span class="tip"></span>
+                                   </div>
+                                    <span class="fill" data-percentage="56"></span>
+                               </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6" style="padding-right:0">
+                        <div class="row hero_right">
+                            <img src="img/hero_compare_gif/gyrocopter.gif" class="hero_show_right">
+                        </div>
+                    </div>  
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="pie_pic">
+            
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+    <script src="js/huanli.js"></script>
+
+</body>
+
+</html>

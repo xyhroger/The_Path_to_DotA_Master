@@ -1,0 +1,886 @@
+2765064825,1,Normal,legion-commander,axe,phantom-lancer,sniper,shadow-shaman,phantom-assassin,spirit-breaker,pugna,medusa,silencer
+2765064843,1,High,disruptor,shadow-fiend,spirit-breaker,juggernaut,axe,pudge,ember-spirit,legion-commander,anti-mage,magnus
+2765064844,1,Normal,lifestealer,tidehunter,morphling,doom,omniknight,natures-prophet,abaddon,pugna,necrophos,witch-doctor
+2765064845,1,Normal,spirit-breaker,bounty-hunter,doom,underlord,phantom-assassin,crystal-maiden,lifestealer,windranger,abaddon,axe
+2765064846,0,Normal,morphling,slardar,warlock,outworld-devourer,dazzle,earthshaker,sven,jakiro,storm-spirit,windranger
+2765064848,0,Normal,omniknight,storm-spirit,oracle,pudge,morphling,troll-warlord,phoenix,phantom-assassin,beastmaster,sven
+2765064851,1,Normal,drow-ranger,kunkka,sven,tinker,faceless-void,sniper,ursa,pudge,invoker,dark-seer
+2765064852,0,Normal,necrophos,lina,bounty-hunter,alchemist,anti-mage,phantom-assassin,bristleback,morphling,pudge,dazzle
+2765064853,0,Normal,tidehunter,omniknight,sven,venomancer,sniper,shadow-fiend,sand-king,wraith-king,juggernaut,jakiro
+2765064856,1,Normal,mirana,shadow-fiend,slardar,enchantress,witch-doctor,ursa,spirit-breaker,ancient-apparition,slark,vengeful-spirit
+2765064857,0,Normal,lion,centaur-warrunner,sniper,juggernaut,undying,wraith-king,crystal-maiden,lich,pudge,tinker
+2765064858,1,High,lion,lifestealer,beastmaster,dragon-knight,lycan,rubick,phantom-lancer,ogre-magi,outworld-devourer,lina
+2765064860,0,Normal,phantom-lancer,sven,crystal-maiden,alchemist,ogre-magi,anti-mage,witch-doctor,invoker,slark,earthshaker
+2765064861,0,Normal,medusa,shadow-demon,sand-king,pudge,ogre-magi,templar-assassin,crystal-maiden,axe,magnus,undying
+2765064872,0,Normal,bounty-hunter,tidehunter,sniper,tinker,sven,zeus,elder-titan,faceless-void,necrophos,anti-mage
+2765064875,1,Normal,riki,broodmother,tiny,clinkz,phantom-assassin,wraith-king,pudge,bloodseeker,terrorblade,abaddon
+2765064877,0,Normal,omniknight,timbersaw,phantom-assassin,invoker,bounty-hunter,nyx-assassin,mirana,juggernaut,pudge,witch-doctor
+2765064879,1,Normal,phantom-assassin,earth-spirit,wraith-king,earthshaker,necrophos,dragon-knight,pudge,alchemist,riki,disruptor
+2765064880,1,Unknown,slardar,earthshaker,phantom-assassin,outworld-devourer,bloodseeker,phantom-lancer,legion-commander,axe,juggernaut,zeus
+2765064881,0,Very High,spectre,terrorblade,clinkz,windranger,venomancer,tiny,natures-prophet,zeus,faceless-void,medusa
+2765064883,1,Normal,sniper,drow-ranger,sand-king,keeper-of-the-light,phantom-assassin,wraith-king,lion,night-stalker,storm-spirit,faceless-void
+2765064889,0,Normal,axe,riki,tusk,ancient-apparition,morphling,windranger,natures-prophet,spirit-breaker,sniper,phantom-assassin
+2765064890,0,Normal,mirana,bane,pudge,natures-prophet,meepo,clinkz,sand-king,luna,sven,dark-seer
+2765064893,1,Normal,alchemist,mirana,invoker,morphling,natures-prophet,weaver,riki,bristleback,death-prophet,shadow-shaman
+2765064895,1,High,lion,morphling,sand-king,pudge,sniper,juggernaut,skywrath-mage,tusk,riki,invoker
+2765064911,0,Normal,spirit-breaker,death-prophet,phantom-assassin,riki,skywrath-mage,timbersaw,lifestealer,morphling,sand-king,pudge
+2765064916,1,Normal,shadow-fiend,nyx-assassin,storm-spirit,morphling,lina,sven,phantom-assassin,clockwerk,bounty-hunter,mirana
+2765064919,1,Normal,slark,faceless-void,sand-king,drow-ranger,phantom-assassin,ogre-magi,sven,underlord,weaver,mirana
+2765064920,0,Normal,batrider,dragon-knight,shadow-shaman,ursa,sniper,puck,lion,spirit-breaker,jakiro,legion-commander
+2765064921,1,High,batrider,pudge,anti-mage,storm-spirit,nyx-assassin,huskar,skywrath-mage,spectre,dark-seer,viper
+2765064925,1,High,sand-king,anti-mage,underlord,wraith-king,tinker,slardar,zeus,tusk,phantom-assassin,legion-commander
+2765064926,1,Normal,sand-king,tusk,weaver,underlord,pudge,storm-spirit,arc-warden,axe,rubick,juggernaut
+2765064928,0,High,windranger,night-stalker,axe,slark,omniknight,io,bristleback,legion-commander,kunkka,medusa
+2765064930,0,Very High,silencer,meepo,timbersaw,pudge,outworld-devourer,underlord,invoker,juggernaut,rubick,natures-prophet
+2765064931,1,Normal,weaver,spectre,bloodseeker,alchemist,lion,anti-mage,vengeful-spirit,ember-spirit,abaddon,puck
+2765064933,0,Normal,anti-mage,pudge,bloodseeker,slardar,keeper-of-the-light,mirana,bristleback,sniper,slark,shadow-fiend
+2765064934,1,Normal,pudge,omniknight,jakiro,bounty-hunter,tinker,axe,slark,oracle,spirit-breaker,anti-mage
+2765064938,0,Normal,pudge,juggernaut,ogre-magi,spirit-breaker,legion-commander,invoker,natures-prophet,phantom-assassin,shadow-shaman,magnus
+2765064940,0,Normal,pudge,windranger,silencer,ogre-magi,lifestealer,batrider,clinkz,bristleback,phantom-assassin,gyrocopter
+2765064941,1,High,wraith-king,troll-warlord,meepo,alchemist,clinkz,lina,pudge,anti-mage,outworld-devourer,tinker
+2765064960,0,High,rubick,earthshaker,alchemist,phantom-assassin,zeus,slardar,tidehunter,shadow-fiend,pudge,slark
+2765064961,0,Very High,rubick,centaur-warrunner,morphling,luna,storm-spirit,slark,shadow-demon,invoker,venomancer,clockwerk
+2765064962,0,Normal,skywrath-mage,legion-commander,slardar,rubick,tinker,pudge,sven,natures-prophet,juggernaut,windranger
+2765064963,1,Normal,ogre-magi,pudge,lina,legion-commander,dragon-knight,chaos-knight,warlock,sniper,drow-ranger,kunkka
+2765064964,0,Normal,doom,legion-commander,sniper,sand-king,lion,invoker,drow-ranger,arc-warden,huskar,spectre
+2765064968,0,Very High,necrophos,juggernaut,riki,broodmother,tiny,luna,puck,spectre,legion-commander,centaur-warrunner
+2765064969,0,Normal,invoker,jakiro,kunkka,ember-spirit,meepo,earthshaker,queen-of-pain,phantom-assassin,troll-warlord,weaver
+2765064970,0,Normal,lion,phantom-assassin,slark,axe,pugna,batrider,rubick,invoker,timbersaw,sniper
+2765064972,0,Unknown,phantom-assassin,bristleback,dragon-knight,crystal-maiden,tinker,silencer,storm-spirit,morphling,vengeful-spirit,riki
+2765064973,1,Normal,bloodseeker,earthshaker,phantom-assassin,invoker,nyx-assassin,necrophos,sniper,pudge,crystal-maiden,clinkz
+2765064974,0,Normal,sven,keeper-of-the-light,storm-spirit,troll-warlord,enigma,phantom-assassin,venomancer,axe,jakiro,drow-ranger
+2765064975,0,Unknown,huskar,luna,sand-king,riki,slark,crystal-maiden,legion-commander,axe,shadow-shaman,sniper
+2765064976,0,Normal,batrider,ogre-magi,queen-of-pain,juggernaut,sand-king,wraith-king,tinker,silencer,axe,broodmother
+2765064977,1,Normal,axe,night-stalker,pudge,skywrath-mage,venomancer,spirit-breaker,anti-mage,drow-ranger,clockwerk,phantom-assassin
+2765064978,1,High,necrophos,dazzle,huskar,legion-commander,mirana,chen,wraith-king,bristleback,zeus,tusk
+2765064979,0,Normal,phantom-lancer,skywrath-mage,keeper-of-the-light,tinker,sven,phantom-assassin,death-prophet,ancient-apparition,riki,huskar
+2765064980,0,Normal,riki,legion-commander,pudge,axe,sven,phantom-assassin,enchantress,invoker,lina,tidehunter
+2765064981,1,Normal,legion-commander,earthshaker,clinkz,meepo,ember-spirit,crystal-maiden,death-prophet,tinker,lifestealer,luna
+2765064982,1,Normal,ember-spirit,bristleback,slark,ursa,medusa,juggernaut,riki,phantom-assassin,magnus,puck
+2765064983,0,Normal,drow-ranger,pudge,legion-commander,alchemist,terrorblade,slark,bane,juggernaut,lina,meepo
+2765064984,0,Normal,natures-prophet,bounty-hunter,phantom-assassin,magnus,sand-king,puck,luna,windranger,razor,wraith-king
+2765064999,0,Normal,slark,sniper,sand-king,ursa,legion-commander,spectre,phantom-lancer,wraith-king,axe,windranger
+2765065001,0,Unknown,queen-of-pain,bounty-hunter,huskar,anti-mage,phantom-assassin,storm-spirit,sven,riki,phantom-lancer,ogre-magi
+2765065005,0,Normal,pudge,phantom-assassin,riki,morphling,warlock,sniper,lifestealer,windranger,lion,tinker
+2765065006,0,Normal,lifestealer,natures-prophet,luna,mirana,spirit-breaker,sand-king,crystal-maiden,sniper,templar-assassin,legion-commander
+2765065007,1,Normal,huskar,tusk,spirit-breaker,lifestealer,bounty-hunter,bloodseeker,slark,wraith-king,sniper,windranger
+2765065008,0,Normal,pudge,slark,axe,winter-wyvern,lifestealer,lion,death-prophet,slardar,timbersaw,spectre
+2765065013,0,Normal,anti-mage,phantom-assassin,abaddon,wraith-king,mirana,morphling,warlock,invoker,phantom-lancer,enchantress
+2765065015,0,Normal,bristleback,witch-doctor,chaos-knight,io,ember-spirit,alchemist,tiny,silencer,earthshaker,luna
+2765065018,0,Normal,juggernaut,slark,venomancer,clockwerk,phantom-assassin,legion-commander,zeus,sniper,tidehunter,undying
+2765065020,1,Very High,huskar,skywrath-mage,axe,sven,puck,timbersaw,mirana,dazzle,shadow-demon,drow-ranger
+2765065034,1,Normal,anti-mage,clinkz,doom,disruptor,templar-assassin,dragon-knight,ogre-magi,legion-commander,bane,pudge
+2765065038,1,Normal,mirana,faceless-void,earthshaker,sven,weaver,legion-commander,juggernaut,necrophos,crystal-maiden,alchemist
+2765065041,1,Normal,pudge,natures-prophet,shadow-shaman,gyrocopter,clinkz,slardar,outworld-devourer,witch-doctor,disruptor,invoker
+2765065043,0,High,disruptor,clockwerk,phantom-assassin,alchemist,kunkka,mirana,skywrath-mage,morphling,tinker,doom
+2765065044,1,Normal,sniper,phantom-assassin,bristleback,mirana,weaver,legion-commander,viper,necrophos,timbersaw,juggernaut
+2765065046,0,Normal,techies,invoker,riki,anti-mage,pudge,outworld-devourer,necrophos,juggernaut,lion,bounty-hunter
+2765065050,0,Very High,invoker,bloodseeker,windranger,zeus,juggernaut,techies,drow-ranger,pudge,shadow-demon,slark
+2765065054,0,Normal,centaur-warrunner,undying,alchemist,huskar,lich,slark,phantom-assassin,sven,keeper-of-the-light,sniper
+2765065055,1,High,kunkka,silencer,legion-commander,storm-spirit,bounty-hunter,witch-doctor,outworld-devourer,ursa,medusa,rubick
+2765065056,0,High,ursa,earth-spirit,medusa,lion,mirana,anti-mage,bloodseeker,storm-spirit,timbersaw,treant-protector
+2765065057,1,Very High,lion,storm-spirit,medusa,pudge,faceless-void,luna,ogre-magi,enigma,mirana,bloodseeker
+2765065059,1,Normal,earthshaker,spirit-breaker,lina,axe,lifestealer,centaur-warrunner,luna,bane,phantom-assassin,shadow-shaman
+2765065060,0,Normal,phantom-assassin,dazzle,arc-warden,tinker,crystal-maiden,luna,ogre-magi,shadow-fiend,natures-prophet,timbersaw
+2765065082,0,High,bloodseeker,lion,sand-king,night-stalker,crystal-maiden,slark,riki,shadow-shaman,invoker,tidehunter
+2765065083,0,Normal,pudge,centaur-warrunner,spectre,clockwerk,ogre-magi,invoker,juggernaut,anti-mage,riki,ursa
+2765065084,0,High,sven,lina,shadow-demon,shadow-fiend,faceless-void,clinkz,legion-commander,tinker,ursa,witch-doctor
+2765065085,0,Normal,phantom-assassin,keeper-of-the-light,legion-commander,clockwerk,puck,anti-mage,kunkka,disruptor,zeus,riki
+2765065086,1,Normal,slardar,faceless-void,ember-spirit,lion,earthshaker,sniper,slark,juggernaut,axe,ogre-magi
+2765065088,0,Normal,troll-warlord,luna,meepo,phantom-assassin,techies,drow-ranger,omniknight,lifestealer,clinkz,ursa
+2765065089,1,Normal,clinkz,silencer,death-prophet,kunkka,faceless-void,bounty-hunter,sand-king,invoker,viper,chaos-knight
+2765065091,1,Very High,lina,ancient-apparition,rubick,spirit-breaker,juggernaut,wraith-king,slardar,disruptor,lion,tinker
+2765065092,1,Normal,slark,bloodseeker,silencer,weaver,dragon-knight,abaddon,riki,lifestealer,faceless-void,invoker
+2765065096,1,Normal,huskar,ursa,spectre,ogre-magi,drow-ranger,sven,earthshaker,kunkka,dark-seer,necrophos
+2765065109,0,Normal,phantom-assassin,slark,beastmaster,disruptor,sand-king,alchemist,sven,centaur-warrunner,wraith-king,techies
+2765065112,0,Very High,phoenix,bloodseeker,juggernaut,pudge,invoker,centaur-warrunner,huskar,lion,crystal-maiden,wraith-king
+2765065113,0,Very High,pudge,windranger,juggernaut,phantom-assassin,mirana,rubick,lone-druid,bane,bounty-hunter,slark
+2765065119,0,Normal,axe,phantom-assassin,clinkz,faceless-void,crystal-maiden,anti-mage,bloodseeker,sniper,invoker,kunkka
+2765065120,0,Very High,faceless-void,zeus,pudge,phantom-assassin,storm-spirit,centaur-warrunner,windranger,bloodseeker,lifestealer,lion
+2765065121,1,Normal,drow-ranger,pudge,phantom-assassin,mirana,tinker,lich,witch-doctor,enigma,sniper,riki
+2765065122,0,Normal,sniper,sven,windranger,drow-ranger,faceless-void,huskar,phantom-assassin,night-stalker,slark,broodmother
+2765065123,1,High,earthshaker,witch-doctor,drow-ranger,lina,legion-commander,windranger,rubick,undying,anti-mage,silencer
+2765065127,0,Normal,anti-mage,templar-assassin,silencer,legion-commander,sniper,lion,invoker,tusk,wraith-king,sven
+2765065129,0,High,kunkka,razor,nyx-assassin,juggernaut,centaur-warrunner,clockwerk,phantom-assassin,tinker,weaver,omniknight
+2765065137,1,Normal,templar-assassin,ogre-magi,earthshaker,luna,riki,dazzle,ursa,slardar,phantom-assassin,bristleback
+2765065155,1,Very High,morphling,ember-spirit,earthshaker,clockwerk,timbersaw,keeper-of-the-light,luna,legion-commander,necrophos,nyx-assassin
+2765065156,0,Normal,lion,juggernaut,riki,anti-mage,gyrocopter,invoker,rubick,phantom-assassin,vengeful-spirit,meepo
+2765065157,0,Unknown,zeus,mirana,drow-ranger,spectre,bounty-hunter,sven,riki,pudge,axe,puck
+2765065164,0,Normal,pudge,kunkka,ogre-magi,mirana,juggernaut,weaver,tusk,razor,riki,alchemist
+2765065165,1,High,medusa,legion-commander,nyx-assassin,shadow-fiend,undying,luna,earthshaker,lion,timbersaw,queen-of-pain
+2765065167,1,Normal,abaddon,magnus,windranger,drow-ranger,vengeful-spirit,centaur-warrunner,crystal-maiden,legion-commander,lion,storm-spirit
+2765065168,0,Normal,phantom-assassin,natures-prophet,outworld-devourer,pudge,nyx-assassin,lich,sniper,silencer,invoker,juggernaut
+2765065169,0,Normal,kunkka,witch-doctor,anti-mage,sven,outworld-devourer,wraith-king,lion,silencer,troll-warlord,viper
+2765065174,0,High,phantom-assassin,lion,natures-prophet,death-prophet,juggernaut,meepo,morphling,tidehunter,rubick,invoker
+2765065177,1,Normal,juggernaut,pudge,outworld-devourer,axe,mirana,morphling,wraith-king,batrider,riki,magnus
+2765065178,0,Normal,meepo,legion-commander,mirana,underlord,sniper,slark,omniknight,pudge,sand-king,spirit-breaker
+2765065179,0,Normal,storm-spirit,chen,wraith-king,earthshaker,natures-prophet,slardar,nyx-assassin,mirana,tinker,slark
+2765065181,0,Very High,winter-wyvern,templar-assassin,drow-ranger,morphling,ogre-magi,alchemist,sniper,faceless-void,pudge,warlock
+2765065182,0,Normal,juggernaut,invoker,mirana,pudge,vengeful-spirit,spirit-breaker,morphling,sven,slark,slardar
+2765065183,1,Normal,dark-seer,ogre-magi,pudge,medusa,morphling,ursa,crystal-maiden,outworld-devourer,drow-ranger,wraith-king
+2765065184,0,High,juggernaut,underlord,medusa,axe,slardar,phantom-assassin,nyx-assassin,oracle,phoenix,timbersaw
+2765065185,1,Very High,bristleback,shadow-shaman,dazzle,juggernaut,invoker,alchemist,ancient-apparition,slark,omniknight,axe
+2765065187,0,Normal,weaver,lina,alchemist,morphling,sniper,wraith-king,drow-ranger,sand-king,lion,phantom-assassin
+2765065188,0,Unknown,dazzle,drow-ranger,razor,viper,underlord,sniper,morphling,bloodseeker,tidehunter,mirana
+2765065191,0,Normal,storm-spirit,mirana,phantom-lancer,pudge,techies,timbersaw,riki,bounty-hunter,juggernaut,drow-ranger
+2765065192,0,Normal,meepo,bristleback,medusa,tidehunter,earthshaker,sand-king,pudge,windranger,sniper,bloodseeker
+2765065193,0,Normal,sven,silencer,lion,slardar,nyx-assassin,magnus,rubick,disruptor,pudge,phantom-assassin
+2765065195,1,Very High,tusk,leshrac,lich,terrorblade,pudge,sand-king,witch-doctor,razor,invoker,juggernaut
+2765065196,1,Very High,clinkz,sven,witch-doctor,bloodseeker,necrophos,doom,underlord,puck,keeper-of-the-light,anti-mage
+2765065197,0,Normal,spectre,phantom-assassin,omniknight,shadow-demon,bloodseeker,storm-spirit,earthshaker,sven,lycan,mirana
+2765065198,0,Very High,silencer,mirana,slark,rubick,sand-king,ursa,legion-commander,keeper-of-the-light,timbersaw,juggernaut
+2765065223,1,Normal,viper,undying,axe,slark,witch-doctor,slardar,silencer,riki,drow-ranger,faceless-void
+2765065225,0,Normal,mirana,spirit-breaker,morphling,wraith-king,juggernaut,crystal-maiden,legion-commander,templar-assassin,clockwerk,spectre
+2765065226,1,High,silencer,magnus,tinker,storm-spirit,sniper,timbersaw,invoker,phantom-assassin,ursa,nyx-assassin
+2765065228,0,High,phantom-assassin,meepo,mirana,enigma,sand-king,storm-spirit,magnus,legion-commander,rubick,juggernaut
+2765065229,1,Very High,wraith-king,magnus,brewmaster,io,clinkz,slark,storm-spirit,crystal-maiden,earthshaker,omniknight
+2765065230,1,Very High,lone-druid,ogre-magi,earth-spirit,phantom-assassin,shadow-shaman,razor,witch-doctor,queen-of-pain,lifestealer,pudge
+2765065231,0,Normal,riki,timbersaw,rubick,juggernaut,legion-commander,clinkz,invoker,sniper,axe,necrophos
+2765065233,0,Normal,earthshaker,spectre,rubick,storm-spirit,ursa,sniper,kunkka,winter-wyvern,morphling,axe
+2765065235,1,Normal,silencer,axe,earth-spirit,spectre,lina,slark,necrophos,juggernaut,bristleback,legion-commander
+2765065236,0,Normal,magnus,phantom-assassin,ancient-apparition,sand-king,tidehunter,legion-commander,dragon-knight,axe,spirit-breaker,sniper
+2765065238,1,Normal,bloodseeker,warlock,sniper,ursa,juggernaut,legion-commander,axe,drow-ranger,phantom-assassin,sven
+2765065250,1,Normal,dark-seer,bristleback,invoker,morphling,faceless-void,sniper,phantom-assassin,wraith-king,anti-mage,chaos-knight
+2765065252,1,Normal,arc-warden,vengeful-spirit,abaddon,juggernaut,kunkka,jakiro,nyx-assassin,medusa,templar-assassin,skywrath-mage
+2765065257,0,Normal,leshrac,sven,phantom-assassin,riki,lion,sand-king,broodmother,ogre-magi,juggernaut,ember-spirit
+2765065259,1,Normal,winter-wyvern,juggernaut,medusa,magnus,warlock,sven,ursa,invoker,slark,tinker
+2765065261,0,Normal,windranger,mirana,medusa,techies,legion-commander,nyx-assassin,lifestealer,pugna,phantom-lancer,zeus
+2765065262,1,Normal,silencer,legion-commander,slark,medusa,phantom-assassin,bristleback,keeper-of-the-light,pudge,sven,sniper
+2765065266,1,High,invoker,centaur-warrunner,sand-king,queen-of-pain,spectre,phantom-assassin,timbersaw,puck,pudge,ogre-magi
+2765065268,0,Normal,phantom-assassin,shadow-shaman,necrophos,invoker,nyx-assassin,sven,riki,slark,bounty-hunter,sand-king
+2765065284,0,Normal,sniper,leshrac,legion-commander,crystal-maiden,zeus,lycan,omniknight,phantom-assassin,storm-spirit,medusa
+2765065285,0,High,storm-spirit,sand-king,phantom-assassin,axe,warlock,invoker,silencer,slardar,clinkz,ogre-magi
+2765065286,0,Normal,juggernaut,meepo,earthshaker,crystal-maiden,outworld-devourer,shadow-fiend,rubick,slark,batrider,tiny
+2765065287,1,Unknown,sniper,centaur-warrunner,shadow-shaman,sven,rubick,huskar,faceless-void,phantom-assassin,axe,zeus
+2765065288,0,Normal,troll-warlord,sven,phantom-assassin,skywrath-mage,night-stalker,weaver,phantom-lancer,sniper,shadow-fiend,juggernaut
+2765065290,1,Very High,lifestealer,spirit-breaker,riki,slardar,zeus,kunkka,shadow-shaman,earth-spirit,sand-king,juggernaut
+2765065292,0,Normal,tiny,vengeful-spirit,ursa,phantom-lancer,spirit-breaker,lifestealer,phantom-assassin,invoker,axe,riki
+2765065293,0,Normal,lifestealer,legion-commander,queen-of-pain,sniper,mirana,axe,invoker,wraith-king,faceless-void,nyx-assassin
+2765065294,1,Normal,naga-siren,anti-mage,huskar,night-stalker,pudge,phantom-assassin,legion-commander,windranger,bristleback,riki
+2765065295,1,Normal,silencer,slark,drow-ranger,bounty-hunter,magnus,techies,sniper,riki,axe,necrophos
+2765065296,0,Very High,brewmaster,underlord,chaos-knight,crystal-maiden,slark,silencer,alchemist,spectre,ursa,abaddon
+2765065297,1,Normal,lina,necrophos,skywrath-mage,sven,shadow-fiend,ursa,spectre,templar-assassin,pugna,riki
+2765065299,1,Unknown,pugna,vengeful-spirit,venomancer,silencer,juggernaut,ursa,crystal-maiden,kunkka,slark,dazzle
+2765065300,0,Normal,pugna,ogre-magi,troll-warlord,pudge,storm-spirit,shadow-fiend,slark,invoker,sand-king,dazzle
+2765065301,0,Normal,omniknight,anti-mage,night-stalker,shadow-shaman,mirana,invoker,ogre-magi,phantom-assassin,dazzle,nyx-assassin
+2765065302,0,Normal,clinkz,zeus,medusa,kunkka,abaddon,magnus,lich,bloodseeker,invoker,mirana
+2765065304,0,Normal,invoker,mirana,juggernaut,dazzle,legion-commander,pudge,bristleback,lion,naga-siren,spectre
+2765065305,0,Normal,axe,vengeful-spirit,sniper,phantom-assassin,terrorblade,sven,bloodseeker,chen,weaver,pudge
+2765065306,0,Normal,meepo,crystal-maiden,spectre,luna,lich,sand-king,lina,wraith-king,clinkz,phantom-assassin
+2765065308,0,Unknown,techies,legion-commander,pudge,ursa,juggernaut,luna,ogre-magi,riki,bloodseeker,invoker
+2765065309,0,Normal,disruptor,tidehunter,juggernaut,legion-commander,ember-spirit,phantom-assassin,spectre,chen,silencer,pudge
+2765065311,0,High,spirit-breaker,phantom-assassin,shadow-fiend,invoker,pudge,natures-prophet,zeus,drow-ranger,riki,vengeful-spirit
+2765065312,0,Very High,storm-spirit,mirana,zeus,axe,riki,bounty-hunter,juggernaut,pudge,windranger,vengeful-spirit
+2765065330,1,Normal,dazzle,sven,legion-commander,drow-ranger,magnus,templar-assassin,huskar,juggernaut,mirana,bane
+2765065331,1,Normal,phantom-assassin,storm-spirit,alchemist,faceless-void,silencer,crystal-maiden,omniknight,legion-commander,night-stalker,luna
+2765065332,1,Normal,invoker,storm-spirit,lion,faceless-void,axe,silencer,ancient-apparition,juggernaut,phantom-assassin,luna
+2765065334,1,High,wraith-king,zeus,nyx-assassin,meepo,juggernaut,omniknight,mirana,ember-spirit,anti-mage,slark
+2765065341,1,Normal,venomancer,bloodseeker,clockwerk,shadow-fiend,phantom-lancer,shadow-shaman,alchemist,juggernaut,omniknight,phantom-assassin
+2765065342,0,Normal,sniper,tidehunter,riki,keeper-of-the-light,medusa,beastmaster,sand-king,shadow-shaman,drow-ranger,ursa
+2765065343,0,Normal,bristleback,leshrac,tiny,shadow-demon,phantom-assassin,rubick,legion-commander,windranger,storm-spirit,abaddon
+2765065344,0,Normal,necrophos,huskar,lich,tiny,lycan,natures-prophet,warlock,shadow-demon,riki,bounty-hunter
+2765065346,1,Normal,slark,nyx-assassin,luna,ogre-magi,invoker,morphling,shadow-shaman,faceless-void,spirit-breaker,meepo
+2765065348,1,Unknown,tinker,phantom-assassin,ogre-magi,troll-warlord,ursa,sven,juggernaut,medusa,legion-commander,axe
+2765065352,1,Normal,silencer,anti-mage,bane,phantom-assassin,magnus,luna,venomancer,lina,axe,storm-spirit
+2765065353,0,High,abaddon,anti-mage,slark,lion,shadow-fiend,sniper,sven,night-stalker,faceless-void,necrophos
+2765065355,0,Normal,slardar,lion,morphling,shadow-fiend,juggernaut,wraith-king,riki,pudge,mirana,slark
+2765065373,0,Normal,windranger,sand-king,shadow-shaman,spectre,lion,bloodseeker,phantom-assassin,sniper,pudge,io
+2765065375,0,Very High,bloodseeker,invoker,pudge,sniper,riki,faceless-void,venomancer,shadow-fiend,oracle,luna
+2765065377,0,Normal,crystal-maiden,wraith-king,centaur-warrunner,tiny,earthshaker,kunkka,juggernaut,slark,legion-commander,pudge
+2765065378,0,Normal,morphling,bounty-hunter,skywrath-mage,shadow-fiend,centaur-warrunner,underlord,mirana,elder-titan,necrophos,drow-ranger
+2765065379,1,Unknown,drow-ranger,lich,zeus,legion-commander,bounty-hunter,lion,tusk,storm-spirit,clinkz,naga-siren
+2765065380,0,Normal,chaos-knight,tinker,outworld-devourer,treant-protector,sniper,anti-mage,slark,riki,viper,silencer
+2765065382,1,Normal,pudge,morphling,slark,death-prophet,bounty-hunter,timbersaw,disruptor,juggernaut,legion-commander,mirana
+2765065383,0,Normal,jakiro,sven,invoker,pudge,phantom-assassin,juggernaut,omniknight,wraith-king,storm-spirit,kunkka
+2765065385,0,Normal,drow-ranger,sand-king,undying,weaver,lich,io,bloodseeker,templar-assassin,clinkz,zeus
+2765065388,0,Normal,morphling,ogre-magi,techies,clinkz,drow-ranger,lone-druid,nyx-assassin,slardar,tiny,wraith-king
+2765065389,1,High,earthshaker,faceless-void,drow-ranger,invoker,axe,meepo,disruptor,phantom-assassin,morphling,sand-king
+2765065392,1,Normal,riki,sniper,leshrac,zeus,medusa,windranger,faceless-void,spectre,ogre-magi,arc-warden
+2765065393,0,Normal,bristleback,venomancer,outworld-devourer,sven,spirit-breaker,invoker,disruptor,juggernaut,drow-ranger,ursa
+2765065406,0,Normal,disruptor,tusk,spectre,tiny,legion-commander,magnus,sniper,zeus,phantom-lancer,bristleback
+2765065407,1,High,spirit-breaker,sniper,juggernaut,pudge,queen-of-pain,crystal-maiden,wraith-king,huskar,nyx-assassin,natures-prophet
+2765065409,1,High,legion-commander,phantom-assassin,sniper,disruptor,faceless-void,slark,earthshaker,dark-seer,shadow-shaman,juggernaut
+2765065412,0,Normal,shadow-demon,phoenix,meepo,viper,juggernaut,clockwerk,phantom-assassin,riki,silencer,alchemist
+2765065413,0,Normal,pudge,crystal-maiden,phantom-assassin,riki,storm-spirit,queen-of-pain,anti-mage,lone-druid,magnus,abaddon
+2765065414,0,Normal,sand-king,phantom-assassin,templar-assassin,dark-seer,mirana,rubick,drow-ranger,huskar,silencer,medusa
+2765065415,0,High,luna,sniper,silencer,legion-commander,slardar,treant-protector,storm-spirit,lion,juggernaut,weaver
+2765065416,1,Normal,puck,silencer,invoker,lina,anti-mage,zeus,phantom-assassin,ursa,sniper,alchemist
+2765065422,0,Normal,troll-warlord,silencer,ursa,kunkka,witch-doctor,clinkz,luna,pudge,invoker,dazzle
+2765065424,0,High,omniknight,legion-commander,centaur-warrunner,medusa,sand-king,mirana,riki,outworld-devourer,rubick,slark
+2765065440,1,Normal,bloodseeker,faceless-void,riki,troll-warlord,phantom-assassin,lion,invoker,shadow-fiend,spirit-breaker,clockwerk
+2765065442,1,Normal,faceless-void,invoker,viper,drow-ranger,kunkka,windranger,phantom-assassin,sven,lion,juggernaut
+2765065444,1,Unknown,rubick,anti-mage,windranger,tiny,mirana,juggernaut,bane,phantom-lancer,invoker,treant-protector
+2765065445,0,Normal,weaver,lifestealer,bounty-hunter,silencer,techies,phantom-assassin,sniper,magnus,sven,kunkka
+2765065446,0,High,natures-prophet,bristleback,drow-ranger,pudge,necrophos,juggernaut,beastmaster,vengeful-spirit,tinker,sniper
+2765065447,0,Normal,zeus,phantom-assassin,pugna,natures-prophet,wraith-king,clockwerk,witch-doctor,troll-warlord,invoker,riki
+2765065449,1,High,vengeful-spirit,necrophos,juggernaut,invoker,natures-prophet,meepo,sven,crystal-maiden,pudge,axe
+2765065450,0,Very High,alchemist,storm-spirit,anti-mage,mirana,pudge,juggernaut,bounty-hunter,shadow-shaman,underlord,sand-king
+2765065451,1,Normal,luna,clockwerk,sniper,faceless-void,dazzle,templar-assassin,drow-ranger,axe,kunkka,mirana
+2765065453,0,Normal,mirana,sven,crystal-maiden,enigma,clinkz,phantom-assassin,bloodseeker,ogre-magi,riki,shadow-fiend
+2765065454,1,High,legion-commander,kunkka,rubick,ember-spirit,mirana,silencer,juggernaut,lion,drow-ranger,spectre
+2765065472,1,Very High,earth-spirit,invoker,keeper-of-the-light,legion-commander,centaur-warrunner,pudge,puck,juggernaut,bounty-hunter,timbersaw
+2765065476,0,Normal,riki,ember-spirit,legion-commander,night-stalker,bloodseeker,phantom-lancer,alchemist,doom,chaos-knight,lich
+2765065480,1,Normal,omniknight,natures-prophet,morphling,pudge,lifestealer,clockwerk,bristleback,rubick,centaur-warrunner,magnus
+2765065482,1,Normal,sand-king,shadow-shaman,nyx-assassin,skywrath-mage,sniper,troll-warlord,terrorblade,slark,magnus,legion-commander
+2765065483,1,Normal,juggernaut,death-prophet,riki,bloodseeker,nyx-assassin,necrophos,legion-commander,slark,mirana,clinkz
+2765065488,0,Normal,earthshaker,windranger,techies,lich,bloodseeker,riki,kunkka,phantom-assassin,juggernaut,crystal-maiden
+2765065489,0,Normal,slark,razor,spectre,silencer,shadow-shaman,underlord,weaver,arc-warden,witch-doctor,naga-siren
+2765065491,1,Normal,zeus,drow-ranger,pugna,sand-king,brewmaster,ursa,sniper,night-stalker,invoker,crystal-maiden
+2765065492,0,Normal,phantom-assassin,tiny,pudge,bristleback,lion,windranger,faceless-void,storm-spirit,weaver,slark
+2765065502,1,Normal,earth-spirit,slark,axe,riki,vengeful-spirit,lion,shadow-shaman,drow-ranger,huskar,chaos-knight
+2765065503,1,Unknown,enigma,razor,crystal-maiden,earthshaker,templar-assassin,invoker,phantom-assassin,slardar,dazzle,anti-mage
+2765065504,0,Normal,sniper,templar-assassin,ursa,earthshaker,timbersaw,bloodseeker,wraith-king,mirana,sand-king,nyx-assassin
+2765065505,1,Normal,beastmaster,enchantress,ember-spirit,natures-prophet,ursa,storm-spirit,bounty-hunter,slardar,undying,gyrocopter
+2765065507,0,High,pudge,silencer,meepo,juggernaut,sniper,lina,spectre,mirana,phantom-assassin,riki
+2765065512,0,Normal,pudge,slark,drow-ranger,ogre-magi,necrophos,troll-warlord,morphling,warlock,crystal-maiden,lion
+2765065513,1,Normal,pudge,undying,storm-spirit,slark,medusa,dragon-knight,crystal-maiden,beastmaster,clinkz,shadow-shaman
+2765065530,0,High,ancient-apparition,morphling,juggernaut,omniknight,sniper,silencer,earthshaker,enigma,phantom-assassin,clinkz
+2765065531,1,Unknown,spirit-breaker,lifestealer,slardar,jakiro,mirana,witch-doctor,ursa,shadow-fiend,dazzle,axe
+2765065532,0,Normal,legion-commander,tinker,clockwerk,kunkka,luna,sand-king,faceless-void,magnus,zeus,drow-ranger
+2765065533,0,Normal,mirana,slark,omniknight,phantom-assassin,luna,puck,spirit-breaker,bloodseeker,pudge,legion-commander
+2765065536,1,Normal,windranger,night-stalker,slardar,drow-ranger,invoker,alchemist,clockwerk,spirit-breaker,natures-prophet,phantom-assassin
+2765065538,1,Very High,tinker,winter-wyvern,drow-ranger,windranger,sand-king,necrophos,axe,rubick,storm-spirit,razor
+2765065539,1,High,windranger,axe,slark,rubick,pudge,razor,mirana,phantom-assassin,bloodseeker,invoker
+2765065542,0,Normal,pudge,viper,shadow-demon,drow-ranger,luna,outworld-devourer,spectre,doom,necrophos,batrider
+2765065546,1,High,windranger,tinker,faceless-void,clinkz,venomancer,sniper,mirana,earthshaker,pudge,anti-mage
+2765065551,0,High,anti-mage,pudge,riki,shadow-fiend,slardar,bounty-hunter,legion-commander,sven,mirana,magnus
+2765065583,1,Very High,invoker,night-stalker,witch-doctor,wraith-king,ursa,slark,earth-spirit,lion,silencer,faceless-void
+2765065584,1,Normal,timbersaw,lina,tusk,viper,morphling,juggernaut,lion,legion-commander,windranger,earthshaker
+2765065585,1,Normal,disruptor,ursa,dragon-knight,juggernaut,sniper,phantom-assassin,bloodseeker,meepo,crystal-maiden,lina
+2765065586,1,Normal,juggernaut,vengeful-spirit,slardar,lich,beastmaster,batrider,venomancer,sven,silencer,centaur-warrunner
+2765065588,1,Normal,weaver,treant-protector,omniknight,clinkz,axe,legion-commander,riki,wraith-king,invoker,slark
+2765065589,1,High,natures-prophet,outworld-devourer,dark-seer,ogre-magi,sniper,lifestealer,ember-spirit,mirana,axe,pugna
+2765065591,1,Normal,naga-siren,jakiro,tinker,kunkka,ogre-magi,disruptor,spirit-breaker,lifestealer,shadow-fiend,timbersaw
+2765065592,0,Normal,legion-commander,doom,silencer,slardar,vengeful-spirit,rubick,abaddon,invoker,juggernaut,magnus
+2765065593,1,Very High,windranger,dragon-knight,silencer,necrophos,kunkka,huskar,jakiro,riki,anti-mage,timbersaw
+2765065594,1,Unknown,pudge,slark,weaver,beastmaster,drow-ranger,phantom-assassin,abaddon,riki,legion-commander,lifestealer
+2765065595,0,Normal,legion-commander,omniknight,phantom-assassin,lina,anti-mage,mirana,invoker,bristleback,tiny,bloodseeker
+2765065596,1,Normal,phantom-assassin,lich,tiny,drow-ranger,chaos-knight,oracle,bounty-hunter,sven,wraith-king,puck
+2765065599,0,Normal,sven,pudge,invoker,wraith-king,crystal-maiden,shadow-shaman,juggernaut,medusa,tinker,earthshaker
+2765065601,0,Unknown,rubick,phantom-assassin,tiny,pudge,troll-warlord,windranger,anti-mage,ogre-magi,alchemist,legion-commander
+2765065603,0,Normal,riki,alchemist,phantom-assassin,sniper,ursa,lina,bloodseeker,night-stalker,pugna,anti-mage
+2765065622,0,High,clockwerk,riki,oracle,storm-spirit,sven,nyx-assassin,juggernaut,disruptor,shadow-fiend,mirana
+2765065625,1,Normal,lion,weaver,gyrocopter,luna,faceless-void,witch-doctor,spirit-breaker,warlock,pudge,anti-mage
+2765065626,1,Normal,legion-commander,sniper,elder-titan,shadow-demon,morphling,mirana,phantom-assassin,invoker,anti-mage,vengeful-spirit
+2765065628,0,Normal,windranger,winter-wyvern,legion-commander,medusa,skywrath-mage,rubick,faceless-void,invoker,phantom-assassin,sven
+2765065629,1,Normal,troll-warlord,invoker,slark,lion,broodmother,luna,io,sven,anti-mage,weaver
+2765065630,1,Unknown,puck,abaddon,riki,earthshaker,invoker,pudge,rubick,slark,sven,terrorblade
+2765065631,0,Very High,crystal-maiden,arc-warden,phantom-assassin,wraith-king,naga-siren,windranger,keeper-of-the-light,pudge,ursa,storm-spirit
+2765065633,0,Normal,tiny,witch-doctor,treant-protector,phantom-assassin,wraith-king,dark-seer,legion-commander,abaddon,tinker,necrophos
+2765065636,1,Normal,chaos-knight,sniper,abaddon,centaur-warrunner,troll-warlord,leshrac,pudge,slark,axe,zeus
+2765065638,0,High,ancient-apparition,alchemist,clockwerk,underlord,slark,enigma,ursa,necrophos,morphling,riki
+2765065639,1,Normal,dazzle,gyrocopter,medusa,disruptor,sven,lina,riki,lich,clockwerk,slark
+2765065640,0,High,bounty-hunter,luna,ursa,lifestealer,storm-spirit,enigma,templar-assassin,rubick,nyx-assassin,viper
+2765065641,0,Normal,ursa,dragon-knight,drow-ranger,pugna,bounty-hunter,lifestealer,nyx-assassin,sand-king,pudge,bristleback
+2765065643,0,Normal,outworld-devourer,slark,enigma,medusa,drow-ranger,anti-mage,phantom-lancer,bounty-hunter,lina,axe
+2765065644,1,High,outworld-devourer,troll-warlord,dazzle,nyx-assassin,slark,crystal-maiden,huskar,natures-prophet,invoker,silencer
+2765065645,1,Normal,earthshaker,troll-warlord,axe,invoker,sniper,phantom-lancer,storm-spirit,legion-commander,dragon-knight,jakiro
+2765065663,0,Normal,legion-commander,crystal-maiden,invoker,slardar,shadow-demon,lifestealer,windranger,arc-warden,sven,spectre
+2765065665,0,Normal,riki,alchemist,pudge,dazzle,tiny,sniper,shadow-shaman,phantom-lancer,doom,bristleback
+2765065668,1,Normal,windranger,rubick,slark,omniknight,bristleback,crystal-maiden,storm-spirit,juggernaut,sand-king,timbersaw
+2765065669,1,Normal,keeper-of-the-light,anti-mage,legion-commander,meepo,spirit-breaker,clockwerk,weaver,jakiro,drow-ranger,medusa
+2765065671,1,Normal,legion-commander,kunkka,winter-wyvern,alchemist,huskar,troll-warlord,ogre-magi,oracle,phantom-assassin,rubick
+2765065672,0,High,lifestealer,necrophos,zeus,sand-king,shadow-shaman,mirana,morphling,witch-doctor,phantom-assassin,bloodseeker
+2765065673,0,Normal,viper,sniper,invoker,spirit-breaker,phantom-assassin,legion-commander,lifestealer,troll-warlord,anti-mage,necrophos
+2765065674,1,Normal,earthshaker,pudge,drow-ranger,bristleback,lone-druid,troll-warlord,weaver,crystal-maiden,spirit-breaker,mirana
+2765065675,1,Normal,anti-mage,batrider,luna,dazzle,morphling,riki,mirana,drow-ranger,treant-protector,zeus
+2765065677,0,Unknown,lifestealer,storm-spirit,shadow-shaman,pudge,legion-commander,spirit-breaker,zeus,clinkz,slark,bounty-hunter
+2765065678,1,Normal,clinkz,pudge,magnus,phantom-lancer,shadow-fiend,drow-ranger,clockwerk,lion,sniper,troll-warlord
+2765065679,0,High,skywrath-mage,meepo,mirana,lifestealer,anti-mage,medusa,tusk,slardar,sand-king,pudge
+2765065681,1,Normal,witch-doctor,shadow-fiend,bloodseeker,bounty-hunter,faceless-void,clinkz,treant-protector,ogre-magi,bane,pudge
+2765065682,1,Normal,templar-assassin,dragon-knight,tidehunter,enchantress,bristleback,phantom-assassin,mirana,lifestealer,legion-commander,centaur-warrunner
+2765065684,0,Normal,omniknight,windranger,weaver,crystal-maiden,ursa,axe,phantom-assassin,underlord,luna,sniper
+2765065685,0,Normal,ogre-magi,bloodseeker,death-prophet,spectre,axe,juggernaut,anti-mage,shadow-shaman,queen-of-pain,enchantress
+2765065686,1,Normal,windranger,medusa,legion-commander,earthshaker,bloodseeker,dragon-knight,phantom-assassin,alchemist,omniknight,juggernaut
+2765065687,1,Normal,natures-prophet,queen-of-pain,tiny,chaos-knight,sven,phantom-assassin,wraith-king,axe,lich,enigma
+2765065700,1,Normal,earthshaker,luna,tinker,vengeful-spirit,tidehunter,juggernaut,axe,sniper,disruptor,legion-commander
+2765065703,0,Normal,morphling,anti-mage,spectre,abaddon,alchemist,keeper-of-the-light,luna,nyx-assassin,silencer,slark
+2765065706,1,Normal,invoker,slardar,ogre-magi,drow-ranger,faceless-void,lycan,pudge,keeper-of-the-light,phantom-assassin,riki
+2765065707,0,Very High,clockwerk,centaur-warrunner,timbersaw,dazzle,morphling,pudge,axe,warlock,mirana,phantom-assassin
+2765065711,1,Unknown,bristleback,medusa,razor,necrophos,morphling,riki,slark,phantom-assassin,faceless-void,anti-mage
+2765065714,0,Normal,slark,legion-commander,anti-mage,lion,earthshaker,spectre,tinker,rubick,meepo,wraith-king
+2765065715,0,Very High,sniper,drow-ranger,keeper-of-the-light,spirit-breaker,pudge,lion,slark,queen-of-pain,bounty-hunter,tidehunter
+2765065716,1,Normal,spirit-breaker,storm-spirit,faceless-void,lifestealer,bristleback,bloodseeker,wraith-king,slark,ogre-magi,pudge
+2765065717,1,High,storm-spirit,nyx-assassin,riki,vengeful-spirit,drow-ranger,underlord,skywrath-mage,oracle,anti-mage,ember-spirit
+2765065718,0,High,earthshaker,spectre,invoker,axe,mirana,medusa,bounty-hunter,clockwerk,legion-commander,slark
+2765065720,0,Normal,clockwerk,outworld-devourer,slark,axe,skywrath-mage,luna,tiny,bloodseeker,pudge,sand-king
+2765065722,1,Very High,drow-ranger,kunkka,mirana,slark,venomancer,disruptor,templar-assassin,outworld-devourer,sand-king,spectre
+2765065725,1,Normal,slark,earthshaker,templar-assassin,mirana,bloodseeker,oracle,lina,underlord,spectre,pudge
+2765065726,1,Normal,ursa,witch-doctor,techies,lion,kunkka,silencer,mirana,legion-commander,crystal-maiden,clinkz
+2765065727,1,Normal,phantom-assassin,medusa,huskar,slark,axe,bristleback,wraith-king,anti-mage,sven,riki
+2765065728,1,Very High,axe,rubick,lion,leshrac,outworld-devourer,magnus,sven,puck,omniknight,winter-wyvern
+2765065746,1,High,mirana,legion-commander,sniper,storm-spirit,timbersaw,invoker,alchemist,faceless-void,wraith-king,slark
+2765065749,0,Unknown,riki,naga-siren,slark,phantom-assassin,omniknight,zeus,legion-commander,faceless-void,drow-ranger,ursa
+2765065751,0,Normal,pudge,slardar,chen,phantom-assassin,anti-mage,abaddon,silencer,clinkz,invoker,medusa
+2765065754,0,Normal,viper,bounty-hunter,huskar,enchantress,chaos-knight,ancient-apparition,timbersaw,phantom-lancer,templar-assassin,sniper
+2765065761,1,Normal,phantom-assassin,outworld-devourer,omniknight,slardar,weaver,bane,meepo,crystal-maiden,slark,underlord
+2765065763,1,Normal,mirana,windranger,natures-prophet,axe,invoker,phantom-assassin,tinker,tusk,omniknight,spirit-breaker
+2765065765,1,Very High,drow-ranger,crystal-maiden,viper,oracle,faceless-void,pudge,shadow-demon,centaur-warrunner,luna,lich
+2765065768,0,Normal,mirana,timbersaw,invoker,phantom-assassin,lich,bane,anti-mage,nyx-assassin,zeus,tidehunter
+2765065772,0,Normal,pudge,troll-warlord,luna,chaos-knight,rubick,phantom-assassin,invoker,jakiro,storm-spirit,axe
+2765065773,0,Normal,magnus,earthshaker,sven,batrider,treant-protector,juggernaut,riki,troll-warlord,phantom-lancer,phantom-assassin
+2765065774,1,Normal,timbersaw,ember-spirit,disruptor,silencer,sniper,bristleback,phantom-assassin,slardar,lycan,medusa
+2765065776,0,Very High,phoenix,nyx-assassin,pudge,puck,anti-mage,storm-spirit,mirana,clockwerk,spectre,riki
+2765065777,0,Normal,death-prophet,rubick,warlock,juggernaut,faceless-void,tiny,lion,sven,silencer,magnus
+2765065790,0,High,legion-commander,pudge,sand-king,mirana,lifestealer,night-stalker,centaur-warrunner,outworld-devourer,jakiro,dazzle
+2765065791,0,High,juggernaut,invoker,weaver,legion-commander,mirana,phantom-lancer,wraith-king,lich,elder-titan,queen-of-pain
+2765065792,0,Very High,venomancer,anti-mage,natures-prophet,slark,zeus,shadow-shaman,legion-commander,spectre,drow-ranger,puck
+2765065795,1,Normal,bounty-hunter,storm-spirit,zeus,timbersaw,wraith-king,undying,anti-mage,huskar,riki,phantom-assassin
+2765065797,0,Normal,lion,vengeful-spirit,slardar,legion-commander,spirit-breaker,enchantress,riki,phantom-lancer,axe,lina
+2765065798,0,Normal,dark-seer,phantom-assassin,nyx-assassin,puck,axe,troll-warlord,disruptor,necrophos,sniper,huskar
+2765065799,1,Normal,dark-seer,legion-commander,sniper,sand-king,slardar,phantom-lancer,ancient-apparition,dragon-knight,witch-doctor,bloodseeker
+2765065802,0,Normal,juggernaut,shadow-fiend,ogre-magi,jakiro,slardar,slark,abaddon,dragon-knight,keeper-of-the-light,drow-ranger
+2765065803,0,Normal,mirana,axe,invoker,wraith-king,witch-doctor,drow-ranger,spectre,lion,tinker,anti-mage
+2765065804,0,Normal,bristleback,spirit-breaker,terrorblade,bloodseeker,pudge,phantom-assassin,viper,troll-warlord,crystal-maiden,drow-ranger
+2765065805,1,Unknown,invoker,slark,sven,mirana,troll-warlord,pudge,phantom-assassin,necrophos,huskar,axe
+2765065806,1,Unknown,pudge,kunkka,ember-spirit,silencer,slark,bristleback,spirit-breaker,sven,windranger,invoker
+2765065810,1,Normal,juggernaut,slardar,treant-protector,razor,riki,abaddon,ogre-magi,beastmaster,drow-ranger,shadow-fiend
+2765065812,0,Very High,necrophos,viper,axe,ancient-apparition,morphling,storm-spirit,disruptor,juggernaut,phantom-assassin,pudge
+2765065829,1,Unknown,spirit-breaker,pudge,phantom-assassin,bloodseeker,storm-spirit,phantom-lancer,timbersaw,sven,mirana,chaos-knight
+2765065831,0,Normal,axe,dragon-knight,rubick,sniper,centaur-warrunner,medusa,shadow-demon,mirana,drow-ranger,legion-commander
+2765065832,1,High,zeus,shadow-fiend,phantom-assassin,wraith-king,venomancer,death-prophet,lion,mirana,juggernaut,storm-spirit
+2765065833,0,Normal,pudge,death-prophet,omniknight,ursa,shadow-fiend,outworld-devourer,riki,lifestealer,kunkka,bloodseeker
+2765065834,0,Normal,templar-assassin,omniknight,sven,leshrac,enchantress,slark,mirana,bane,visage,slardar
+2765065836,0,Normal,lich,slark,invoker,anti-mage,pudge,storm-spirit,winter-wyvern,juggernaut,witch-doctor,legion-commander
+2765065839,0,Normal,drow-ranger,vengeful-spirit,lion,morphling,naga-siren,disruptor,spectre,legion-commander,kunkka,bane
+2765065841,0,Normal,ogre-magi,timbersaw,oracle,axe,sniper,spirit-breaker,bloodseeker,phantom-assassin,bounty-hunter,dark-seer
+2765065846,1,Normal,spectre,razor,shadow-fiend,clockwerk,necrophos,dazzle,phantom-assassin,zeus,invoker,pudge
+2765065849,1,Normal,storm-spirit,axe,bloodseeker,vengeful-spirit,tiny,mirana,bounty-hunter,venomancer,juggernaut,viper
+2765065850,1,Unknown,templar-assassin,dazzle,clinkz,axe,timbersaw,omniknight,slark,riki,necrophos,legion-commander
+2765065870,1,High,slark,pudge,clockwerk,earth-spirit,storm-spirit,elder-titan,spectre,silencer,bloodseeker,mirana
+2765065876,0,Normal,sven,treant-protector,crystal-maiden,bloodseeker,windranger,zeus,slardar,drow-ranger,arc-warden,slark
+2765065878,0,Normal,necrophos,lion,sven,invoker,spirit-breaker,slark,pudge,legion-commander,mirana,anti-mage
+2765065879,0,Normal,witch-doctor,wraith-king,mirana,pudge,spectre,keeper-of-the-light,drow-ranger,troll-warlord,legion-commander,juggernaut
+2765065880,1,High,invoker,disruptor,beastmaster,legion-commander,slark,silencer,gyrocopter,omniknight,pudge,alchemist
+2765065881,0,Normal,phantom-assassin,bristleback,puck,zeus,wraith-king,pudge,anti-mage,riki,slark,invoker
+2765065882,1,Normal,windranger,bristleback,sven,undying,phantom-assassin,invoker,sniper,death-prophet,luna,clinkz
+2765065889,0,Normal,phantom-assassin,pudge,mirana,anti-mage,rubick,zeus,huskar,silencer,magnus,juggernaut
+2765065890,0,Unknown,ancient-apparition,axe,bloodseeker,bounty-hunter,legion-commander,terrorblade,mirana,phantom-assassin,outworld-devourer,wraith-king
+2765065891,0,Normal,phantom-assassin,bounty-hunter,sand-king,sven,riki,meepo,queen-of-pain,ursa,bloodseeker,sniper
+2765065897,1,Normal,clinkz,slardar,riki,death-prophet,weaver,sniper,venomancer,sand-king,vengeful-spirit,phantom-assassin
+2765065899,1,Normal,sniper,templar-assassin,riki,bristleback,night-stalker,slardar,razor,venomancer,mirana,slark
+2765065901,1,Normal,sven,lina,queen-of-pain,bloodseeker,timbersaw,night-stalker,phantom-assassin,kunkka,witch-doctor,spectre
+2765065902,0,Very High,lifestealer,mirana,pudge,axe,shadow-fiend,jakiro,abaddon,invoker,tidehunter,slark
+2765065925,0,Normal,mirana,slardar,ursa,morphling,vengeful-spirit,lich,medusa,bloodseeker,pudge,storm-spirit
+2765065926,1,Normal,pudge,invoker,necrophos,undying,bloodseeker,riki,lifestealer,axe,lich,outworld-devourer
+2765065930,0,Normal,invoker,chaos-knight,mirana,legion-commander,earthshaker,clockwerk,wraith-king,phantom-lancer,bloodseeker,axe
+2765065932,1,Normal,slark,phantom-assassin,bloodseeker,undying,keeper-of-the-light,spectre,anti-mage,wraith-king,silencer,pudge
+2765065934,0,Very High,pudge,tinker,centaur-warrunner,medusa,tidehunter,dazzle,storm-spirit,juggernaut,mirana,faceless-void
+2765065936,0,Unknown,windranger,phantom-assassin,enigma,bristleback,zeus,treant-protector,riki,spirit-breaker,bounty-hunter,crystal-maiden
+2765065940,0,Normal,bristleback,ogre-magi,faceless-void,shadow-shaman,sand-king,pudge,tidehunter,ursa,lion,spectre
+2765065941,0,Normal,wraith-king,lich,alchemist,juggernaut,ogre-magi,ursa,warlock,crystal-maiden,anti-mage,invoker
+2765065952,1,Very High,natures-prophet,oracle,lifestealer,storm-spirit,clinkz,juggernaut,tinker,legion-commander,axe,rubick
+2765065955,0,Very High,mirana,faceless-void,huskar,pudge,luna,timbersaw,dazzle,spirit-breaker,jakiro,slark
+2765065958,1,High,axe,nyx-assassin,huskar,shadow-shaman,natures-prophet,kunkka,keeper-of-the-light,pudge,sniper,slardar
+2765065959,0,Normal,puck,riki,necrophos,rubick,lifestealer,legion-commander,razor,sand-king,crystal-maiden,spirit-breaker
+2765065960,0,Normal,weaver,phantom-assassin,invoker,timbersaw,necrophos,sniper,bloodseeker,clinkz,lina,ember-spirit
+2765065961,0,Normal,phantom-assassin,morphling,lina,wraith-king,shadow-shaman,invoker,tusk,shadow-fiend,lifestealer,anti-mage
+2765065962,1,Normal,axe,wraith-king,bloodseeker,huskar,shadow-fiend,keeper-of-the-light,phantom-assassin,pudge,medusa,meepo
+2765065963,0,Normal,brewmaster,tidehunter,clinkz,riki,bristleback,ember-spirit,leshrac,zeus,bounty-hunter,faceless-void
+2765065965,1,Normal,bounty-hunter,phantom-assassin,clockwerk,night-stalker,storm-spirit,invoker,luna,bloodseeker,magnus,viper
+2765065966,0,Normal,slark,pudge,ancient-apparition,morphling,bounty-hunter,phantom-assassin,faceless-void,legion-commander,dragon-knight,kunkka
+2765065967,1,Normal,legion-commander,storm-spirit,slark,riki,wraith-king,invoker,zeus,sniper,phantom-assassin,tiny
+2765065988,1,Very High,kunkka,sand-king,pudge,medusa,venomancer,mirana,undying,rubick,silencer,huskar
+2765065989,0,High,omniknight,timbersaw,magnus,phantom-assassin,enigma,lifestealer,witch-doctor,templar-assassin,juggernaut,rubick
+2765065990,1,High,luna,crystal-maiden,invoker,bristleback,shadow-demon,phantom-assassin,beastmaster,weaver,storm-spirit,keeper-of-the-light
+2765065994,0,Normal,huskar,shadow-shaman,earthshaker,lifestealer,doom,broodmother,pudge,drow-ranger,shadow-fiend,witch-doctor
+2765065996,0,High,slark,queen-of-pain,clinkz,earth-spirit,silencer,weaver,earthshaker,drow-ranger,legion-commander,storm-spirit
+2765065999,0,Very High,morphling,invoker,silencer,sand-king,spirit-breaker,bounty-hunter,viper,magnus,wraith-king,faceless-void
+2765066000,0,Normal,slardar,slark,pudge,invoker,sven,lina,phantom-assassin,bounty-hunter,timbersaw,clockwerk
+2765066001,0,High,silencer,sand-king,spirit-breaker,ember-spirit,sniper,tiny,alchemist,earthshaker,bloodseeker,ursa
+2765066002,1,Unknown,clinkz,ursa,razor,shadow-shaman,viper,tinker,bounty-hunter,drow-ranger,phantom-assassin,bloodseeker
+2765066005,0,High,kunkka,spirit-breaker,dragon-knight,ursa,drow-ranger,lion,faceless-void,sniper,juggernaut,ogre-magi
+2765066006,1,Unknown,phantom-assassin,spirit-breaker,silencer,wraith-king,drow-ranger,sniper,earthshaker,spectre,storm-spirit,crystal-maiden
+2765066008,1,Very High,pudge,meepo,disruptor,juggernaut,legion-commander,slark,bane,spirit-breaker,alchemist,crystal-maiden
+2765066023,1,Normal,enchantress,lina,ursa,templar-assassin,zeus,sniper,wraith-king,night-stalker,lich,storm-spirit
+2765066026,0,Normal,shadow-fiend,pudge,sven,rubick,ancient-apparition,bane,winter-wyvern,viper,undying,abaddon
+2765066027,1,Normal,slark,winter-wyvern,tiny,invoker,magnus,faceless-void,pudge,kunkka,dragon-knight,mirana
+2765066030,0,Normal,drow-ranger,vengeful-spirit,windranger,invoker,wraith-king,zeus,spirit-breaker,bloodseeker,dragon-knight,elder-titan
+2765066032,0,Normal,broodmother,windranger,invoker,phantom-assassin,natures-prophet,pudge,morphling,shadow-shaman,anti-mage,slardar
+2765066033,1,Very High,kunkka,winter-wyvern,death-prophet,phantom-assassin,faceless-void,legion-commander,lion,juggernaut,meepo,drow-ranger
+2765066055,1,High,medusa,shadow-fiend,lycan,crystal-maiden,timbersaw,juggernaut,pugna,naga-siren,mirana,undying
+2765066056,0,Normal,crystal-maiden,warlock,death-prophet,venomancer,shadow-shaman,riki,broodmother,clinkz,nyx-assassin,bounty-hunter
+2765066057,0,Normal,pudge,ancient-apparition,jakiro,lion,slark,underlord,earthshaker,phantom-assassin,vengeful-spirit,puck
+2765066058,0,Normal,sven,juggernaut,phantom-lancer,sniper,pudge,spirit-breaker,drow-ranger,shadow-shaman,lich,disruptor
+2765066061,0,Normal,wraith-king,windranger,bristleback,chaos-knight,magnus,legion-commander,spectre,techies,pudge,mirana
+2765066063,0,Normal,bounty-hunter,invoker,phantom-assassin,faceless-void,spirit-breaker,abaddon,ursa,phantom-lancer,storm-spirit,drow-ranger
+2765066064,0,Normal,dragon-knight,shadow-fiend,pugna,wraith-king,ursa,night-stalker,timbersaw,winter-wyvern,lifestealer,terrorblade
+2765066067,0,Normal,underlord,lycan,riki,death-prophet,phantom-assassin,winter-wyvern,troll-warlord,puck,drow-ranger,chaos-knight
+2765066069,1,Normal,tidehunter,tinker,morphling,legion-commander,lich,underlord,lifestealer,bounty-hunter,meepo,silencer
+2765066070,1,Normal,vengeful-spirit,pudge,oracle,slark,huskar,bounty-hunter,spirit-breaker,axe,mirana,drow-ranger
+2765066071,1,Normal,slark,magnus,centaur-warrunner,lifestealer,sniper,timbersaw,clinkz,meepo,legion-commander,wraith-king
+2765066072,0,High,slark,shadow-shaman,broodmother,venomancer,pudge,ogre-magi,sven,crystal-maiden,rubick,magnus
+2765066073,0,Normal,abaddon,meepo,pugna,shadow-fiend,natures-prophet,lich,phantom-lancer,legion-commander,drow-ranger,sand-king
+2765066077,0,Normal,rubick,mirana,clinkz,riki,viper,zeus,sniper,spirit-breaker,slardar,shadow-demon
+2765066091,1,High,invoker,legion-commander,weaver,rubick,faceless-void,clinkz,venomancer,lion,juggernaut,outworld-devourer
+2765066094,1,High,shadow-shaman,tiny,necrophos,anti-mage,alchemist,ancient-apparition,phantom-assassin,nyx-assassin,legion-commander,axe
+2765066096,1,Very High,sand-king,necrophos,juggernaut,kunkka,rubick,undying,morphling,omniknight,arc-warden,centaur-warrunner
+2765066097,0,Unknown,sniper,axe,phantom-assassin,juggernaut,spirit-breaker,mirana,sand-king,legion-commander,riki,night-stalker
+2765066100,0,Very High,earthshaker,sven,riki,shadow-fiend,legion-commander,weaver,juggernaut,pudge,phantom-assassin,meepo
+2765066106,1,Normal,rubick,chaos-knight,leshrac,invoker,bounty-hunter,tinker,sniper,faceless-void,pudge,silencer
+2765066108,1,Normal,beastmaster,juggernaut,bloodseeker,vengeful-spirit,invoker,pudge,enchantress,sven,medusa,omniknight
+2765066110,0,Normal,underlord,phantom-assassin,batrider,slardar,viper,sniper,bloodseeker,sven,crystal-maiden,shadow-fiend
+2765066111,1,High,bloodseeker,necrophos,morphling,mirana,storm-spirit,pudge,silencer,anti-mage,riki,invoker
+2765066112,0,High,storm-spirit,magnus,mirana,juggernaut,wraith-king,sand-king,legion-commander,shadow-fiend,faceless-void,slark
+2765066116,0,High,magnus,kunkka,alchemist,lion,spectre,storm-spirit,faceless-void,luna,ancient-apparition,mirana
+2765066117,0,Normal,ogre-magi,ursa,tusk,nyx-assassin,timbersaw,templar-assassin,anti-mage,kunkka,magnus,pudge
+2765066118,1,Very High,kunkka,rubick,huskar,sven,shadow-fiend,ursa,treant-protector,medusa,pudge,juggernaut
+2765066119,0,Normal,bane,juggernaut,legion-commander,pudge,troll-warlord,techies,chaos-knight,undying,lone-druid,axe
+2765066134,0,Normal,mirana,axe,phantom-assassin,drow-ranger,pudge,sniper,winter-wyvern,slardar,luna,outworld-devourer
+2765066135,0,Unknown,anti-mage,faceless-void,sniper,pudge,windranger,lina,luna,viper,phantom-lancer,meepo
+2765066137,0,Normal,ogre-magi,bristleback,nyx-assassin,phantom-assassin,riki,legion-commander,invoker,juggernaut,techies,kunkka
+2765066138,1,Normal,omniknight,necrophos,timbersaw,lone-druid,juggernaut,invoker,legion-commander,sand-king,crystal-maiden,phantom-assassin
+2765066139,0,Very High,axe,timbersaw,earthshaker,lich,slark,meepo,arc-warden,techies,sand-king,juggernaut
+2765066140,1,Very High,skywrath-mage,oracle,lifestealer,sven,shadow-fiend,batrider,spirit-breaker,legion-commander,pudge,juggernaut
+2765066148,1,Normal,slark,shadow-shaman,clinkz,undying,legion-commander,timbersaw,slardar,pudge,windranger,warlock
+2765066150,0,Normal,ogre-magi,faceless-void,weaver,sven,enigma,disruptor,dark-seer,wraith-king,invoker,leshrac
+2765066151,0,Unknown,slark,outworld-devourer,invoker,bane,slardar,witch-doctor,juggernaut,sniper,riki,bounty-hunter
+2765066153,1,Very High,outworld-devourer,night-stalker,anti-mage,ogre-magi,lina,centaur-warrunner,silencer,invoker,riki,sven
+2765066154,1,Very High,storm-spirit,sand-king,bane,phantom-assassin,mirana,jakiro,wraith-king,tiny,slardar,zeus
+2765066156,1,Normal,weaver,phantom-lancer,legion-commander,lion,ogre-magi,earthshaker,shadow-fiend,alchemist,omniknight,invoker
+2765066157,1,Unknown,slark,crystal-maiden,slardar,legion-commander,witch-doctor,storm-spirit,disruptor,axe,sven,lich
+2765066158,1,Unknown,omniknight,drow-ranger,ursa,invoker,lifestealer,mirana,anti-mage,bristleback,chaos-knight,huskar
+2765066159,1,Normal,shadow-demon,morphling,lion,juggernaut,spirit-breaker,tidehunter,shadow-fiend,legion-commander,centaur-warrunner,weaver
+2765066160,0,Normal,mirana,naga-siren,slardar,anti-mage,razor,silencer,pudge,keeper-of-the-light,faceless-void,bounty-hunter
+2765066161,0,Very High,timbersaw,clinkz,keeper-of-the-light,slark,invoker,pudge,zeus,tiny,earthshaker,meepo
+2765066162,0,Normal,huskar,bloodseeker,ancient-apparition,bounty-hunter,oracle,sven,death-prophet,riki,legion-commander,phantom-assassin
+2765066163,0,Normal,keeper-of-the-light,medusa,faceless-void,lion,shadow-fiend,sand-king,alchemist,natures-prophet,shadow-shaman,morphling
+2765066164,1,Normal,naga-siren,kunkka,rubick,lion,earthshaker,drow-ranger,invoker,omniknight,bristleback,windranger
+2765066166,1,Normal,spirit-breaker,sven,clinkz,doom,bounty-hunter,shadow-fiend,crystal-maiden,phantom-assassin,ogre-magi,ember-spirit
+2765066167,1,Normal,tiny,invoker,death-prophet,necrophos,windranger,phantom-assassin,pudge,bristleback,jakiro,razor
+2765066174,0,Normal,morphling,keeper-of-the-light,puck,bristleback,sven,juggernaut,slark,omniknight,silencer,underlord
+2765066175,1,Normal,morphling,storm-spirit,riki,dark-seer,timbersaw,mirana,death-prophet,faceless-void,anti-mage,dazzle
+2765066176,1,Normal,zeus,clinkz,axe,timbersaw,razor,silencer,mirana,shadow-shaman,lifestealer,bounty-hunter
+2765066178,0,High,kunkka,slardar,terrorblade,storm-spirit,meepo,tiny,juggernaut,slark,oracle,axe
+2765066180,0,Normal,clinkz,axe,sniper,ogre-magi,sand-king,bristleback,alchemist,timbersaw,ursa,necrophos
+2765066181,1,Normal,necrophos,sven,phantom-assassin,mirana,sniper,axe,slardar,tinker,pudge,abaddon
+2765066183,0,Normal,outworld-devourer,elder-titan,slardar,ember-spirit,silencer,earthshaker,necrophos,clinkz,disruptor,shadow-fiend
+2765066187,0,Normal,crystal-maiden,slardar,slark,anti-mage,bounty-hunter,medusa,clinkz,pudge,bloodseeker,shadow-shaman
+2765066188,0,Unknown,viper,sniper,sven,alchemist,axe,bloodseeker,skywrath-mage,riki,ancient-apparition,ursa
+2765066191,0,High,disruptor,clinkz,axe,faceless-void,phantom-assassin,juggernaut,storm-spirit,witch-doctor,ursa,pudge
+2765066196,1,Normal,clinkz,drow-ranger,huskar,sniper,slark,phantom-assassin,mirana,bounty-hunter,shadow-fiend,bristleback
+2765066198,0,High,lone-druid,slark,nyx-assassin,riki,outworld-devourer,storm-spirit,lich,spectre,pudge,spirit-breaker
+2765066199,1,Normal,crystal-maiden,rubick,phantom-assassin,treant-protector,sniper,weaver,mirana,bristleback,shadow-fiend,bounty-hunter
+2765066200,0,Normal,phantom-assassin,rubick,timbersaw,sniper,bounty-hunter,tiny,invoker,nyx-assassin,sand-king,slark
+2765066216,0,Normal,phantom-assassin,troll-warlord,axe,night-stalker,faceless-void,shadow-fiend,morphling,lifestealer,weaver,mirana
+2765066217,0,Normal,lifestealer,alchemist,omniknight,spirit-breaker,phoenix,pudge,phantom-assassin,drow-ranger,dazzle,sniper
+2765066220,1,Normal,invoker,shadow-fiend,windranger,lifestealer,witch-doctor,ember-spirit,bristleback,crystal-maiden,pudge,juggernaut
+2765066221,1,Unknown,shadow-fiend,warlock,shadow-shaman,phantom-assassin,queen-of-pain,vengeful-spirit,drow-ranger,windranger,sven,earthshaker
+2765066223,1,Normal,phantom-lancer,pudge,natures-prophet,legion-commander,faceless-void,riki,sniper,shadow-shaman,meepo,juggernaut
+2765066225,1,Normal,slark,shadow-fiend,clockwerk,meepo,dazzle,phantom-assassin,bloodseeker,anti-mage,lion,pudge
+2765066226,1,Normal,anti-mage,keeper-of-the-light,spirit-breaker,juggernaut,troll-warlord,slark,drow-ranger,alchemist,sand-king,silencer
+2765066228,1,Very High,storm-spirit,faceless-void,omniknight,slark,axe,io,pudge,huskar,invoker,phantom-assassin
+2765066231,0,Normal,riki,clinkz,warlock,slardar,luna,lina,invoker,pugna,phantom-assassin,bounty-hunter
+2765066232,0,Normal,legion-commander,spectre,juggernaut,tidehunter,nyx-assassin,rubick,axe,drow-ranger,outworld-devourer,timbersaw
+2765066234,0,Normal,luna,riki,phantom-assassin,juggernaut,pudge,viper,razor,phoenix,elder-titan,broodmother
+2765066235,1,Normal,sniper,zeus,faceless-void,juggernaut,vengeful-spirit,mirana,silencer,pudge,medusa,axe
+2765066237,0,Unknown,kunkka,phantom-assassin,sven,pudge,outworld-devourer,zeus,lion,legion-commander,luna,tusk
+2765066244,1,High,sniper,spirit-breaker,bounty-hunter,spectre,queen-of-pain,invoker,enchantress,crystal-maiden,weaver,anti-mage
+2765066245,0,Normal,riki,phantom-lancer,lone-druid,crystal-maiden,alchemist,clockwerk,natures-prophet,gyrocopter,bounty-hunter,wraith-king
+2765066247,1,Very High,phantom-assassin,omniknight,invoker,keeper-of-the-light,clockwerk,crystal-maiden,meepo,anti-mage,earthshaker,pudge
+2765066248,0,Normal,wraith-king,clockwerk,dazzle,huskar,drow-ranger,legion-commander,lion,shadow-fiend,vengeful-spirit,pudge
+2765066264,0,Normal,bristleback,wraith-king,anti-mage,bounty-hunter,clinkz,drow-ranger,broodmother,visage,weaver,mirana
+2765066265,0,High,tinker,slark,timbersaw,ancient-apparition,alchemist,phantom-assassin,axe,juggernaut,shadow-fiend,abaddon
+2765066266,1,Very High,sand-king,windranger,mirana,slardar,bloodseeker,treant-protector,clockwerk,zeus,disruptor,sven
+2765066274,0,Unknown,sand-king,huskar,phantom-assassin,sniper,spirit-breaker,bloodseeker,zeus,axe,abaddon,pudge
+2765066278,1,Unknown,legion-commander,pudge,skywrath-mage,sven,juggernaut,lion,anti-mage,tinker,earthshaker,riki
+2765066279,0,Normal,rubick,pudge,juggernaut,omniknight,sven,mirana,ogre-magi,slark,centaur-warrunner,legion-commander
+2765066280,1,Unknown,jakiro,tinker,juggernaut,dragon-knight,bounty-hunter,phantom-assassin,axe,shadow-shaman,spirit-breaker,morphling
+2765066285,1,Normal,beastmaster,lina,pudge,invoker,bristleback,rubick,warlock,anti-mage,axe,earthshaker
+2765066286,1,Unknown,phantom-assassin,huskar,troll-warlord,alchemist,lifestealer,kunkka,juggernaut,sniper,faceless-void,viper
+2765066288,1,Normal,legion-commander,juggernaut,pudge,sand-king,invoker,weaver,undying,sniper,tiny,necrophos
+2765066292,0,High,anti-mage,abaddon,bloodseeker,axe,nyx-assassin,enigma,necrophos,faceless-void,pudge,spirit-breaker
+2765066294,1,Normal,storm-spirit,tidehunter,shadow-shaman,legion-commander,faceless-void,riki,mirana,pudge,phantom-lancer,arc-warden
+2765066295,0,High,crystal-maiden,wraith-king,meepo,invoker,ogre-magi,lifestealer,lion,axe,oracle,shadow-fiend
+2765066297,0,High,luna,legion-commander,slardar,anti-mage,riki,ursa,storm-spirit,pudge,silencer,ogre-magi
+2765066299,0,Normal,drow-ranger,timbersaw,earthshaker,invoker,natures-prophet,juggernaut,winter-wyvern,kunkka,brewmaster,lina
+2765066301,0,High,naga-siren,alchemist,bane,pugna,lycan,mirana,anti-mage,wraith-king,timbersaw,bristleback
+2765066302,0,High,keeper-of-the-light,timbersaw,clinkz,storm-spirit,pugna,ogre-magi,ursa,riki,slardar,invoker
+2765066322,1,High,riki,invoker,omniknight,kunkka,faceless-void,rubick,phantom-assassin,pudge,storm-spirit,nyx-assassin
+2765066325,1,Normal,sniper,ancient-apparition,windranger,sven,nyx-assassin,slardar,juggernaut,magnus,luna,lich
+2765066327,1,Unknown,legion-commander,shadow-fiend,mirana,phantom-assassin,spirit-breaker,sniper,bane,storm-spirit,slark,anti-mage
+2765066328,0,High,slark,omniknight,huskar,clockwerk,earthshaker,shadow-demon,spectre,ember-spirit,zeus,axe
+2765066330,0,Normal,slardar,earthshaker,weaver,spirit-breaker,zeus,legion-commander,phantom-assassin,bloodseeker,bane,venomancer
+2765066331,1,High,omniknight,enigma,slark,centaur-warrunner,spectre,lina,juggernaut,nyx-assassin,mirana,pudge
+2765066332,1,Unknown,huskar,sniper,sven,queen-of-pain,necrophos,earthshaker,drow-ranger,pudge,mirana,dragon-knight
+2765066333,0,Normal,sniper,zeus,spectre,necrophos,luna,anti-mage,pudge,juggernaut,omniknight,warlock
+2765066334,1,Normal,nyx-assassin,pudge,invoker,earthshaker,juggernaut,silencer,legion-commander,luna,tidehunter,phantom-lancer
+2765066335,0,Very High,sniper,centaur-warrunner,juggernaut,batrider,shadow-demon,outworld-devourer,omniknight,mirana,slark,riki
+2765066336,1,High,wraith-king,anti-mage,dazzle,phantom-assassin,centaur-warrunner,slark,rubick,outworld-devourer,abaddon,morphling
+2765066337,0,Normal,drow-ranger,nyx-assassin,night-stalker,axe,silencer,dazzle,phantom-assassin,crystal-maiden,anti-mage,puck
+2765066338,1,Normal,natures-prophet,dragon-knight,crystal-maiden,lone-druid,tinker,invoker,slardar,wraith-king,spectre,lion
+2765066339,0,Normal,elder-titan,morphling,sven,sand-king,witch-doctor,kunkka,legion-commander,juggernaut,winter-wyvern,lifestealer
+2765066340,0,Normal,juggernaut,crystal-maiden,venomancer,dazzle,abaddon,riki,natures-prophet,ember-spirit,sniper,troll-warlord
+2765066358,0,Very High,ogre-magi,wraith-king,crystal-maiden,sniper,pudge,ursa,invoker,nyx-assassin,bane,dark-seer
+2765066360,0,Normal,ancient-apparition,death-prophet,juggernaut,wraith-king,weaver,alchemist,anti-mage,pudge,mirana,legion-commander
+2765066361,1,Very High,juggernaut,anti-mage,earthshaker,silencer,legion-commander,luna,skywrath-mage,timbersaw,storm-spirit,omniknight
+2765066363,1,High,enigma,night-stalker,phoenix,drow-ranger,zeus,sniper,axe,juggernaut,riki,earthshaker
+2765066364,1,Normal,legion-commander,chaos-knight,undying,weaver,phantom-lancer,drow-ranger,vengeful-spirit,phantom-assassin,bristleback,witch-doctor
+2765066365,1,Normal,batrider,queen-of-pain,slardar,treant-protector,slark,bounty-hunter,medusa,timbersaw,necrophos,sniper
+2765066367,1,Very High,faceless-void,luna,mirana,bane,invoker,timbersaw,razor,pudge,lion,morphling
+2765066368,1,Normal,bloodseeker,shadow-demon,silencer,io,phantom-assassin,bristleback,omniknight,timbersaw,crystal-maiden,legion-commander
+2765066371,0,Normal,sven,vengeful-spirit,legion-commander,riki,omniknight,earthshaker,pudge,bounty-hunter,necrophos,phantom-assassin
+2765066372,1,High,naga-siren,magnus,spectre,morphling,bounty-hunter,ancient-apparition,clinkz,axe,slark,invoker
+2765066374,1,Normal,abaddon,juggernaut,faceless-void,queen-of-pain,drow-ranger,pudge,ursa,chen,anti-mage,broodmother
+2765066375,0,Normal,phantom-assassin,gyrocopter,earthshaker,storm-spirit,kunkka,phantom-lancer,bounty-hunter,ancient-apparition,weaver,ember-spirit
+2765066376,0,Normal,sand-king,tinker,faceless-void,drow-ranger,vengeful-spirit,elder-titan,centaur-warrunner,storm-spirit,lycan,wraith-king
+2765066377,0,Normal,axe,terrorblade,night-stalker,spectre,skywrath-mage,windranger,slark,pudge,invoker,sven
+2765066387,1,Normal,phantom-lancer,troll-warlord,juggernaut,lion,enigma,faceless-void,sand-king,drow-ranger,dragon-knight,earthshaker
+2765066388,0,Very High,storm-spirit,abaddon,anti-mage,pudge,spirit-breaker,viper,ogre-magi,bounty-hunter,tidehunter,juggernaut
+2765066390,1,High,windranger,clinkz,treant-protector,centaur-warrunner,phoenix,zeus,tidehunter,phantom-assassin,necrophos,underlord
+2765066391,0,Normal,viper,pudge,sand-king,gyrocopter,riki,queen-of-pain,tiny,faceless-void,witch-doctor,weaver
+2765066392,1,Normal,shadow-fiend,undying,slardar,slark,lion,spirit-breaker,pudge,huskar,sniper,abaddon
+2765066394,1,High,drow-ranger,alchemist,outworld-devourer,timbersaw,lion,sven,clockwerk,batrider,treant-protector,sniper
+2765066396,1,Normal,rubick,death-prophet,outworld-devourer,axe,phantom-assassin,lycan,leshrac,legion-commander,phantom-lancer,pudge
+2765066397,0,Normal,night-stalker,treant-protector,huskar,bounty-hunter,bane,sniper,rubick,phantom-assassin,meepo,lion
+2765066398,1,High,timbersaw,lion,tinker,pudge,morphling,invoker,keeper-of-the-light,juggernaut,anti-mage,wraith-king
+2765066427,1,Normal,mirana,visage,lion,doom,centaur-warrunner,anti-mage,shadow-shaman,nyx-assassin,tidehunter,huskar
+2765066428,1,Normal,shadow-fiend,riki,pugna,underlord,pudge,skywrath-mage,morphling,broodmother,tidehunter,rubick
+2765066429,0,Normal,viper,storm-spirit,spectre,ogre-magi,axe,slark,tinker,lone-druid,faceless-void,huskar
+2765066431,1,Normal,slark,lion,windranger,sven,ogre-magi,crystal-maiden,viper,pudge,sand-king,phantom-assassin
+2765066432,1,High,outworld-devourer,sven,omniknight,enigma,mirana,faceless-void,witch-doctor,rubick,pudge,clinkz
+2765066433,1,Normal,legion-commander,clinkz,axe,necrophos,spectre,pudge,underlord,drow-ranger,keeper-of-the-light,sniper
+2765066436,1,Normal,centaur-warrunner,ursa,slardar,silencer,timbersaw,juggernaut,viper,rubick,crystal-maiden,chaos-knight
+2765066440,1,Normal,huskar,axe,sven,viper,troll-warlord,windranger,phantom-assassin,dazzle,necrophos,wraith-king
+2765066441,1,Normal,kunkka,tusk,drow-ranger,pudge,juggernaut,bounty-hunter,medusa,enchantress,wraith-king,crystal-maiden
+2765066461,0,Normal,weaver,juggernaut,bounty-hunter,mirana,death-prophet,elder-titan,queen-of-pain,anti-mage,omniknight,legion-commander
+2765066462,1,Normal,ursa,bounty-hunter,anti-mage,pudge,axe,disruptor,tiny,lifestealer,riki,phantom-assassin
+2765066463,1,Normal,phantom-assassin,outworld-devourer,crystal-maiden,legion-commander,silencer,rubick,anti-mage,wraith-king,tiny,necrophos
+2765066465,1,Normal,tusk,phantom-assassin,tinker,invoker,necrophos,ember-spirit,silencer,mirana,axe,pudge
+2765066466,0,Normal,troll-warlord,lion,pudge,axe,timbersaw,keeper-of-the-light,bounty-hunter,nyx-assassin,meepo,skywrath-mage
+2765066468,0,Normal,riki,magnus,timbersaw,outworld-devourer,legion-commander,slark,pudge,anti-mage,mirana,juggernaut
+2765066471,0,Normal,silencer,luna,legion-commander,pudge,mirana,disruptor,invoker,drow-ranger,beastmaster,elder-titan
+2765066472,1,Normal,undying,riki,outworld-devourer,luna,bloodseeker,mirana,zeus,juggernaut,shadow-shaman,tiny
+2765066475,0,Normal,clinkz,invoker,lifestealer,silencer,natures-prophet,pudge,clockwerk,zeus,spirit-breaker,storm-spirit
+2765066476,1,Very High,faceless-void,storm-spirit,drow-ranger,abaddon,oracle,sven,lion,tinker,dark-seer,phantom-assassin
+2765066477,0,High,clockwerk,sven,crystal-maiden,timbersaw,spirit-breaker,mirana,slark,tinker,outworld-devourer,pugna
+2765066478,1,Normal,phantom-assassin,alchemist,naga-siren,omniknight,nyx-assassin,timbersaw,wraith-king,terrorblade,juggernaut,legion-commander
+2765066479,0,Very High,omniknight,phantom-assassin,ursa,rubick,bristleback,invoker,lion,clinkz,slardar,pudge
+2765066481,0,Very High,phantom-assassin,axe,underlord,mirana,magnus,necrophos,tinker,abaddon,earthshaker,weaver
+2765066482,0,Normal,invoker,lina,legion-commander,ursa,dazzle,jakiro,sniper,clinkz,bounty-hunter,earthshaker
+2765066502,0,Normal,puck,pudge,gyrocopter,faceless-void,morphling,skywrath-mage,juggernaut,queen-of-pain,earthshaker,legion-commander
+2765066504,1,Very High,bounty-hunter,sand-king,outworld-devourer,morphling,pudge,shadow-shaman,riki,faceless-void,timbersaw,slark
+2765066505,1,Normal,clinkz,tinker,alchemist,pudge,shadow-demon,phantom-lancer,pugna,treant-protector,death-prophet,ursa
+2765066507,0,Normal,slark,enigma,bristleback,phantom-assassin,sniper,troll-warlord,razor,clinkz,riki,ursa
+2765066508,0,Normal,nyx-assassin,phantom-assassin,anti-mage,legion-commander,slark,riki,shadow-shaman,ursa,sniper,storm-spirit
+2765066509,1,Very High,slark,tusk,faceless-void,treant-protector,chaos-knight,timbersaw,bane,dragon-knight,sven,pudge
+2765066510,1,Unknown,legion-commander,morphling,storm-spirit,spirit-breaker,techies,riki,phantom-assassin,alchemist,lifestealer,pudge
+2765066511,1,Very High,necrophos,slardar,juggernaut,puck,ogre-magi,tinker,slark,shadow-demon,dark-seer,omniknight
+2765066515,0,Unknown,necrophos,viper,legion-commander,sniper,riki,mirana,axe,lion,anti-mage,crystal-maiden
+2765066532,0,Normal,lina,queen-of-pain,bristleback,ogre-magi,slark,invoker,morphling,pudge,wraith-king,phantom-assassin
+2765066537,0,Unknown,juggernaut,wraith-king,death-prophet,pudge,earthshaker,drow-ranger,phantom-lancer,rubick,huskar,bounty-hunter
+2765066538,0,Very High,storm-spirit,riki,pudge,luna,tiny,drow-ranger,axe,rubick,mirana,invoker
+2765066542,0,High,kunkka,pudge,treant-protector,clinkz,undying,lich,phantom-assassin,night-stalker,keeper-of-the-light,slardar
+2765066544,1,Normal,riki,nyx-assassin,lion,luna,wraith-king,sniper,slardar,bloodseeker,phantom-assassin,anti-mage
+2765066545,1,Normal,ancient-apparition,puck,dragon-knight,anti-mage,silencer,dark-seer,morphling,pudge,juggernaut,spirit-breaker
+2765066547,0,Normal,death-prophet,sven,spectre,phantom-assassin,zeus,shadow-fiend,templar-assassin,winter-wyvern,drow-ranger,dragon-knight
+2765066555,0,Normal,luna,anti-mage,sniper,pudge,phantom-assassin,medusa,storm-spirit,wraith-king,skywrath-mage,lifestealer
+2765066557,0,Normal,pudge,invoker,juggernaut,undying,crystal-maiden,chaos-knight,necrophos,nyx-assassin,phantom-assassin,bloodseeker
+2765066558,0,Normal,queen-of-pain,pudge,bounty-hunter,warlock,abaddon,clockwerk,dazzle,shadow-fiend,huskar,dark-seer
+2765066559,1,Normal,crystal-maiden,invoker,axe,vengeful-spirit,sniper,silencer,drow-ranger,ancient-apparition,phantom-assassin,undying
+2765066560,0,Normal,crystal-maiden,phantom-assassin,witch-doctor,elder-titan,arc-warden,rubick,natures-prophet,omniknight,drow-ranger,morphling
+2765066561,0,Normal,kunkka,sniper,phantom-assassin,pudge,enigma,drow-ranger,sven,tiny,legion-commander,ogre-magi
+2765066563,1,Normal,drow-ranger,legion-commander,wraith-king,huskar,sven,anti-mage,beastmaster,phantom-assassin,pudge,windranger
+2765066564,1,High,sand-king,bloodseeker,clinkz,kunkka,spirit-breaker,natures-prophet,ursa,mirana,slardar,troll-warlord
+2765066598,1,Very High,razor,silencer,juggernaut,alchemist,spirit-breaker,earth-spirit,kunkka,sniper,shadow-shaman,faceless-void
+2765066600,1,Normal,warlock,dazzle,slark,morphling,necrophos,sniper,lion,phantom-assassin,ancient-apparition,witch-doctor
+2765066602,0,Normal,bloodseeker,pudge,faceless-void,night-stalker,lich,phantom-lancer,skywrath-mage,alchemist,tiny,bounty-hunter
+2765066604,1,Normal,spectre,queen-of-pain,meepo,clinkz,earthshaker,alchemist,sven,pudge,crystal-maiden,windranger
+2765066605,0,Normal,templar-assassin,phantom-assassin,axe,vengeful-spirit,puck,invoker,riki,bloodseeker,natures-prophet,nyx-assassin
+2765066606,1,High,mirana,earthshaker,meepo,axe,phantom-assassin,morphling,slark,bloodseeker,nyx-assassin,bounty-hunter
+2765066607,0,Very High,outworld-devourer,warlock,mirana,underlord,luna,kunkka,faceless-void,nyx-assassin,viper,sniper
+2765066611,0,Normal,sniper,templar-assassin,gyrocopter,drow-ranger,ursa,rubick,troll-warlord,shadow-fiend,queen-of-pain,bane
+2765066612,1,Normal,wraith-king,zeus,anti-mage,spirit-breaker,witch-doctor,ogre-magi,lina,kunkka,undying,legion-commander
+2765066614,0,Very High,invoker,lone-druid,lion,storm-spirit,juggernaut,beastmaster,anti-mage,kunkka,witch-doctor,shadow-fiend
+2765066615,0,Normal,storm-spirit,underlord,axe,phantom-assassin,sand-king,lion,juggernaut,anti-mage,mirana,invoker
+2765066616,0,High,sand-king,pudge,invoker,windranger,luna,beastmaster,juggernaut,bloodseeker,rubick,puck
+2765066633,0,Normal,abaddon,huskar,clinkz,doom,pudge,necrophos,timbersaw,outworld-devourer,lion,juggernaut
+2765066634,0,Normal,alchemist,mirana,batrider,gyrocopter,crystal-maiden,sven,invoker,windranger,rubick,phantom-assassin
+2765066636,1,Normal,sniper,anti-mage,storm-spirit,shadow-fiend,axe,bristleback,pudge,ember-spirit,witch-doctor,slark
+2765066637,1,Normal,spirit-breaker,tusk,shadow-fiend,slardar,lina,wraith-king,lifestealer,necrophos,invoker,bloodseeker
+2765066638,1,High,ember-spirit,morphling,axe,bounty-hunter,outworld-devourer,anti-mage,keeper-of-the-light,templar-assassin,mirana,ancient-apparition
+2765066639,1,Very High,luna,winter-wyvern,jakiro,sven,lich,juggernaut,earth-spirit,pudge,slark,rubick
+2765066640,1,Normal,lifestealer,sven,slardar,invoker,bloodseeker,riki,sniper,legion-commander,lina,timbersaw
+2765066641,1,Normal,pudge,tidehunter,bounty-hunter,huskar,storm-spirit,gyrocopter,axe,mirana,sven,legion-commander
+2765066642,0,High,beastmaster,alchemist,dark-seer,pudge,juggernaut,sven,invoker,nyx-assassin,winter-wyvern,slardar
+2765066645,0,Normal,faceless-void,riki,juggernaut,natures-prophet,silencer,sven,slark,viper,bane,lycan
+2765066646,0,Normal,mirana,templar-assassin,pudge,slardar,spectre,disruptor,wraith-king,lifestealer,gyrocopter,bounty-hunter
+2765066648,1,Unknown,anti-mage,kunkka,bloodseeker,drow-ranger,invoker,winter-wyvern,dragon-knight,crystal-maiden,faceless-void,sniper
+2765066649,1,Normal,zeus,viper,bounty-hunter,tusk,morphling,sniper,phantom-assassin,juggernaut,clinkz,shadow-fiend
+2765066650,1,Normal,pudge,tiny,wraith-king,riki,vengeful-spirit,invoker,keeper-of-the-light,legion-commander,anti-mage,weaver
+2765066651,0,Very High,storm-spirit,luna,timbersaw,bloodseeker,lina,juggernaut,anti-mage,dazzle,elder-titan,sand-king
+2765066652,1,Normal,sniper,pudge,wraith-king,morphling,kunkka,pugna,mirana,spectre,faceless-void,troll-warlord
+2765066653,0,Normal,bloodseeker,broodmother,mirana,anti-mage,rubick,vengeful-spirit,bristleback,luna,treant-protector,bounty-hunter
+2765066654,0,Normal,pudge,riki,sand-king,lifestealer,invoker,bloodseeker,spectre,pugna,anti-mage,drow-ranger
+2765066657,1,Normal,invoker,necrophos,juggernaut,phantom-assassin,anti-mage,legion-commander,huskar,bloodseeker,dark-seer,riki
+2765066658,1,Normal,sniper,silencer,phantom-assassin,abaddon,phoenix,storm-spirit,riki,omniknight,windranger,sand-king
+2765066659,0,High,axe,slark,necrophos,legion-commander,clockwerk,sand-king,riki,luna,kunkka,sniper
+2765066660,0,Normal,undying,crystal-maiden,kunkka,lich,underlord,slark,pudge,alchemist,anti-mage,sand-king
+2765066664,0,High,earthshaker,bloodseeker,juggernaut,puck,timbersaw,rubick,axe,tinker,mirana,luna
+2765066682,0,Normal,phantom-assassin,magnus,crystal-maiden,bloodseeker,disruptor,alchemist,luna,oracle,necrophos,omniknight
+2765066686,0,High,naga-siren,axe,bloodseeker,timbersaw,tinker,puck,phantom-assassin,pudge,anti-mage,tiny
+2765066687,1,Unknown,spectre,sniper,bloodseeker,silencer,invoker,pudge,juggernaut,morphling,troll-warlord,huskar
+2765066692,0,Normal,sand-king,tinker,spectre,pugna,timbersaw,pudge,alchemist,drow-ranger,legion-commander,invoker
+2765066693,0,High,storm-spirit,slardar,pudge,bounty-hunter,slark,spectre,clinkz,disruptor,phoenix,invoker
+2765066694,0,High,slardar,templar-assassin,keeper-of-the-light,mirana,pudge,jakiro,juggernaut,queen-of-pain,spirit-breaker,timbersaw
+2765066695,0,Normal,pudge,luna,sniper,shadow-shaman,natures-prophet,slark,invoker,axe,treant-protector,phantom-assassin
+2765066698,1,Normal,legion-commander,tinker,sniper,witch-doctor,meepo,elder-titan,phantom-assassin,crystal-maiden,slardar,faceless-void
+2765066701,1,Normal,tinker,invoker,juggernaut,shadow-demon,nyx-assassin,riki,omniknight,bristleback,phantom-assassin,outworld-devourer
+2765066719,1,Unknown,mirana,pudge,phantom-lancer,witch-doctor,juggernaut,storm-spirit,earthshaker,lion,spirit-breaker,crystal-maiden
+2765066720,1,High,broodmother,mirana,pudge,axe,clinkz,weaver,invoker,legion-commander,riki,slark
+2765066721,0,Very High,invoker,omniknight,storm-spirit,pudge,anti-mage,lich,morphling,tiny,bloodseeker,brewmaster
+2765066724,0,Normal,axe,necrophos,drow-ranger,bounty-hunter,mirana,puck,bane,zeus,slardar,riki
+2765066725,1,Normal,beastmaster,storm-spirit,phantom-assassin,spirit-breaker,zeus,lion,silencer,lifestealer,windranger,broodmother
+2765066728,0,Normal,silencer,queen-of-pain,vengeful-spirit,bloodseeker,legion-commander,shadow-fiend,clinkz,slardar,sniper,riki
+2765066732,0,Normal,chaos-knight,magnus,bounty-hunter,spirit-breaker,morphling,phantom-assassin,spectre,bristleback,legion-commander,lifestealer
+2765066734,1,Very High,sven,faceless-void,earth-spirit,drow-ranger,wraith-king,elder-titan,disruptor,invoker,anti-mage,axe
+2765066735,1,Normal,shadow-shaman,anti-mage,drow-ranger,sven,clinkz,phantom-assassin,crystal-maiden,phantom-lancer,nyx-assassin,invoker
+2765066737,1,Very High,kunkka,anti-mage,legion-commander,rubick,invoker,alchemist,sven,juggernaut,spirit-breaker,pudge
+2765066738,1,Unknown,silencer,windranger,anti-mage,wraith-king,omniknight,storm-spirit,vengeful-spirit,pudge,medusa,riki
+2765066741,1,Unknown,juggernaut,anti-mage,riki,sand-king,viper,slark,spirit-breaker,death-prophet,outworld-devourer,chaos-knight
+2765066757,1,Normal,lina,huskar,chaos-knight,sniper,riki,drow-ranger,pudge,juggernaut,phantom-assassin,underlord
+2765066760,0,Unknown,axe,viper,pudge,phantom-assassin,omniknight,techies,outworld-devourer,riki,legion-commander,templar-assassin
+2765066762,0,Unknown,juggernaut,phantom-assassin,wraith-king,natures-prophet,death-prophet,timbersaw,slardar,clinkz,techies,legion-commander
+2765066763,1,Very High,dark-seer,timbersaw,enigma,pudge,phantom-assassin,faceless-void,witch-doctor,juggernaut,invoker,spirit-breaker
+2765066765,0,High,juggernaut,templar-assassin,sven,windranger,riki,phantom-assassin,ember-spirit,slardar,invoker,lifestealer
+2765066766,1,Normal,ursa,clockwerk,phantom-assassin,undying,clinkz,dragon-knight,crystal-maiden,pudge,sand-king,sniper
+2765066767,0,Normal,pudge,lycan,ursa,invoker,shadow-shaman,slark,magnus,pugna,ogre-magi,huskar
+2765066768,0,Normal,bristleback,lina,juggernaut,drow-ranger,weaver,chen,riki,lifestealer,pudge,centaur-warrunner
+2765066770,1,Normal,tidehunter,spectre,clinkz,invoker,keeper-of-the-light,legion-commander,axe,dragon-knight,juggernaut,huskar
+2765066771,1,Normal,lina,drow-ranger,phantom-assassin,centaur-warrunner,pudge,legion-commander,spirit-breaker,templar-assassin,phantom-lancer,enigma
+2765066772,0,High,warlock,anti-mage,mirana,keeper-of-the-light,dragon-knight,underlord,legion-commander,invoker,drow-ranger,medusa
+2765066774,0,Very High,ancient-apparition,earth-spirit,sniper,dark-seer,luna,pudge,phantom-assassin,morphling,disruptor,abaddon
+2765066776,0,Unknown,lina,mirana,legion-commander,anti-mage,necrophos,storm-spirit,pudge,bloodseeker,sven,death-prophet
+2765066781,0,High,pugna,alchemist,legion-commander,pudge,natures-prophet,bounty-hunter,anti-mage,bloodseeker,queen-of-pain,ogre-magi
+2765066782,1,Normal,puck,legion-commander,slark,invoker,meepo,earthshaker,anti-mage,pudge,templar-assassin,slardar
+2765066793,0,Very High,pudge,kunkka,enigma,anti-mage,clockwerk,templar-assassin,morphling,legion-commander,magnus,disruptor
+2765066795,0,Unknown,spirit-breaker,lion,ursa,viper,natures-prophet,zeus,sniper,drow-ranger,lich,timbersaw
+2765066797,0,Normal,timbersaw,axe,phantom-assassin,shadow-shaman,vengeful-spirit,bloodseeker,weaver,slark,omniknight,oracle
+2765066798,1,Normal,earth-spirit,mirana,shadow-fiend,lich,lifestealer,razor,abaddon,alchemist,batrider,ogre-magi
+2765066800,1,Normal,juggernaut,bristleback,phantom-assassin,omniknight,silencer,necrophos,sniper,sven,earthshaker,enigma
+2765066803,1,Normal,juggernaut,drow-ranger,anti-mage,gyrocopter,pudge,shadow-shaman,sand-king,legion-commander,huskar,earthshaker
+2765066805,1,High,ogre-magi,anti-mage,invoker,pudge,lone-druid,morphling,luna,nyx-assassin,storm-spirit,mirana
+2765066809,1,Normal,lich,earth-spirit,juggernaut,spectre,pudge,phantom-assassin,ursa,slark,crystal-maiden,omniknight
+2765066810,0,Normal,luna,storm-spirit,lina,wraith-king,windranger,lycan,riki,enigma,tusk,invoker
+2765066811,1,High,morphling,pudge,templar-assassin,silencer,night-stalker,luna,storm-spirit,shadow-shaman,invoker,phantom-assassin
+2765066813,0,Normal,witch-doctor,queen-of-pain,alchemist,anti-mage,slardar,magnus,axe,juggernaut,morphling,invoker
+2765066827,0,Normal,storm-spirit,bane,phantom-assassin,earthshaker,phantom-lancer,sven,doom,vengeful-spirit,riki,wraith-king
+2765066828,1,Normal,phantom-assassin,tinker,storm-spirit,undying,tiny,spirit-breaker,sniper,legion-commander,ogre-magi,alchemist
+2765066831,1,Normal,storm-spirit,morphling,dragon-knight,bounty-hunter,arc-warden,sniper,spectre,axe,meepo,witch-doctor
+2765066832,1,Normal,luna,invoker,faceless-void,pugna,kunkka,phantom-assassin,pudge,juggernaut,storm-spirit,jakiro
+2765066833,0,Normal,spirit-breaker,ursa,juggernaut,rubick,tiny,shadow-fiend,mirana,dazzle,spectre,timbersaw
+2765066836,0,Normal,anti-mage,clockwerk,beastmaster,templar-assassin,drow-ranger,pudge,phantom-assassin,legion-commander,juggernaut,shadow-shaman
+2765066839,0,Normal,ursa,mirana,vengeful-spirit,sand-king,lich,pudge,phantom-lancer,jakiro,venomancer,juggernaut
+2765066840,0,Normal,zeus,mirana,chaos-knight,slark,bounty-hunter,omniknight,lifestealer,huskar,timbersaw,riki
+2765066842,0,Normal,slark,huskar,pudge,keeper-of-the-light,windranger,chen,drow-ranger,necrophos,morphling,invoker
+2765066845,1,High,beastmaster,witch-doctor,spectre,lifestealer,leshrac,pudge,lich,windranger,zeus,morphling
+2765066858,0,High,shadow-fiend,sven,dragon-knight,warlock,keeper-of-the-light,meepo,invoker,pudge,riki,wraith-king
+2765066859,0,Normal,bristleback,omniknight,alchemist,storm-spirit,crystal-maiden,sven,bounty-hunter,death-prophet,shadow-fiend,pugna
+2765066861,0,Unknown,juggernaut,rubick,zeus,omniknight,ogre-magi,tinker,lion,wraith-king,lina,sniper
+2765066865,1,Unknown,invoker,lina,anti-mage,sniper,bounty-hunter,viper,ember-spirit,slardar,pudge,phantom-assassin
+2765066869,0,Normal,phantom-lancer,dark-seer,invoker,phantom-assassin,omniknight,ursa,silencer,tinker,alchemist,mirana
+2765066870,1,Normal,tinker,dragon-knight,drow-ranger,shadow-shaman,sniper,pudge,juggernaut,witch-doctor,phantom-assassin,enchantress
+2765066873,0,Normal,zeus,medusa,wraith-king,kunkka,pudge,bloodseeker,bounty-hunter,axe,timbersaw,windranger
+2765066874,1,Normal,anti-mage,huskar,enchantress,phantom-assassin,shadow-shaman,troll-warlord,phantom-lancer,morphling,warlock,sven
+2765066875,1,Unknown,legion-commander,sand-king,phantom-assassin,slark,crystal-maiden,sniper,ogre-magi,pudge,lifestealer,mirana
+2765066876,0,Normal,spectre,nyx-assassin,slark,zeus,omniknight,sniper,pudge,juggernaut,outworld-devourer,wraith-king
+2765066879,0,Unknown,sven,mirana,axe,nyx-assassin,slark,lina,bane,anti-mage,sniper,phantom-assassin
+2765066880,1,Normal,batrider,techies,timbersaw,tinker,sniper,necrophos,clockwerk,invoker,puck,anti-mage
+2765066882,0,Normal,centaur-warrunner,death-prophet,lion,underlord,sven,pudge,dragon-knight,bloodseeker,phantom-assassin,clinkz
+2765066907,0,Normal,undying,jakiro,queen-of-pain,centaur-warrunner,juggernaut,slark,omniknight,ogre-magi,axe,outworld-devourer
+2765066908,0,Normal,arc-warden,alchemist,nyx-assassin,lina,spirit-breaker,tinker,bane,mirana,sniper,outworld-devourer
+2765066909,0,Normal,shadow-shaman,bristleback,slardar,tinker,legion-commander,drow-ranger,bounty-hunter,outworld-devourer,juggernaut,lion
+2765066912,0,Normal,nyx-assassin,pugna,anti-mage,bane,huskar,death-prophet,tinker,pudge,timbersaw,shadow-fiend
+2765066916,1,High,morphling,outworld-devourer,shadow-demon,axe,elder-titan,sniper,faceless-void,pudge,kunkka,invoker
+2765066917,1,Normal,phantom-assassin,dark-seer,dazzle,jakiro,slark,invoker,necrophos,juggernaut,axe,pudge
+2765066920,0,Normal,omniknight,phantom-assassin,earthshaker,slark,skywrath-mage,troll-warlord,wraith-king,bounty-hunter,slardar,enigma
+2765066922,0,Normal,sniper,broodmother,jakiro,sven,kunkka,axe,phantom-lancer,elder-titan,pudge,witch-doctor
+2765066924,0,Unknown,tiny,axe,ember-spirit,techies,crystal-maiden,phantom-assassin,omniknight,anti-mage,pudge,huskar
+2765066925,1,Normal,bloodseeker,phantom-assassin,centaur-warrunner,legion-commander,drow-ranger,keeper-of-the-light,omniknight,phantom-lancer,abaddon,slark
+2765066930,1,Normal,dazzle,juggernaut,crystal-maiden,tiny,sniper,slardar,riki,shadow-shaman,drow-ranger,ursa
+2765066933,1,Normal,silencer,bounty-hunter,razor,phantom-assassin,weaver,centaur-warrunner,ursa,necrophos,sven,mirana
+2765066935,1,Unknown,venomancer,axe,legion-commander,witch-doctor,drow-ranger,queen-of-pain,windranger,nyx-assassin,pudge,mirana
+2765066955,0,Normal,sand-king,natures-prophet,spirit-breaker,drow-ranger,vengeful-spirit,lifestealer,ogre-magi,abaddon,clinkz,axe
+2765066959,0,Normal,sand-king,warlock,juggernaut,axe,pudge,bloodseeker,sniper,gyrocopter,shadow-shaman,tusk
+2765066964,0,Unknown,lifestealer,tinker,juggernaut,silencer,legion-commander,venomancer,luna,bloodseeker,bounty-hunter,medusa
+2765066965,0,Normal,zeus,luna,treant-protector,outworld-devourer,faceless-void,medusa,shadow-fiend,timbersaw,shadow-demon,kunkka
+2765066967,1,Very High,magnus,wraith-king,ember-spirit,anti-mage,abaddon,slark,alchemist,bounty-hunter,shadow-demon,phoenix
+2765066983,0,High,templar-assassin,anti-mage,legion-commander,witch-doctor,riki,spirit-breaker,bristleback,juggernaut,axe,natures-prophet
+2765066987,1,High,bounty-hunter,lifestealer,bloodseeker,sniper,clinkz,shadow-fiend,faceless-void,shadow-demon,kunkka,riki
+2765066988,0,High,weaver,bristleback,venomancer,ogre-magi,phantom-assassin,necrophos,drow-ranger,rubick,invoker,spirit-breaker
+2765066989,0,Very High,outworld-devourer,spirit-breaker,ursa,batrider,pudge,invoker,shadow-demon,ogre-magi,morphling,mirana
+2765066990,0,High,juggernaut,spirit-breaker,pudge,dazzle,storm-spirit,rubick,mirana,dragon-knight,sniper,phantom-assassin
+2765066991,0,Very High,silencer,windranger,legion-commander,pudge,necrophos,invoker,spectre,dazzle,puck,omniknight
+2765066995,1,Normal,magnus,pudge,phantom-assassin,legion-commander,abaddon,alchemist,sniper,night-stalker,ursa,doom
+2765066998,1,Normal,windranger,phantom-assassin,wraith-king,pudge,phantom-lancer,invoker,timbersaw,anti-mage,clinkz,lich
+2765067004,1,Normal,slark,queen-of-pain,phantom-lancer,faceless-void,vengeful-spirit,timbersaw,ursa,ogre-magi,centaur-warrunner,sniper
+2765067005,0,High,pudge,omniknight,shadow-fiend,slardar,juggernaut,axe,spirit-breaker,troll-warlord,slark,bane
+2765067007,1,Normal,arc-warden,necrophos,enigma,alchemist,bristleback,faceless-void,windranger,rubick,chaos-knight,bounty-hunter
+2765067008,0,Normal,axe,tinker,omniknight,ogre-magi,bloodseeker,drow-ranger,outworld-devourer,gyrocopter,crystal-maiden,sniper
+2765067022,1,Normal,oracle,bristleback,faceless-void,riki,clinkz,phantom-assassin,axe,pudge,omniknight,lina
+2765067023,0,Unknown,lion,night-stalker,pudge,clinkz,legion-commander,rubick,bloodseeker,wraith-king,oracle,invoker
+2765067026,0,Unknown,viper,chaos-knight,sniper,mirana,faceless-void,earthshaker,slardar,anti-mage,pugna,sven
+2765067027,0,High,disruptor,sven,slardar,shadow-fiend,windranger,silencer,death-prophet,beastmaster,faceless-void,tidehunter
+2765067028,1,Normal,slark,zeus,riki,omniknight,enigma,pudge,anti-mage,natures-prophet,lina,centaur-warrunner
+2765067031,0,Normal,omniknight,templar-assassin,phantom-assassin,spirit-breaker,lion,windranger,necrophos,bristleback,silencer,ember-spirit
+2765067034,1,Very High,riki,lifestealer,storm-spirit,axe,spirit-breaker,huskar,rubick,magnus,earthshaker,anti-mage
+2765067035,0,Very High,juggernaut,keeper-of-the-light,lion,shadow-fiend,morphling,abaddon,wraith-king,lich,riki,pudge
+2765067036,0,Normal,luna,phantom-assassin,mirana,anti-mage,vengeful-spirit,slark,bloodseeker,winter-wyvern,tinker,magnus
+2765067053,0,High,tidehunter,elder-titan,lion,tiny,morphling,invoker,crystal-maiden,bounty-hunter,slark,nyx-assassin
+2765067054,1,Unknown,ogre-magi,anti-mage,zeus,bloodseeker,huskar,pudge,sven,clinkz,keeper-of-the-light,juggernaut
+2765067057,0,Normal,wraith-king,sniper,bounty-hunter,drow-ranger,dazzle,bristleback,troll-warlord,lion,faceless-void,axe
+2765067058,0,High,nyx-assassin,invoker,spectre,necrophos,pudge,tinker,arc-warden,riki,dazzle,phantom-assassin
+2765067059,0,Very High,bane,ursa,lion,storm-spirit,riki,bloodseeker,clinkz,crystal-maiden,axe,slark
+2765067060,0,Normal,witch-doctor,sven,slark,phoenix,dragon-knight,sniper,bloodseeker,tidehunter,phantom-lancer,drow-ranger
+2765067061,1,Normal,legion-commander,pudge,broodmother,oracle,shadow-shaman,slark,keeper-of-the-light,mirana,death-prophet,zeus
+2765067062,1,Normal,magnus,disruptor,treant-protector,anti-mage,mirana,skywrath-mage,dragon-knight,pudge,centaur-warrunner,sniper
+2765067066,1,High,silencer,lion,pudge,mirana,spectre,faceless-void,outworld-devourer,jakiro,disruptor,slark
+2765067081,0,Normal,anti-mage,omniknight,riki,crystal-maiden,shadow-shaman,sniper,pudge,viper,sven,jakiro
+2765067082,1,Normal,templar-assassin,omniknight,sand-king,drow-ranger,troll-warlord,sven,io,sniper,skywrath-mage,alchemist
+2765067084,1,Normal,enigma,anti-mage,storm-spirit,ogre-magi,sand-king,pudge,juggernaut,necrophos,lion,phantom-assassin
+2765067085,1,High,kunkka,juggernaut,natures-prophet,luna,mirana,ogre-magi,riki,anti-mage,storm-spirit,tiny
+2765067088,0,Normal,sniper,juggernaut,dark-seer,medusa,bloodseeker,queen-of-pain,sand-king,phantom-assassin,wraith-king,mirana
+2765067090,0,Normal,treant-protector,drow-ranger,pudge,necrophos,bristleback,centaur-warrunner,juggernaut,dazzle,invoker,lifestealer
+2765067093,1,Normal,wraith-king,lina,drow-ranger,crystal-maiden,earthshaker,medusa,shadow-fiend,undying,axe,dazzle
+2765067094,1,Normal,slark,sniper,gyrocopter,pudge,broodmother,dazzle,phantom-assassin,kunkka,mirana,weaver
+2765067095,1,Unknown,huskar,phantom-assassin,sniper,wraith-king,ursa,puck,sven,spirit-breaker,necrophos,treant-protector
+2765067096,0,Normal,natures-prophet,vengeful-spirit,phantom-assassin,slark,morphling,ember-spirit,sniper,anti-mage,nyx-assassin,outworld-devourer
+2765067097,0,Normal,meepo,treant-protector,windranger,pudge,natures-prophet,outworld-devourer,omniknight,timbersaw,kunkka,alchemist
+2765067098,0,High,outworld-devourer,phantom-assassin,ogre-magi,underlord,lion,bloodseeker,silencer,abaddon,sven,tinker
+2765067100,0,Normal,chaos-knight,slark,centaur-warrunner,silencer,shadow-fiend,mirana,spectre,juggernaut,wraith-king,lion
+2765067101,1,Normal,necrophos,huskar,enchantress,lycan,slark,sniper,meepo,phantom-assassin,treant-protector,spirit-breaker
+2765067121,0,Normal,night-stalker,sniper,ancient-apparition,juggernaut,slardar,anti-mage,zeus,alchemist,lion,tusk
+2765067122,1,Normal,slark,omniknight,timbersaw,sven,legion-commander,night-stalker,slardar,bounty-hunter,riki,phantom-assassin
+2765067123,0,Normal,tiny,lina,windranger,pudge,tinker,slardar,centaur-warrunner,enigma,batrider,underlord
+2765067124,0,High,crystal-maiden,shadow-shaman,invoker,timbersaw,drow-ranger,ogre-magi,vengeful-spirit,lifestealer,slardar,sniper
+2765067126,0,Normal,sniper,bristleback,lich,storm-spirit,wraith-king,tiny,io,axe,drow-ranger,necrophos
+2765067127,0,Very High,phantom-assassin,magnus,ogre-magi,sven,mirana,weaver,storm-spirit,slardar,bounty-hunter,pudge
+2765067128,1,Unknown,queen-of-pain,omniknight,windranger,weaver,bounty-hunter,centaur-warrunner,wraith-king,riki,lifestealer,sniper
+2765067148,1,Normal,drow-ranger,mirana,rubick,terrorblade,ogre-magi,phantom-assassin,lion,omniknight,zeus,earthshaker
+2765067150,0,Normal,troll-warlord,crystal-maiden,earthshaker,warlock,legion-commander,batrider,faceless-void,natures-prophet,windranger,bloodseeker
+2765067152,0,Normal,night-stalker,ursa,elder-titan,drow-ranger,slardar,viper,sand-king,tidehunter,lifestealer,windranger
+2765067154,0,Normal,crystal-maiden,spectre,bounty-hunter,wraith-king,drow-ranger,alchemist,tiny,weaver,omniknight,anti-mage
+2765067156,0,Unknown,phantom-assassin,timbersaw,sven,omniknight,sniper,juggernaut,bloodseeker,ursa,luna,outworld-devourer
+2765067157,1,Normal,sniper,techies,slark,tusk,naga-siren,abaddon,lina,necrophos,dragon-knight,alchemist
+2765067162,0,Normal,bristleback,sniper,troll-warlord,alchemist,slark,invoker,wraith-king,storm-spirit,phantom-assassin,crystal-maiden
+2765067164,1,High,clinkz,enigma,magnus,rubick,anti-mage,lion,phantom-assassin,tinker,bloodseeker,mirana
+2765067165,1,Normal,alchemist,drow-ranger,windranger,ember-spirit,wraith-king,luna,winter-wyvern,bloodseeker,bristleback,silencer
+2765067166,0,Unknown,crystal-maiden,omniknight,viper,axe,morphling,ursa,alchemist,outworld-devourer,beastmaster,silencer
+2765067168,0,Normal,crystal-maiden,earthshaker,enigma,phantom-lancer,sniper,ogre-magi,magnus,axe,lich,puck
+2765067172,1,Normal,juggernaut,batrider,ember-spirit,drow-ranger,centaur-warrunner,medusa,earthshaker,visage,bounty-hunter,sven
+2765067173,1,Normal,tusk,pudge,timbersaw,drow-ranger,silencer,weaver,centaur-warrunner,nyx-assassin,phantom-assassin,invoker
+2765067175,1,Normal,sand-king,mirana,bristleback,sniper,pudge,jakiro,sven,riki,invoker,clockwerk
+2765067191,1,Normal,ancient-apparition,phantom-assassin,ursa,ogre-magi,drow-ranger,spectre,weaver,riki,slardar,shadow-shaman
+2765067192,1,Normal,sniper,oracle,keeper-of-the-light,invoker,faceless-void,phantom-assassin,wraith-king,gyrocopter,disruptor,weaver
+2765067193,1,Normal,slark,witch-doctor,storm-spirit,spirit-breaker,queen-of-pain,legion-commander,lion,riki,shadow-fiend,drow-ranger
+2765067194,1,Normal,tiny,dark-seer,shadow-demon,alchemist,leshrac,sand-king,lich,sven,necrophos,spectre
+2765067196,1,Normal,weaver,phantom-assassin,zeus,omniknight,huskar,enigma,bounty-hunter,tinker,wraith-king,windranger
+2765067198,0,Normal,faceless-void,riki,spirit-breaker,phantom-assassin,wraith-king,lich,juggernaut,puck,spectre,windranger
+2765067199,0,Normal,tidehunter,brewmaster,lich,pudge,phantom-assassin,bloodseeker,rubick,centaur-warrunner,outworld-devourer,weaver
+2765067200,0,Unknown,sven,drow-ranger,weaver,phantom-assassin,necrophos,sniper,ursa,juggernaut,zeus,lina
+2765067201,1,Normal,lion,faceless-void,drow-ranger,phantom-assassin,legion-commander,phoenix,treant-protector,juggernaut,warlock,medusa
+2765067202,1,High,silencer,natures-prophet,storm-spirit,bloodseeker,slark,phantom-assassin,riki,ember-spirit,kunkka,axe
+2765067203,0,Normal,night-stalker,sven,clinkz,ancient-apparition,legion-commander,storm-spirit,timbersaw,necrophos,tiny,morphling
+2765067205,0,Unknown,razor,phantom-lancer,naga-siren,bloodseeker,pudge,shadow-shaman,sniper,windranger,axe,zeus
+2765067206,1,Normal,rubick,anti-mage,pudge,death-prophet,troll-warlord,axe,magnus,juggernaut,witch-doctor,bloodseeker
+2765067207,1,Normal,drow-ranger,lifestealer,phantom-lancer,naga-siren,puck,arc-warden,legion-commander,phantom-assassin,bane,axe
+2765067208,1,Normal,viper,sniper,legion-commander,drow-ranger,phantom-assassin,wraith-king,night-stalker,bloodseeker,riki,faceless-void
+2765067209,1,Normal,outworld-devourer,ursa,pugna,phoenix,slark,faceless-void,lion,drow-ranger,enchantress,invoker
+2765067210,0,Normal,timbersaw,anti-mage,nyx-assassin,centaur-warrunner,warlock,enigma,alchemist,spectre,earthshaker,natures-prophet
+2765067211,0,Very High,pudge,silencer,bloodseeker,morphling,nyx-assassin,slark,huskar,dazzle,zeus,underlord
+2765067212,0,Normal,alchemist,earthshaker,lina,sniper,slark,razor,elder-titan,ogre-magi,beastmaster,luna
+2765067213,1,Normal,venomancer,anti-mage,drow-ranger,timbersaw,phantom-assassin,legion-commander,pudge,gyrocopter,techies,skywrath-mage
+2765067214,0,Normal,axe,sniper,lina,luna,drow-ranger,phantom-lancer,ember-spirit,dragon-knight,huskar,bloodseeker
+2765067233,0,Normal,disruptor,legion-commander,slardar,invoker,juggernaut,batrider,gyrocopter,earth-spirit,dazzle,lifestealer
+2765067234,1,Normal,night-stalker,centaur-warrunner,tiny,drow-ranger,sniper,phantom-lancer,juggernaut,enchantress,nyx-assassin,razor
+2765067237,1,Normal,lina,pudge,drow-ranger,legion-commander,broodmother,terrorblade,techies,faceless-void,ember-spirit,bounty-hunter
+2765067238,1,Normal,elder-titan,spectre,tinker,sven,luna,bane,tusk,sniper,drow-ranger,legion-commander
+2765067240,0,High,bounty-hunter,luna,earthshaker,legion-commander,phantom-assassin,clockwerk,slark,rubick,invoker,enigma
+2765067243,1,Normal,juggernaut,shadow-fiend,tidehunter,slardar,magnus,axe,sniper,warlock,slark,phantom-assassin
+2765067244,0,Unknown,mirana,silencer,chaos-knight,sniper,pudge,nyx-assassin,bloodseeker,faceless-void,luna,lich
+2765067245,0,Normal,ursa,venomancer,viper,naga-siren,huskar,shadow-fiend,slark,phantom-assassin,ogre-magi,lifestealer
+2765067246,1,Normal,tusk,tiny,natures-prophet,ursa,vengeful-spirit,shadow-fiend,treant-protector,puck,lich,medusa
+2765067250,1,Very High,drow-ranger,oracle,mirana,windranger,tidehunter,juggernaut,outworld-devourer,magnus,spirit-breaker,bloodseeker
+2765067251,1,Normal,venomancer,brewmaster,legion-commander,slark,outworld-devourer,faceless-void,sniper,phantom-assassin,necrophos,pudge
+2765067254,1,Normal,riki,phantom-assassin,pudge,mirana,necrophos,viper,bloodseeker,sven,dark-seer,rubick
+2765067269,1,Normal,slardar,tusk,warlock,anti-mage,queen-of-pain,ursa,jakiro,pudge,bounty-hunter,kunkka
+2765067270,1,Unknown,phantom-assassin,luna,ursa,drow-ranger,death-prophet,sniper,spectre,juggernaut,alchemist,earthshaker
+2765067271,1,Very High,outworld-devourer,bloodseeker,juggernaut,lion,slardar,magnus,earthshaker,sven,queen-of-pain,wraith-king
+2765067275,1,Unknown,bounty-hunter,sven,drow-ranger,omniknight,axe,pudge,lich,anti-mage,legion-commander,riki
+2765067279,1,Normal,slardar,natures-prophet,pudge,alchemist,morphling,dragon-knight,sniper,necrophos,centaur-warrunner,phantom-assassin
+2765067280,0,Unknown,dazzle,windranger,juggernaut,templar-assassin,anti-mage,bounty-hunter,troll-warlord,necrophos,huskar,legion-commander
+2765067281,1,Very High,winter-wyvern,disruptor,morphling,pudge,techies,ancient-apparition,anti-mage,natures-prophet,centaur-warrunner,invoker
+2765067288,0,Normal,legion-commander,vengeful-spirit,viper,kunkka,ogre-magi,ursa,wraith-king,meepo,pudge,techies
+2765067289,1,Normal,pudge,invoker,death-prophet,lifestealer,legion-commander,riki,axe,shadow-shaman,zeus,abaddon
+2765067304,0,Normal,invoker,skywrath-mage,kunkka,bounty-hunter,storm-spirit,axe,rubick,spirit-breaker,lina,slark
+2765067305,1,Normal,drow-ranger,ogre-magi,juggernaut,puck,pudge,silencer,dark-seer,riki,mirana,phantom-assassin
+2765067306,1,Unknown,morphling,juggernaut,axe,wraith-king,anti-mage,lion,legion-commander,phantom-assassin,sniper,medusa
+2765067308,1,Normal,nyx-assassin,lina,abaddon,necrophos,slark,drow-ranger,spectre,windranger,kunkka,lifestealer
+2765067309,0,Normal,bounty-hunter,dark-seer,winter-wyvern,phantom-lancer,weaver,pudge,necrophos,wraith-king,anti-mage,mirana
+2765067310,0,Unknown,ursa,lina,invoker,pudge,drow-ranger,phantom-assassin,tiny,tinker,luna,rubick
+2765067311,1,Normal,axe,omniknight,undying,storm-spirit,tusk,winter-wyvern,kunkka,timbersaw,necrophos,riki
+2765067312,1,High,abaddon,magnus,phantom-lancer,dragon-knight,axe,clinkz,invoker,bloodseeker,sand-king,phantom-assassin
+2765067313,1,Normal,dragon-knight,pugna,sven,spirit-breaker,tiny,bristleback,nyx-assassin,sniper,axe,drow-ranger
+2765067314,1,Normal,clockwerk,phantom-assassin,gyrocopter,legion-commander,sniper,witch-doctor,pudge,timbersaw,axe,slark
+2765067315,0,Normal,pudge,bloodseeker,sniper,keeper-of-the-light,broodmother,lifestealer,tiny,lycan,vengeful-spirit,slark
+2765067336,0,Unknown,sven,earthshaker,phantom-assassin,sniper,necrophos,slark,winter-wyvern,ursa,razor,lich
+2765067337,0,Very High,medusa,elder-titan,bloodseeker,slark,bounty-hunter,weaver,ember-spirit,troll-warlord,nyx-assassin,pudge
+2765067338,0,Normal,tiny,silencer,sniper,legion-commander,slardar,drow-ranger,earthshaker,night-stalker,pudge,riki
+2765067339,0,Normal,dazzle,sven,phantom-assassin,legion-commander,riki,mirana,juggernaut,bounty-hunter,crystal-maiden,sniper
+2765067340,1,Very High,natures-prophet,disruptor,sniper,juggernaut,timbersaw,crystal-maiden,dragon-knight,faceless-void,drow-ranger,skywrath-mage
+2765067343,0,Normal,earthshaker,invoker,lifestealer,lich,tinker,phantom-assassin,anti-mage,tiny,skywrath-mage,rubick
+2765067345,1,Normal,crystal-maiden,sand-king,techies,ember-spirit,phantom-lancer,clockwerk,lina,axe,wraith-king,alchemist
+2765067346,1,Normal,kunkka,pudge,necrophos,phantom-assassin,enchantress,meepo,witch-doctor,spectre,sand-king,rubick
+2765067350,0,Normal,drow-ranger,mirana,legion-commander,anti-mage,faceless-void,luna,disruptor,invoker,ogre-magi,phantom-assassin
+2765067351,1,Normal,death-prophet,earth-spirit,storm-spirit,skywrath-mage,ursa,phantom-assassin,slardar,enigma,omniknight,magnus
+2765067352,1,Normal,tiny,phantom-assassin,kunkka,ember-spirit,riki,sniper,lion,bloodseeker,sven,windranger
+2765067353,0,Normal,windranger,lifestealer,bounty-hunter,naga-siren,axe,faceless-void,death-prophet,jakiro,dragon-knight,invoker
+2765067354,0,Normal,sven,medusa,witch-doctor,viper,earthshaker,phantom-assassin,mirana,bounty-hunter,pudge,lion
+2765067370,0,Normal,riki,bloodseeker,necrophos,spirit-breaker,sand-king,silencer,timbersaw,drow-ranger,sven,lone-druid
+2765067372,1,Normal,sand-king,terrorblade,earthshaker,lycan,shadow-fiend,zeus,natures-prophet,crystal-maiden,pudge,spectre
+2765067376,0,Normal,spirit-breaker,outworld-devourer,lifestealer,keeper-of-the-light,sniper,invoker,huskar,sand-king,riki,kunkka
+2765067378,0,Unknown,pudge,sniper,bristleback,drow-ranger,legion-commander,troll-warlord,lion,sven,phantom-assassin,ursa
+2765067379,0,Normal,spectre,witch-doctor,axe,sniper,wraith-king,tiny,shadow-shaman,phantom-assassin,visage,legion-commander
+2765067380,0,Normal,puck,slark,sniper,drow-ranger,jakiro,zeus,tusk,bloodseeker,ember-spirit,pudge
+2765067381,1,Normal,axe,mirana,terrorblade,lion,anti-mage,invoker,bounty-hunter,morphling,crystal-maiden,timbersaw
+2765067383,0,Normal,lion,storm-spirit,slardar,spirit-breaker,lifestealer,outworld-devourer,riki,spectre,jakiro,drow-ranger
+2765067386,1,Normal,phantom-assassin,clockwerk,drow-ranger,anti-mage,juggernaut,legion-commander,witch-doctor,pudge,faceless-void,tinker
+2765067389,1,Normal,dark-seer,slardar,ogre-magi,faceless-void,invoker,sniper,broodmother,wraith-king,riki,juggernaut
+2765067391,1,Normal,arc-warden,ogre-magi,natures-prophet,zeus,phantom-assassin,sven,outworld-devourer,kunkka,invoker,magnus
+2765067392,0,High,luna,sniper,tiny,phantom-assassin,legion-commander,alchemist,mirana,lifestealer,anti-mage,slark
+2765067394,1,Very High,sniper,bloodseeker,ogre-magi,mirana,spectre,drow-ranger,lion,slark,terrorblade,meepo
+2765067395,0,Normal,omniknight,bane,sniper,axe,drow-ranger,zeus,riki,ursa,wraith-king,legion-commander
+2765067396,0,Unknown,chaos-knight,bloodseeker,riki,sven,spirit-breaker,bounty-hunter,phantom-assassin,necrophos,axe,pudge
+2765067419,0,Normal,legion-commander,spectre,invoker,crystal-maiden,axe,weaver,lina,natures-prophet,venomancer,juggernaut
+2765067420,1,Normal,templar-assassin,weaver,pudge,phantom-assassin,faceless-void,riki,lifestealer,tinker,ogre-magi,gyrocopter
+2765067421,1,Normal,viper,natures-prophet,slark,juggernaut,dark-seer,dazzle,medusa,terrorblade,phantom-assassin,drow-ranger
+2765067424,0,Normal,legion-commander,beastmaster,mirana,clinkz,phantom-assassin,jakiro,slardar,ogre-magi,outworld-devourer,juggernaut
+2765067426,0,Normal,sand-king,spirit-breaker,sniper,mirana,juggernaut,silencer,pudge,slark,clockwerk,wraith-king
+2765067428,0,Normal,sven,sniper,zeus,weaver,disruptor,pudge,bounty-hunter,slardar,earthshaker,templar-assassin
+2765067429,0,Normal,oracle,abaddon,kunkka,storm-spirit,lycan,troll-warlord,ursa,slark,shadow-demon,enchantress
+2765067430,0,Normal,invoker,batrider,axe,phantom-lancer,ogre-magi,phoenix,clinkz,huskar,luna,sniper
+2765067431,1,High,lion,juggernaut,axe,slark,sniper,underlord,outworld-devourer,bloodseeker,riki,spectre
+2765067433,0,Very High,storm-spirit,axe,bane,pudge,spectre,lifestealer,crystal-maiden,sand-king,mirana,slark
+2765067435,1,Very High,necrophos,luna,huskar,slardar,mirana,sniper,riki,phantom-assassin,pudge,spirit-breaker
+2765067438,0,Normal,pudge,juggernaut,tiny,jakiro,doom,omniknight,storm-spirit,outworld-devourer,silencer,viper
+2765067439,0,Normal,lion,kunkka,ursa,bloodseeker,pudge,phantom-assassin,drow-ranger,shadow-shaman,troll-warlord,clockwerk
+2765067440,0,Unknown,tidehunter,zeus,ursa,death-prophet,anti-mage,lion,invoker,mirana,drow-ranger,outworld-devourer
+2765067442,0,Very High,sniper,riki,underlord,beastmaster,wraith-king,faceless-void,lycan,disruptor,spirit-breaker,pudge
+2765067444,1,Normal,riki,drow-ranger,abaddon,ogre-magi,dragon-knight,tiny,pudge,kunkka,luna,undying
+2765067458,0,Normal,omniknight,clockwerk,kunkka,disruptor,weaver,drow-ranger,pudge,skywrath-mage,tusk,slardar
+2765067459,0,Unknown,huskar,necrophos,anti-mage,riki,wraith-king,lifestealer,spirit-breaker,templar-assassin,phantom-lancer,juggernaut
+2765067462,1,Normal,windranger,templar-assassin,phantom-assassin,tusk,kunkka,omniknight,centaur-warrunner,clinkz,terrorblade,crystal-maiden
+2765067463,1,Very High,shadow-demon,phantom-assassin,dragon-knight,timbersaw,pudge,drow-ranger,undying,storm-spirit,mirana,nyx-assassin
+2765067464,0,Unknown,ursa,mirana,phantom-assassin,lina,sniper,windranger,wraith-king,zeus,witch-doctor,storm-spirit
+2765067465,1,Normal,sand-king,clinkz,beastmaster,rubick,dragon-knight,pudge,shadow-demon,spectre,clockwerk,riki
+2765067466,0,Unknown,techies,tiny,gyrocopter,centaur-warrunner,drow-ranger,invoker,sniper,slark,naga-siren,ember-spirit
+2765067467,1,Very High,ancient-apparition,drow-ranger,pudge,queen-of-pain,mirana,oracle,axe,lone-druid,omniknight,sniper
+2765067468,0,Normal,chaos-knight,underlord,spirit-breaker,winter-wyvern,windranger,crystal-maiden,huskar,sven,sand-king,faceless-void
+2765067469,0,Normal,legion-commander,vengeful-spirit,kunkka,sven,invoker,witch-doctor,riki,drow-ranger,lifestealer,spirit-breaker
+2765067471,0,Normal,bane,sand-king,vengeful-spirit,lycan,phantom-assassin,visage,chen,sven,dragon-knight,invoker
+2765067472,0,Normal,treant-protector,omniknight,huskar,tinker,weaver,shadow-fiend,mirana,slardar,phantom-assassin,spirit-breaker
+2765067474,0,Normal,kunkka,storm-spirit,warlock,anti-mage,ursa,juggernaut,bloodseeker,lifestealer,centaur-warrunner,necrophos
+2765067475,1,Normal,bane,outworld-devourer,batrider,arc-warden,natures-prophet,pudge,shadow-shaman,sniper,earthshaker,phantom-assassin
+2765067477,0,Normal,bloodseeker,rubick,keeper-of-the-light,spirit-breaker,medusa,sand-king,ogre-magi,legion-commander,storm-spirit,juggernaut
+2765067480,1,Normal,sven,magnus,alchemist,axe,warlock,dazzle,kunkka,slardar,bloodseeker,phantom-assassin
+2765067481,1,Normal,juggernaut,bloodseeker,clockwerk,tiny,phantom-lancer,phantom-assassin,pudge,legion-commander,ursa,axe
